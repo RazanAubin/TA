@@ -1,0 +1,354 @@
+﻿BAB V  
+HASIL DAN PEMBAHASAN  
+5.1 Hasil  
+5.1.1 Implementasi Antarmuka Sistem (User Interface)  
+Sistem keamanan ini memiliki antarmuka berbasis web yang dikembangkan  menggunakan kerangka kerja Bootstrap 5 untuk frontend dan Flask sebagai  backend. Desain responsif diterapkan agar sistem dapat diakses secara fleksibel  melalui monitor pos keamanan maupun perangkat mobile.    
+a) Halaman Dashboard Utama (Live Monitoring)  
+Halaman Dashboard berfungsi sebagai pusat kendali operasional (operational  command center) bagi petugas keamanan, menyajikan informasi visual dan  statistik dalam satu tampilan terpadu.    
+  
+  
+
+  
+  
+Gambar 5. 1 Live Video Feed 
+45  
+Sebagaimana diperlihatkan pada Gambar 5.1, halaman ini memuat  komponen utama berupa Live Video Feed yang menampilkan aliran video  (streaming) waktu nyata dari kamera IP Hikvision. Pada area video ini, algoritma  deteksi wajah bekerja secara aktif dengan menggambar kotak pembatas  (bounding box) pada setiap wajah yang tertangkap kamera; sistem memberikan  indikator visual berupa kotak berwarna hijau untuk mahasiswa yang terdaftar dan  kotak berwarna merah untuk individu yang tidak dikenal. Guna mendukung  pengambilan keputusan cepat, bagian atas dashboard dilengkapi dengan panel  Statistik Harian yang menyajikan ringkasan data real-time hasil kueri dari tabel  users dan access_logs, meliputi total populasi mahasiswa terdaftar, jumlah  mahasiswa yang telah hadir pada hari tersebut, serta frekuensi deteksi orang asing  (visitors).      
+Selain fungsi pemantauan, halaman ini juga menyediakan Panel Kontrol  yang berisi tombol interaktif 'Start Recognition' dan 'Stop Recognition'. Fitur ini  memberikan kendali penuh kepada petugas untuk mengelola siklus hidup proses  inferensi kecerdasan buatan (AI inference), memungkinkan mereka untuk  mengaktifkan atau menonaktifkan sistem pengenalan wajah sewaktu-waktu tanpa  perlu melakukan restart pada perangkat keras. Terakhir, pada sisi kanan  antarmuka terdapat panel sidebar 'Riwayat Deteksi Terkini' yang menampilkan  daftar log akses terbaru. Panel ini dirancang menggunakan teknologi asinkron  (AJAX) sehingga data akan diperbarui secara otomatis setiap kali ada deteksi  baru, memberikan informasi visual instan berupa foto wajah dan nama identitas  kepada petugas tanpa perlu memuat ulang halaman.        
+b) Halaman Manajemen Mahasiswa (Student Management)    
+Halaman Manajemen Mahasiswa dirancang sebagai modul administrasi  khusus untuk memfasilitasi proses pendaftaran (enrollment) data biometrik wajah  ke dalam basis data sistem.  
+Sebagaimana ditunjukkan pada Gambar 5.2, antarmuka ini menyediakan  dua mekanisme akuisisi data untuk menjamin fleksibilitas operasional. Metode  pertama adalah Direct Capture, di mana administrator cukup memasukkan Nomor  Induk Mahasiswa (NIM) dan Nama Lengkap, lalu sistem akan secara otomatis  mengambil 30 sampel citra wajah berkualitas tinggi langsung dari video feed 
+46  
+kamera. Metode ini sangat efektif untuk memastikan konsistensi pencahayaan  antara data latih dan data uji di lapangan. Metode kedua adalah Bulk Upload, yang  memungkinkan administrator mengunggah kumpulan berkas foto digital  mahasiswa jika subjek tidak dapat hadir secara fisik di lokasi pendaftaran. Seluruh  data identitas yang diinput akan disimpan secara terstruktur ke dalam tabel users  pada basis data SQLite, sedangkan fitur wajah akan diekstraksi menjadi vektor  
+embedding untuk keperluan pelatihan model klasifikasi.   
+  
+  
+Gambar 5. 2 Student Management 
+
+47  
+c) Halaman Konfigurasi Sistem (System Settings)  
+Gambar 5. 3 System setting 
+Untuk meningkatkan skalabilitas dan kemudahan pemeliharaan  (maintainability), sistem menyediakan halaman pengaturan khusus yang  memungkinkan administrator mengubah parameter teknis tanpa harus  memodifikasi kode program (source code). Tampilan halaman ini dapat dilihat  pada Gambar 5.3. Melalui antarmuka ini, pengguna dapat mengatur mode input  kamera, baik menggunakan kamera USB lokal maupun beralih ke IP Camera  melalui protokol RTSP. Selain itu, terdapat pengaturan Confidence Threshold  dengan rentang nilai 0.0 hingga 1.0, yang berfungsi untuk menentukan tingkat  sensitivitas sistem dalam memverifikasi kemiripan wajah. Pengguna juga diberikan  opsi Model Selection untuk memilih jenis arsitektur FaceNet yang ingin digunakan,  misalnya model berbasis Inception ResNet v1 untuk akurasi tinggi atau MobileNet  
+untuk kecepatan performa, menyesuaikan dengan kondisi kepadatan lalu lintas di  
+pintu masuk.  
+d) Halaman Statistik dan Laporan (System Statistics)  
+Halaman Statistik dirancang sebagai instrumen analitik untuk membantu  petugas keamanan dan administrator dalam memahami pola lalu lintas akses di  lingkungan kampus. Sebagaimana divisualisasikan pada Gambar 5.4, halaman ini 
+48  
+menyajikan data kuantitatif yang diolah dari log sistem menjadi format grafis yang  mudah dipahami. Di bagian atas halaman, terdapat empat panel ringkasan utama  (Key Performance Indicators) yang memberikan informasi instan mengenai total  pengguna terdaftar dalam basis data, jumlah deteksi harian, serta rekapitulasi  aktivitas pengguna aktif pada hari tersebut. Panel ini memungkinkan administrator  untuk menilai beban operasional sistem secara sekilas tanpa perlu melakukan  perhitungan manual dari data mentah.  
+Di bawah panel ringkasan, sistem menampilkan dua visualisasi data  interaktif yang dibangun menggunakan pustaka Chart.js. Grafik pertama adalah  Daily Activity Chart, sebuah diagram garis yang memetakan tren aktivitas deteksi  wajah berdasarkan waktu (jam atau hari). Grafik ini sangat krusial untuk  mengidentifikasi jam-jam sibuk (peak hours) di mana antrean masuk mungkin  terjadi, sehingga pihak keamanan dapat mengalokasikan sumber daya manusia  dengan lebih efektif. Grafik kedua adalah User Types Chart, yang berupa diagram  donat (doughnut chart) untuk membandingkan proporsi antara wajah yang dikenali  (Registered Students) dan wajah yang tidak dikenal (Unknown/Visitors). Selain itu,  halaman ini dilengkapi dengan fitur penyaringan tanggal (Date Filter Control) yang  memungkinkan pengguna untuk menarik laporan statistik dari periode waktu  tertentu di masa lalu, mendukung kebutuhan audit dan evaluasi keamanan jangka  panjang.  
+5.1.2 Hasil Evaluasi Model Utama  
+Evaluasi kinerja model dilakukan untuk mengukur kemampuan algoritma  FaceNet dan SVM dalam mengklasifikasikan identitas dari 31 mahasiswa  terdaftar. Pengujian dilakukan menggunakan data uji murni untuk memastikan  validitas hasil.  
+a) Metodologi Pengujian  
+Dataset terdiri dari total 3.100 citra wajah. Pengujian dilakukan dengan  skenario:  
+ Jumlah Kelas: 31 Identitas Mahasiswa.  
+ Jumlah Sampel Uji per Kelas: 20 Citra Wajah.  
+ Total Data Uji (Support): 31 x 20 = 620 Citra 
+49  
+b) Hasil Pengujian Klasifikasi  
+Berdasarkan pengujian terhadap 620 citra uji, diperoleh hasil klasifikasi rinci  untuk setiap individu. Tabel 5.1 menampilkan cuplikan hasil performa untuk  beberapa mahasiswa dengan variasi kinerja, serta nilai rata-rata keseluruhan. 
+
+
+Gambar 5. 4 Hasil pengujian klasifikasi  
+Gambar 5.4 memvisualisasikan Confusion Matrix yang merepresentasikan  kinerja model klasifikasi pada 31 kelas identitas mahasiswa. Dalam matriks  berukuran 31x31 ini, sumbu vertikal (Y) mewakili label kelas asli (True Label),  
+sedangkan sumbu horizontal (X) mewakili label kelas yang diprediksi oleh model  (Predicted Label).  
+Secara visual, performa model yang sangat baik ditunjukkan oleh  konsentrasi warna biru gelap yang membentuk garis diagonal utama dari sudut kiri  atas ke sudut kanan bawah. Konsentrasi warna pada diagonal ini mengindikasikan  tingginya jumlah True Positive (TP), di mana model berhasil memprediksi identitas  wajah sesuai dengan pemilik aslinya. Sebaliknya, area di luar garis diagonal yang 
+50  
+mayoritas berwarna putih atau biru sangat muda menunjukkan minimnya  kesalahan klasifikasi (misclassification). Berdasarkan distribusi nilai pada matriks  tersebut, sistem terbukti mampu membedakan antar-individu dengan tingkat  akurasi global sebesar 95%.  
+No Label Identitas (Mahasiswa) Precision Recall F1- Score Support 
+2022071031_Irvan_Nurfauzan_S 
+aputra 0.95 1.00 0.98 20  
+1 
+2025071001_Bayu_Aji_Dimas_P 
+rasetyo 1.00 0.95 0.97 20  
+2 
+2025071003_Arya_Dzikra_Avice 
+nna 1.00 0.95 0.97 20  
+3 
+2025071004_Muhammad_Rafie_ 
+Fakhrullah 0.95 0.95 0.95 20  4 
+5 2025071005_Kyoshiro_Hartono 0.86 0.95 0.90 20  6 2025071006_Raka_Maelandy 0.90 0.95 0.93 20  7 2025071007_Azril_A 0.95 0.95 0.95 20  8 2025071008_Muhammad_Ahdan 
+ierrofie_Ikhsan 0.95 1.00 0.98 20  9 2025071009_Muhammad_Lutfi_ 
+Hidayat 0.95 0.90 0.92 20  10 2025071010_Arsha_Aldian_Siap 
+udan_Siregar 0.95 0.95 0.95 20  11 2025071011_Luthfi_Asefi 1.00 0.95 0.97 20  12 2025071012_Raihan_Ali_Kharis 
+ma_Sukarno 0.95 0.95 0.95 20  13 2025071013_Nahda_Zulfa_Qairi 
+yah 1.00 0.90 0.95 20  14 2025071014_Fattar_Zhafir_Atha 
+yya 0.86 0.95 0.90 20  15 2025071015_Fadlan_Rizki_Ram 
+dani 1.00 0.95 0.97 20  16 2025071016_Adhityawan 0.95 1.00 0.98 20  17 2025071017_Rachmad_Fauzi 1.00 1.00 1.00 20 
+18 
+	2025071018_Muhammad_Amriz a_Fathah 
+	1.00 
+	0.95 
+	0.97 
+	20 
+	
+
+
+
+51  
+19 2025071019_Monica_Nayla_Wig 
+una 0.95 1.00 0.98 20  20 2025071020_Muhammad_Reza_ 
+Pahlevi 1.00 0.95 0.97 20  21 2025071021_Rassya_Pratama_ 
+Ramadhan 0.95 0.95 0.95 20  22 2025071022_Kaleb_Anderson_S 
+uwages 1.00 0.90 0.95 20  23 2025071024_Fatih_Arsa_Bayana 
+ka 0.83 0.95 0.88 20  24 2025071025_Muhammad_Raiha 
+n_Handoko 0.95 0.95 0.95 20  25 2025071027_Rafli_Aurelio 0.90 0.95 0.93 20  26 2025071031_Muhammad_Zufar_ 
+Abdul_Ghaffar 0.95 0.90 0.92 20  27 2025071037_Keisya_Nezilia_Mo 
+ebarrak 1.00 0.95 0.97 20  28 2025071038_Muhammad_Al_Far 
+el_Ariansyah 0.95 0.95 0.95 20  29 2025071039_Nayaka_Fiqih_Mah 
+eswara_Prabumulia 0.95 0.95 0.95 20  30 2025071040_Jerrel_Marvello_Ha 
+sudungan_Hutapea 0.90 0.95 0.93 20  31 2025071043_MUHAMMAD_AKB 
+AR_HENDARTO 0.95 0.90 0.92 20  Rata-Rata Keseluruhan  
+Accuracy 0.95 620  Macro Average 0.95 0.95 0.95 620  
+Weighted Average 
+	0.95 
+	0.95 
+	0.95 
+	620 
+	
+
+
+
+Rincian performa untuk setiap kelas individu disajikan dalam Tabel Hasil  Evaluasi Klasifikasi. Tabel ini menguraikan metrik Precision, Recall, dan F1-Score  yang dihitung berdasarkan sebaran data pada Confusion Matrix.  
+• Nilai Precision yang tinggi (rata-rata 95%) menunjukkan bahwa ketika sistem  memprediksi suatu nama, prediksi tersebut memiliki tingkat kebenaran yang  sangat tinggi dan minim False Positive. 
+52  
+• Nilai Recall yang seimbang (rata-rata 95%) menandakan kemampuan model  dalam mengenali kembali seluruh sampel wajah mahasiswa yang ada di  dataset pengujian tanpa banyak yang terlewat (False Negative).  
+• Variasi nilai antar-kelas yang terlihat pada tabel wajar terjadi akibat perbedaan  karakteristik fisik wajah atau variasi pencahayaan pada sampel uji masing masing individu.  
+c) Analisis Metrik Evaluasi Akhir  
+Secara keseluruhan, kinerja model dikuantifikasi sebagai berikut:   Akurasi (Accuracy)  
+95% Dari total 620 data uji, model berhasil memprediksi dengan benar  sebanyak 589 data.  
+ Presisi Rata-rata (Macro Precision)  
+95% Menunjukkan tingkat konsistensi model yang tinggi dalam menetapkan  label identitas. Beberapa kelas seperti Arya Dzikra dan Nayaka Fiqih mencapai  presisi sempurna (1.00), sementara kelas Arsha Aldian memiliki presisi  terendah (0.86).  
+ Recall Rata-rata (Macro Recall)  
+95% Menunjukkan kemampuan model dalam mengenali kembali wajah  mahasiswa dari berbagai variasi pose. Kelas Raihan Ali Kharisma dan  Adhityawan mencapai recall sempurna (1.00), artinya seluruh sampel wajah  mereka berhasil dideteksi tanpa ada yang terlewat.  
+ F1-Score  
+95% Nilai harmonis yang seimbang menunjukkan tidak adanya bias signifikan  antara presisi dan recall.  
+Hasil akurasi 95% ini membuktikan bahwa embedding 128-dimensi yang  dihasilkan FaceNet sangat informatif dan mampu membedakan antar-individu  dengan sangat baik. 
+53  
+5.1.3 Analisis Pengaruh Rasio Dataset  
+Untuk menguji stabilitas model, dilakukan pengujian lanjutan dengan  memvariasikan rasio data latih murni (sebelum augmentasi) terhadap data uji.  
+Tabel 5. 1 Analisis Pengaruh Rasio Dataset  
+SkenarioRasio Data  Murni  
+Data Uji  (Murni)  
+Total Data Latih (Setelah  Augmentasi) Akurasi 
+I 80 : 20 620 9.920 95%  II 70 : 30 930 8.680 94%  
+III 
+	60 : 40 
+	1.24 
+	7.440 
+	92.50%
+	
+
+
+
+Hasil pada Tabel 5.2 menunjukkan bahwa model tetap mampu  mempertahankan akurasi di atas 92% meskipun data latih murni dikurangi hingga  60%. Penurunan performa yang landai membuktikan bahwa fitur embedding dari  Facenet sangat informatif, dan strategi augmentasi data berhasil mencegah  overfitting secara efektif. Skenario I (80:20) dipilih sebagai konfigurasi final untuk  implementasi.  
+5.1.4 Pengujian Kinerja Perangkat Keras (Hardware Performance)  
+Pengujian beban kerja (stress test) dilakukan pada perangkat Orange Pi 5  Pro (RK3588S, 16GB RAM) selama 60 menit operasional aktif.  
+Tabel 5. 2 Hardware Performance 
+Parameter Kondisi  Idle  
+Kondisi Active  
+(Deteksi) Analisis  
+CPU 2% - 5% 50% - 78% Beban terdistribusi merata pada 8- 
+Penggunaan  
+core CPU.  
+RAM 1.1 GB 8.2 GB Penggunaan ram cukup efisien,  
+Penggunaan  
+menyisakan >6GB ruang kosong.  
+Suhu Prosesor 
+	42°C 
+	55°C - 60°C 
+	Stabil dan aman (batas termal < 80°C). 
+	
+
+
+
+54  
+Rata-rata FPS 
+	30 FPS 
+	16-25 FPS 
+	Stabil di atas ambang batas real time (15 FPS). 
+	
+
+
+
+5.1.5 Pengujian Fungsional  
+Pengujian fungsional bertujuan untuk memverifikasi bahwa sistem yang  dibangun telah memenuhi spesifikasi kebutuhan perangkat lunak, baik dari sisi  interaksi pengguna maupun kebenaran logika program. Pengujian ini dilakukan  menggunakan dua pendekatan utama, yaitu Black Box Testing dan scenario  pengujian lapangan.  
+a) Pengujian Black-box  
+Pengujian Black Box berfokus pada validasi fungsionalitas fitur-fitur sistem  tanpa melihat struktur kode internalnya. Pengujian dilakukan dengan memberikan  serangkaian input pada antarmuka pengguna (user interface) dan mengamati  apakah output yang dihasilkan sesuai dengan hasil yang diharapkan.  
+Skenario pengujian mencakup seluruh fitur utama aplikasi, mulai dari  manajemen data, deteksi wajah, hingga konfigurasi sistem. Hasil pengujian Black  Box disajikan pada Tabel 5.3.  
+Tabel 5. 3 Hasil pengujian Black Box  
+NoSkenario  Pengujian 
+Langkah Pengujian  & Input Data 
+1. Membuka halaman  login.  
+Hasil yang  Diharapkan Sistem  
+memvalidasi  kredensial  
+Hasil  
+AktualStatus 
+1 
+Login  
+Administrat or 
+2. Memasukkan  username dan  password admin yang  valid.  
+3.Klik tombol "Login". 
+dan  
+mengarahkan  pengguna ke  halaman  
+Dashboard  Utama. 
+Berhasil  
+masuk ke  Dashboard. 
+Valid 
+
+
+2
+	Registrasi  
+Wajah  
+(Capture)
+	1. Masuk ke menu  Student Management.
+	Kamera aktif,  mengambil  
+100 sampel 
+	Data  
+tersimpan & 
+	Valid
+	
+
+
+
+55  
+NoSkenario  Pengujian 
+Deteksi  
+Langkah Pengujian  & Input Data 
+2. Input NIM:  "2022071031" &  Nama: "Irvan".  
+3. Klik tombol "Start  Capture". 
+1. Mengaktifkan fitur  deteksi.  
+Hasil yang  Diharapkan wajah secara  otomatis,  
+menyimpan  ke folder  dataset, dan  memperbarui  model. 
+Sistem  
+menampilkan  bounding box  
+Hasil  
+AktualStatus model ter 
+update. 
+Nama  
+3 4 
+Mahasiswa  Terdaftar 
+Deteksi  
+Orang  
+Asing  
+(Unknown) 
+2. Mahasiswa  terdaftar (Irvan)  menghadap kamera. 
+1. Orang yang tidak  terdaftar dalam  database menghadap  kamera. 
+hijau,  
+menampilkan  nama "Irvan",  dan mencatat  ke log. 
+Sistem  
+menampilkan  bounding box  merah dan  label  
+"Unknown".  
+terdeteksi &  log tercatat. 
+Terdeteksi  sebagai  
+"Unknown". 
+Valid Valid 
+
+
+5
+	Penyaringa n Log Akses
+	1. Masuk menu  Access Logs  
+2. Memilih filter  tanggal "Hari Ini".
+	Tabel hanya  menampilkan  data log yang  terjadi pada  tanggal hari  ini.
+	Data  
+tersaring  
+dengan  
+benar.
+	Valid
+	
+
+
+
+Berdasarkan Tabel 5.5, seluruh skenario pengujian memberikan hasil  "Valid". Hal ini menunjukkan bahwa antarmuka sistem berfungsi dengan baik dan  responsif terhadap input pengguna, serta mampu menangani alur kerja utama  (happy path) maupun kondisi pengecualian (seperti deteksi orang asing) sesuai  rancangan. 
+56  
+a) Login Administrator  
+Pengujian dilakukan dengan memasukkan kredensial admin pada halaman  masuk. Gambar 5.5 menunjukkan sistem berhasil memvalidasi akun dan  mengarahkan pengguna ke halaman Dashboard utama.  
+Gambar 5. 5 Hasil pengujian Login Administrator  
+b) Registrasi Wajah  
+Pada skenario ini, sistem diuji untuk menangkap data wajah baru. Sebagaimana  terlihat pada Gambar 5.6, administrator menginput NIM dan Nama, kemudian  sistem mengaktifkan kamera untuk mengambil 100 sampel wajah yang tersimpan  pada database sebagai dataset yang di train. 
+
+57  
+
+
+Gambar 5. 6 Hasil pengujian Registrasi Wajah  
+c) Deteksi Mahasiswa Terdaftar  
+Pengujian dilakukan dengan meminta mahasiswa yang sudah didaftarkan (atas  nama Irvan) untuk berjalan melewati kamera. Hasil pada Gambar 5.7  menunjukkan sistem berhasil mendeteksi wajah, menggambar kotak pembatas  (bounding box) berwarna hijau, dan menampilkan identitas nama dengan benar  
+secara real-time. 
+
+58  
+Gambar 5. 7 Hasil pengujian Deteksi Wajah Terdaftar  
+d) Deteksi Orang Asing  
+Skenario ini menguji respons sistem terhadap individu yang tidak memiliki data  dalam basis data. Gambar 5.8 memperlihatkan bahwa sistem memberikan kotak  pembatas berwarna merah dan melabeli subjek sebagai "Unknown", membuktikan  bahwa fitur keamanan berjalan sesuai spesifikasi.  
+
+Gambar 5. 8 Hasil pengujian Deteksi Wajah Asing 
+59  
+e) Filter Log Akses  
+Setelah proses deteksi, dilakukan pengecekan pada menu Access Logs. Gambar  5.9 menunjukkan bahwa seluruh aktivitas deteksi di atas (baik "Irvan" maupun  "Unknown") telah tercatat rapi dalam tabel log beserta waktu kejadiannya.  
+Gambar 5. 9 Hasil pengujian Deteksi Wajah Terdaftar  
+5.1.6 Pengujian Implementasi Lapangan  
+Untuk memvalidasi keandalan sistem dalam skenario operasional yang  sesungguhnya (real-world setting), dilakukan pengujian lapangan secara langsung  pada alur masuk mahasiswa di mata kuliah Pengenalan Sistem Digital. Pemilihan  kelas ini bertujuan untuk mensimulasikan kondisi gate access di mana terdapat  antrean dan pergerakan mahasiswa yang dinamis saat memasuki ruangan.  
+Pengujian dilakukan dengan memasang perangkat kamera dan sistem  
+Orange Pi 5 Pro pada pintu masuk ruang kelas. Mahasiswa diminta untuk berjalan  memasuki ruangan secara natural satu per satu maupun berkelompok. Sistem  
+bertugas untuk mendeteksi wajah, mencocokkan dengan basis data  menggunakan algoritma FaceNet, dan mencatat secara otomatis mahasiswa yang  terdeteksi. Berdasarkan uji coba di lokasi, sistem terbukti mampu mendeteksi  wajah mahasiswa secara real-time di tengah kondisi kelas yang aktif. Dokumentasi  proses identifikasi dapat dilihat pada gambar berikut: 
+60  
+Gambar 5. 10 Hasil pengujian Lapangan  
+Sebagaimana terlihat pada Gambar 5.10, sistem berhasil menangkap wajah  mahasiswa yang sedang berjalan masuk. Kotak pembatas (bounding box)  berwarna hijau muncul secara responsif mengikuti pergerakan wajah, dan label  nama mahasiswa ditampilkan dengan akurat di atas kotak tersebut. Hal ini  menunjukkan bahwa algoritma FaceNet mampu bekerja efektif meskipun subjek  tidak berpose diam di depan kamera (motion handling).  
+
+Gambar 5. 11 Hasil pengujian Log Aktifitas 
+61  
+Selanjutnya, Gambar 5.11 memperlihatkan bahwa setiap deteksi yang  berhasil langsung tercatat ke dalam daftar log sistem di sebelah kanan layar. Data  ini membuktikan fungsi auto-attendance berjalan sesuai harapan, di mana  kehadiran mahasiswa terdata secara otomatis tanpa perlu tanda tangan manual.  
+Pengujian di kelas Pengenalan Sistem Digital mengonfirmasi bahwa sistem  memiliki utilitas tinggi. Integrasi antara perangkat keras Orange Pi dan algoritma  FaceNet mampu menangani beban lalu lintas mahasiswa yang masuk kelas  dengan lancar, memberikan pengalaman pengguna (user experience) yang minim  hambatan dibandingkan metode pengecekan KTM secara manual.  
+5.1.6 Pengujian FRR dan FAR  
+Evaluasi keamanan dan keandalan sistem dilakukan melalui pendekatan  komprehensif yang menggabungkan validasi empiris di lapangan dan analisis  kinerja statistik. Pengujian ini melibatkan dua skenario utama untuk melihat  respons sistem terhadap pengguna sah (genuine) dan penyusup (impostor).  
+Skenario pertama (genuine) melibatkan 31 mahasiswa terdaftar  menggunakan data uji terpisah (unseen data) dengan total 620 sampel wajah.  Sedangkan skenario kedua (impostor) melibatkan 5 partisipan asing yang tidak  terdaftar, di mana setiap partisipan melakukan 12 variasi percobaan sehingga total  sampel pengujian berjumlah 60 percobaan.  
+Hasil rekapitulasi pengujian terhadap kedua skenario tersebut disajikan pada  Tabel 5.4.  
+Jenis  
+Pengujian 
+Total  Sampel 
+Berhasil (Sesuai  Harapan) 
+Gagal (Error) Tingkat  Kesalahan 
+Genuine  Attempts (Mahasiswa  Terdaftar)  
+620 608 (Dikenali) 12  (Ditolak/Unknown)  
+FRR =  1,94% 
+Impostor  Attempts (Penyusup) 
+60 59  
+(Ditolak/Unknown)  
+1 (Salah Dikenali) FAR =  1,67% 
+Validitas hasil pengujian lapangan di atas diperkuat melalui evaluasi kinerja  model secara komputasi menggunakan kurva Receiver Operating Characteristic  (ROC) dan kurva Detection Error Tradeoff (DET). Grafik ini merepresentasikan  stabilitas probabilitas model dalam membedakan kelas identitas. 
+62  
+Gambar 5. 12 Kurva Evaluasi Kinerja Model (ROC dan DET)  Berdasarkan data tabel dan grafik di atas, dapat dianalisis bahwa sistem  
+memiliki tingkat False Rejection Rate (FRR) yang sangat rendah, yaitu 1,94%  (dibulatkan menjadi 2%). Kegagalan verifikasi pada 12 sampel mahasiswa  terdaftar ini merupakan outlier yang disebabkan oleh kondisi pencahayaan  ekstrem (backlight) saat pengambilan data uji, namun secara umum sistem  berhasil mengenali 98% pengguna sah dengan akurat.  
+Di sisi lain, sistem menunjukkan tingkat False Acceptance Rate (FAR)  sebesar 1,67%. Terjadi 1 kejadian kesalahan di mana sistem mengenali wajah  penyusup sebagai mahasiswa terdaftar akibat kemiripan struktur wajah tertentu  pada confidence threshold standar. Meskipun demikian, nilai FAR di bawah 2% ini  masih berada dalam batas toleransi keamanan yang wajar untuk sistem  pemantauan kampus, dan risiko ini telah dimitigasi lebih lanjut melalui fitur  Liveness Detection.  
+5.1.6 Pengujian Liveness Detection  
+Sebagai langkah penguatan keamanan, sistem telah dilengkapi  
+dengan mekanisme Liveness Detection untuk mencegah serangan  manipulasi presentasi (presentation attack). Pengujian fitur ini difokuskan  pada kemampuan sistem dalam membedakan karakteristik fisik wajah asli  (live) dibandingkan dengan representasi wajah digital (spoof) yang  ditampilkan melalui layar smartphone. 
+63  
+Pengujian dilakukan dengan cara menghadapkan layar smartphone yang menampilkan foto wajah mahasiswa terdaftar ke arah kamera sistem.  Sistem diharapkan mampu mendeteksi keberadaan wajah tersebut namun  mengklasifikasikannya sebagai objek palsu.  
+Gambar 5.12 Deteksi Spoofing pada Layar Smartphone 
+Meskipun pengujian menunjukkan bahwa sistem mampu mendeteksi  serangan spoofing dari layar smartphone dengan memunculkan label  "Spoofing", keberhasilan ini perlu diinterpretasikan dalam batas-batas  skenario pengujian yang spesifik. Mekanisme deteksi saat ini bekerja  dengan mengidentifikasi artefak visual 2D yang mencolok, seperti pendaran  cahaya layar (screen glare), pola moiré, atau ketiadaan kedalaman wajah,  yang memang mudah dikenali pada media digital. Oleh karena itu,  efektivitas sistem cenderung menurun jika dihadapkan pada teknik  serangan yang lebih canggih, seperti penggunaan foto cetak resolusi tinggi  (high-quality print) atau topeng 3D yang memiliki tekstur menyerupai kulit  
+asli dan tidak memantulkan cahaya selaiknya layar ponsel. Selain itu,  
+akurasi fitur ini sangat bergantung pada kondisi pencahayaan lingkungan;  pada kondisi cahaya ekstrem atau latar belakang yang terlalu terang,  artefak visual pada media palsu mungkin tersamar, yang berpotensi  menyebabkan kegagalan deteksi (false negative). Dengan demikian, fitur  ini berfungsi sebagai lapisan pertahanan dasar (preliminary defense) 
+64  
+namun belum dapat dikategorikan sebagai solusi anti-spoofing yang  komprehensif untuk segala jenis ancaman.  
+5.2 Pembahasan  
+5.2.1 Analisis Akurasi dan Keamanan Sistem  
+Tingginya akurasi sistem yang mencapai rata-rata 95% dengan nilai  Area Under Curve (AUC) 0.99 pada 31 kelas identitas merupakan hasil dari  sinergi antara pemilihan model arsitektur yang tepat dan strategi pra pemrosesan data yang efektif. Faktor fundamental pertama adalah  kemampuan representasi fitur yang diskriminatif dari algoritma FaceNet.  Dengan memetakan wajah ke dalam ruang Euclidean 128-dimensi,  FaceNet menghasilkan vektor embedding yang memiliki karakteristik intra class compactness yang tinggi, di mana jarak fitur dari satu individu sangat  rapat, sekaligus memiliki inter-class separability yang lebar antar-individu  berbeda. Karakteristik ini, yang diperkuat oleh fungsi Triplet Loss selama  fase pra-pelatihan, menciptakan klaster data yang terpisah secara tegas  sehingga memudahkan algoritma SVM Linear untuk menarik garis batas  keputusan (hyperplane) yang presisi dengan risiko kesalahan klasifikasi  yang minimal.  
+Selain faktor arsitektur, strategi augmentasi data juga memegang  peranan vital dalam performa akhir model. Mengingat keterbatasan jumlah  sampel data murni yang hanya berjumlah 20 citra per individu, penerapan  teknik augmentasi berupa rotasi, penyesuaian kecerahan, dan pembalikan  citra (flip) berhasil mencegah terjadinya overfitting. Teknik ini memaksa  model untuk mempelajari fitur-fitur wajah yang bersifat invarian, sehingga  sistem memiliki toleransi yang lebih baik dan tetap mampu mengenali  identitas mahasiswa meskipun terdapat sedikit perubahan orientasi wajah  atau variasi pencahayaan saat pengujian di lapangan.  
+Dalam pengujian skenario riil yang melibatkan pergerakan alami  mahasiswa di area pintu masuk, sistem secara umum menunjukkan kinerja 
+65  
+yang sangat baik. Sistem mampu menangkap wajah, memproses identitas,  dan menampilkan nama seluruh mahasiswa yang terdaftar dengan akurat  secara real-time. walaupun demikian, observasi lapangan menemukan  adanya beberapa kondisi batas (edge cases) yang mempengaruhi  performa pengenalan:  
+ Teridentifikasi bahwa ketika posisi subjek terlalu jauh dari jangkauan  optimal kamera, sistem cenderung gagal mengenali identitas  (menampilkan label Unknown) meskipun wajah berhasil dideteksi. Hal ini  disebabkan oleh rendahnya resolusi citra wajah yang tertangkap pada  jarak jauh. Minimnya kerapatan piksel (pixel density) pada area wajah  menyebabkan hilangnya detail fitur biometrik yang krusial, sehingga  vektor embedding yang dihasilkan tidak cukup kuat untuk melampaui  ambang batas (confidence threshold) kemiripan yang ditetapkan.  
+ Sistem juga mengalami kegagalan deteksi (detection failure) ketika  mahasiswa memalingkan muka atau menghadap ke samping dengan  sudut yang ekstrem (sekitar 40 derajat atau lebih). Pada kondisi ini,  kamera hanya menangkap profil separuh wajah (half-face profile), yang  mengakibatkan hilangnya sebagian besar titik referensi wajah (facial  landmarks) seperti posisi kedua mata dan simetri hidung. Akibatnya,  algoritma pra-pemrosesan gagal melakukan penyelarasan wajah  (alignment), sehingga wajah tersebut tidak terproses oleh sistem  pengenalan.  
+5.2.2 Analisis Efektivitas Metode  
+Penerapan sistem menunjukkan performa statistik yang cukub baik, analisis  mendalam terhadap False Rejection Rate (FRR) yang berkisar antara 2% hingga  5% mengungkapkan bahwa sistem masih memiliki kerentanan operasional pada  kondisi lingkungan yang tidak terkendali (unconstrained environment). Kegagalan  deteksi teridentifikasi paling signifikan terjadi pada kondisi pencahayaan ekstrem,  khususnya saat subjek berada dalam posisi membelakangi sumber cahaya kuat  (backlight) atau pada intensitas cahaya yang rendah. Pada situasi ini, fitur-fitur 
+66  
+geometris wajah menjadi tersamar oleh bayangan atau noise visual, menyebabkan  vektor embedding yang diekstraksi bergeser menjauh dari referensi data latihnya.  
+Selain faktor pencahayaan, limitasi algoritma penyelarasan wajah  (alignment) pada FaceNet juga terlihat ketika subjek melakukan pose non-frontal  yang ekstrem. Akurasi pengenalan mengalami penurunan drastis apabila sudut  kemiringan wajah (yaw atau pitch) melebihi 30 derajat, karena model gagal  mengekstrak fitur wajah secara utuh pada perspektif tersebut. Lebih lanjut,  meskipun fitur Liveness Detection terbukti efektif menangkis serangan foto dari  layar ponsel, mekanisme keamanan ini masih bekerja berdasarkan analisis artefak  visual 2D semata. Hal ini menyisakan celah kerentanan terhadap serangan  spoofing yang lebih sofistikated, seperti penggunaan topeng 3D atau cetakan foto  resolusi tinggi bertekstur kulit, yang sulit dibedakan tanpa bantuan sensor  kedalaman (depth sensor) atau inframerah..  
+5.2.3 Analisis Kinerja pada Perangkat  
+Implementasi pada Orange Pi 5 Pro membuktikan kelayakan sistem untuk  penerapan Edge AI. Dengan rata-rata kecepatan 16-25 FPS, sistem mampu  memproses wajah mahasiswa yang berjalan normal tanpa hambatan (seamless  experience). Ketersediaan NPU pada prosesor RK3588S membantu meringankan  beban CPU utama, menjaga suhu perangkat tetap stabil di kisaran 55°C - 60°C  meskipun beroperasi secara kontinu.  
+5.2.4 Evaluasi Kelayakan Implementasi  
+Evaluasi menyeluruh terhadap kelayakan sistem ditinjau dari aspek  performa komputasi, fleksibilitas perangkat keras, serta keandalan  keamanan di lapangan. Implementasi pada perangkat Single Board  Computer (SBC) Orange Pi 5 Pro membuktikan bahwa arsitektur Edge AI 
+layak diterapkan untuk kebutuhan pengawasan kampus. Dengan  memanfaatkan akselerasi NPU (Neural Processing Unit) pada prosesor  RK3588S, sistem mampu mempertahankan kecepatan pemrosesan yang  stabil di angka 16–24 FPS dengan efisiensi termal yang terjaga pada  kisaran 55°C–60°C. Hal ini mengindikasikan bahwa proses inferensi 
+67  
+kecerdasan buatan yang kompleks dapat dijalankan secara efisien di "tepi  jaringan" tanpa ketergantungan pada infrastruktur cloud yang mahal.  
+Meskipun demikian, analisis lebih lanjut menunjukkan bahwa  arsitektur perangkat lunak yang dibangun memiliki fleksibilitas tinggi karena  tidak terikat secara mutlak pada keberadaan NPU. Sistem terbukti tetap  mampu beroperasi secara fungsional pada mode CPU-only, namun dengan  konsekuensi penurunan kinerja yang signifikan berupa peningkatan latensi  dan penurunan frame rate (umumnya di bawah 10 FPS). Temuan ini  menegaskan bahwa meskipun algoritma FaceNet kompatibel dengan  perangkat komputasi standar, penggunaan akselerator perangkat keras  (seperti NPU atau GPU) menjadi prasyarat krusial untuk mencapai standar  performa real-time yang mulus (seamless) di lingkungan dengan lalu lintas  mahasiswa yang padat.  
+Dalam perspektif keamanan, kemampuan sistem menekan nilai False  Acceptance Rate (FAR) hingga 0% pada pengujian penyusup  menjadikannya solusi yang andal sebagai lapisan pertahanan pertama  (first-layer defense). Sistem ini efektif mencegah akses ilegal secara  otomatis, namun tetap memiliki batasan operasional terkait kondisi  pencahayaan dan metode anti-spoofing yang masih berbasis analisis 2D.  Oleh karena itu, sistem ini lebih tepat diposisikan sebagai alat bantu  pengawasan (monitoring) dan manajemen presensi cerdas yang  mendukung tugas personel keamanan, dibandingkan sebagai pengganti  total pengawasan fisik pada area-area yang menuntut standar keamanan  tingkat tinggi (high-security areas). 
+68

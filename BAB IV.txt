@@ -1,0 +1,687 @@
+﻿4.1 
+BAB IV 
+PERANCANGAN 
+Analisis Sistem Terdahulu 
+Tahap awal dalam perancangan adalah menganalisis kelemahan sistem 
+pengamanan konvensional serta keterbatasan metode pengenalan wajah 
+generasi lama. Sistem keamanan kampus saat ini masih bergantung pada 
+pemeriksaan manual oleh petugas atau penggunaan kartu identitas (ID Card), 
+yang memiliki risiko penyalahgunaan identitas dan human error. 
+Dari sisi teknologi, metode terdahulu seperti Haar Cascade Classifier sering 
+digunakan karena ringan, namun akurasinya sangat rendah terhadap variasi 
+pencahayaan dan posisi wajah. Sementara itu, metode Deep Learning 
+konvensional sering kali membutuhkan komputasi berat. Berdasarkan analisis 
+tersebut, penelitian ini merancang sistem baru yang menggunakan algoritma 
+FaceNet (Schroff et al., 2015). FaceNet dipilih karena kemampuannya memetakan 
+wajah ke dalam ruang Euclidean secara efisien, menghasilkan akurasi tinggi 
+namun tetap ringan untuk dijalankan pada perangkat Single Board Computer 
+(Orange Pi) dibandingkan model CNN standar. 
+4.1.1 Evaluasi dan Pemilihan Algoritma Pengenalan Wajah 
+kaan w 
+Dalam pengembangan sistem keamanan biometrik, pemilihan algoritma 
+pengenalan wajah menjadi kunci utama keberhasilan sistem. Penelitian ini 
+menetapkan penggunaan algoritma FaceNet yang diperkenalkan oleh Google 
+sebagai inti dari mesin pengenalan wajah. 
+N 
+FaceNet dipilih karena pendekatannya yang revolusioner dalam memetakan 
+citra wajah secara langsung ke dalam ruang Euclidean yang kompak (compact 
+Euclidean space) berdimensi 128-D. Jarak antar-titik dalam ruang vektor ini secara 
+langsung merepresentasikan kemiripan wajah: wajah dari orang yang sama akan 
+memiliki jarak yang kecil, sedangkan wajah dari orang berbeda memiliki jarak yang 
+jauh. 
+Keunggulan utama FaceNet terletak pada penggunaan fungsi kerugian 
+Triplet Loss. Fungsi ini melatih model untuk meminimalkan jarak antara anchor 
+(wajah referensi) dan positive (wajah orang yang sama), sekaligus 
+29 
+memaksimalkan jarak antara anchor dan negative (wajah orang berbeda). Dengan 
+arsitektur ini, FaceNet mampu menghasilkan tingkat akurasi yang tinggi (mencapai 
+99.63% pada dataset LFW) dan sangat efektif digunakan untuk verifikasi identitas 
+di lingkungan kampus. 
+4.2 Spesifikasi Kebutuhan Sistem Baru 
+Penyusunan spesifikasi kebutuhan sistem dilaksanakan setelah melakukan 
+analisis mendalam terhadap sistem yang sudah ada (existing). Langkah ini 
+bertujuan untuk mengidentifikasi serta menilai spesifikasi yang telah berjalan. 
+Berdasarkan hasil analisis tersebut, diputuskan untuk mengembangkan sistem 
+baru yang berfokus pada pemantauan keamanan kampus berbasis pengenalan 
+wajah. Kebutuhan sistem ini terbagi menjadi dua aspek utama, yaitu perangkat 
+lunak dan perangkat keras, yang rincian lengkapnya akan dijabarkan pada subbab 
+berikut 
+4.2.1 Spesifikasi Perangkat Lunak 
+Penelitian ini didukung oleh serangkaian perangkat lunak yang mencakup 
+sistem operasi, platform editor, serta alat desain digital. Seluruh perangkat lunak 
+tersebut berperan krusial mulai dari tahap perancangan hingga implementasi kode 
+program. Spesifikasi lengkap mengenai perangkat lunak yang digunakan akan 
+diuraikan pada bagian selanjutnya. 
+No 
+1 
+B 
+Tabel 4. 1 Spesifikasi Kebutuhan Perangkat Keras 
+Perangkat 
+Ubuntu 22.04 LTS 
+2 Visual Studio Code 
+3 
+Python 
+4 
+Flask 
+GU 
+Keterangan 
+Sistem Operasi yang digunakan 
+dalam penelitian ini. 
+Sebagai 
+code editor 
+digunakan untuk menulis code. 
+yang 
+Bahasa pemrograman yang 
+digunakan dalam backend. 
+Framework yang digunakan dalam 
+membuat user interface. 
+30 
+No 
+Perangkat 
+5 
+Chrome Browser 
+Keterangan 
+Browser untuk menjalankan hasil 
+program. 
+Perangkat lunak yang dimanfaatkan dalam pengembangan sistem 
+keamanan pengenalan wajah ini dirinci pada Tabel 4.1. Berikut adalah penjelasan 
+mendalam mengenai fungsi dan alasan pemilihan masing-masing perangkat lunak 
+tersebut: 
+a) Sistem Operasi (Ubuntu 22.04 LTS) 
+TSR S 
+Ubuntu 22.04 LTS (Long Term Support) dipilih sebagai sistem operasi utama untuk 
+pengembangan (development environment). Linux Ubuntu dikenal memiliki 
+manajemen memori yang efisien dan kompatibilitas yang sangat baik dengan berbagai pustaka Deep Learning dan Computer Vision. Stabilitas versi LTS 
+menjamin lingkungan pengembangan yang konsisten selama proses pelatihan 
+model SVM dan implementasi Facenet, meminimalkan gangguan teknis yang 
+sering terjadi pada sistem operasi lain saat menangani komputasi tingkat tinggi. 
+b) Visual Studio Code (VS Code) 
+Visual Studio Code digunakan sebagai editor kode utama (Integrated 
+Development Environment). Perangkat lunak ini dipilih karena ringan namun 
+memiliki ekosistem ekstensi yang kaya. Dalam penelitian ini, ekstensi seperti 
+Pylance dan Python Debugger sangat membantu dalam mempercepat penulisan 
+kode, mendeteksi kesalahan sintaks secara otomatis, dan mempermudah navigasi 
+struktur proyek yang kompleks. 
+Mendete 
+c) Python 
+Aper 
+di si 
+Vers 
+N 
+Python Bahasa pemrograman Python (Versi 3.10) memegang peranan 
+paling krusial sebagai otak di sisi backend. Python dipilih karena dukungan 
+pustaka (library) yang luas untuk kecerdasan buatan. Secara spesifik, penelitian 
+ini memanfaatkan pustaka TensorFlow/Keras untuk menjalankan model 
+arsitektur FaceNet guna ekstraksi fitur wajah, Scikit-learn untuk algoritma 
+klasifikasi SVM, serta OpenCV untuk pengolahan citra digital dari kamera. 
+Kemudahan sintaks Python mempercepat proses prototyping algoritma. 
+31 
+d) Flask 
+Flask digunakan sebagai kerangka kerja aplikasi web (web framework) berbasis 
+Python. Karena sifatnya sebagai micro-framework, Flask sangat ringan dan 
+fleksibel, ideal untuk membangun antarmuka sistem keamanan ini tanpa beban 
+berlebih. Flask bertugas menghubungkan hasil pemrosesan wajah dari backend 
+(Python) ke antarmuka pengguna, memungkinkan administrator melihat live 
+streaming video dan notifikasi akses secara real-time. 
+e) Google Chrome 
+VERS 
+Google Chrome berfungsi sebagai platform untuk menjalankan dan menguji antarmuka pengguna (user interface). Peramban ini dipilih karena memiliki mesin 
+rendering JavaScript (V8 Engine) yang cepat serta fitur Developer Tools yang 
+lengkap. Hal ini memudahkan penulis dalam melakukan debugging tampilan 
+dashboard monitoring dan memastikan informasi log mahasiswa yang masuk ditampilkan dengan responsif dan akurat. 
+4.2.2 Spesifikasi Perangkat Keras 
+Pemilihan perangkat keras dalam penelitian ini difokuskan pada kemampuan 
+pemrosesan data biometrik secara real-time di tepi jaringan (edge computing). 
+Sistem dirancang untuk bekerja secara mandiri tanpa bergantung pada server 
+cloud, sehingga membutuhkan unit pemrosesan yang memiliki spesifikasi 
+komputasi tinggi. Rincian perangkat keras yang digunakan disajikan pada Tabel 
+4.2. 
+No 
+1 
+kat 
+Perangkat 
+Keras 
+Tabel 4. 2 Kebutuhan Sistem Perangkat Keras 
+Spesifikasi Utama 
+GU 
+Single Board Orange Pi 5 Pro (16GB 
+Computer 
+RAM, RK3588S) 
+Keterangan 
+Unit pemrosesan pusat untuk menjalankan OS, model Al, dan Web 
+Server. 
+DS-Kamera 
+pengawas 
+untuk 
+2CD2047G2-L Colorvu menangkap video wajah secara real- 
+Hikvision 
+12 IP Camera 
+(4MP) 
+time via protokol RTSP. 
+32 
+Perangkat 
+No 
+Spesifikasi Utama 
+Keterangan 
+Keras 
+Network 
+3 
+Poe Injector 
+Device 
+Perangkat catu daya dan transmisi 
+data untuk IP Camera melalui kabel 
+LAN. 
+Berikut adalah penjelasan rinci mengenai fungsi dan alasan pemilihan 
+perangkat keras tersebut: 
+ERS 
+a) Orange Pi 5 Pro (16GB RAM) 
+Orange Pi 5 Pro (16GB RAM) Orange Pi 5 Pro berfungsi sebagai "otak" 
+utama sistem. Perangkat ini ditenagai prosesor Rockchip RK3588S yang memiliki 
+performa tinggi untuk komputasi Deep Learning. Varian RAM 16GB dipilih untuk memastikan ketersediaan memori yang cukup saat sistem menjalankan proses 
+berat: mengambil stream video, melakukan ekstraksi fitur wajah (embedding 128- 
+D) menggunakan FaceNet, mengklasifikasikan data dengan SVM, serta melayani 
+antarmuka web tanpa mengalami bottleneck. 
+b) PoE Injector (Power over Ethernet) 
+POE I 
+Perangkat ini digunakan sebagai jembatan konektivitas antara kamera dan 
+Orange Pi. PoE Injector memungkinkan penyaluran daya listrik dan transmisi data 
+dilakukan secara bersamaan melalui satu kabel LAN (Ethernet). Penggunaan alat 
+ini menyederhanakan instalasi kabel dan menjamin suplai daya yang stabil ke 
+kamera Hikvision, sehingga proses monitoring dan pengenalan wajah dapat 
+berjalan terus-menerus tanpa gangguan daya. 
+4.3 
+N 
+Perancangan Sistem 
+UNAN 
+Bagian ini menjelaskan rancangan teknis mengenai bagaimana komponen 
+sistem bekerja dan saling terintegrasi. Perancangan sistem mencakup arsitektur 
+perangkat keras, alur kerja sistem, desain model Al, basis data, dan antarmuka 
+pengguna. 
+33 
+4.3.1 Arsitektur Sistem 
+Arsitektur sistem keamanan ini dirancang menggunakan topologi jaringan 
+lokal (Local Area Network) yang terpusat pada perangkat edge computing. 
+Perancangan arsitektur ini membagi sistem menjadi tiga lapisan utama: lapisan 
+akuisisi data fisik (Physical Layer), lapisan pemrosesan logis (Processing Layer), 
+dan lapisan presentasi (Presentation Layer). 
+Secara fisik, perangkat keras dihubungkan membentuk satu kesatuan 
+sistem tertutup (closed-loop system) untuk menjamin keamanan dan kecepatan 
+transmisi data. Kamera IP Hikvision DS-2CD2047G2-L berfungsi sebagai node 
+sensor utama yang dipasang pada titik akses pintu masuk. Kamera ini tidak 
+dihubungkan langsung ke sumber listrik konvensional, melainkan menggunakan 
+teknologi Power over Ethernet (PoE). Sebuah kabel UTP (Unshielded Twisted 
+Pair) Kategori 6 (Cat6) menghubungkan kamera ke perangkat PoE Injector. PoE 
+Injector ini memiliki peran ganda yang vital. Pertama, menyuntikkan daya listrik DC 
+untuk menghidupkan kamera, dan kedua, menjadi jembatan transmisi data video 
+digital berbasis paket IP. 
+Inject Tw 
+Dari PoE Injector, jalur data diteruskan melalui kabel LAN menuju port 
+Ethernet (RJ45) pada Orange Pi 5 Pro. Di sinilah Orange Pi berperan sebagai 
+thernet 
+server mandiri (standalone server). Tidak seperti sistem cloud yang membutuhkan 
+koneksi internet, arsitektur ini bersifat lokal; seluruh komunikasi antara kamera dan 
+komputer papan tunggal (Single Board Computer) terjadi dalam satu segmen 
+jaringan IP statis yang terisolasi. Hal ini meminimalisir latensi jaringan (network 
+latency) yang sering menjadi kendala dalam sistem pengenalan wajah real-time. 
+Di dalam lapisan pemrosesan (Orange Pi 5 Pro), arsitektur perangkat lunak 
+bekerja secara paralel. Unit Pemrosesan Utama (CPU) Rockchip RK3588S 
+menerima aliran data video melalui protokol RTSP. Data ini kemudian 
+didistribusikan ke modul kecerdasan buatan (FaceNet dan SVM) yang berjalan di 
+atas sistem operasi Ubuntu. FaceNet bertugas mengubah citra wajah menjadi 
+kode numerik, yang kemudian dikenali oleh SVM. Hasil pemrosesan dikirimkan ke 
+antarmuka pengguna berbasis web (Flask) untuk ditampilkan pada monitor 
+pengawas. 
+34 
+Terakhir, pada lapisan presentasi, Orange Pi 5 Pro terhubung ke monitor 
+pengawas melalui kabel HDMI. Monitor ini tidak melakukan pemrosesan apa pun, 
+melainkan hanya memvisualisasikan dashboard sistem yang dirender oleh GPU 
+(Graphics Processing Unit) Mali-G610 pada Orange Pi. Dengan arsitektur 
+terintegrasi ini, sistem mampu menjalankan fungsi pemantauan, deteksi, 
+pengenalan, dan pelaporan secara simultan dalam satu perangkat keras yang ringkas dan efisien. 
+4.3.2 Alur Kerja Sistem 
+mER S 
+Alur kerja sistem keamanan pintu masuk kampus ini dimulai ketika kamera 
+Hikvision mendeteksi objek visual. Aliran video dikirim secara real-time ke Orange 
+Pi 5 Pro. Setelah aliran video diterima, algoritma deteksi wajah akan memindai 
+frame untuk mencari keberadaan wajah manusia. 
+S 
+Ketika wajah terdeteksi, sistem melakukan pra-pemrosesan (preprocessing) 
+berupa cropping dan alignment. Citra wajah yang sudah siap kemudian masuk ke 
+tahap ekstraksi fitur menggunakan model FaceNet. Pada tahap ini, FaceNet 
+mengubah citra wajah menjadi representasi matematis berupa vektor embedding 
+berdimensi 128 (128-D) dalam ruang Euclidean. Vektor ini merepresentasikan 
+karakteristik unik wajah, di mana jarak antar-vektor mencerminkan kemiripan 
+wajah. 
+Vector 
+Vektor 128-dimensi tersebut kemudian diteruskan ke model klasifikasi 
+Support Vector Machine (SVM). SVM menghitung probabilitas kecocokan vektor 
+tersebut dengan data mahasiswa yang telah dilatih. Jika nilai kepercayaan 
+(confidence score) melampaui ambang batas, sistem mengidentifikasi wajah 
+sebagai mahasiswa terdaftar. Sebaliknya, jika di bawah ambang batas, wajah 
+dikategorikan sebagai "Unknown". 
+4.3.3 Perancangan Model 
+UN 
+Perancangan model kecerdasan buatan dalam penelitian ini difokuskan 
+pada penggabungan efisiensi ekstraksi fitur modern dengan kecepatan klasifikasi 
+klasik untuk perangkat edge. Proses ini melibatkan empat tahapan krusial yang 
+saling berkesinambungan, mulai dari persiapan data hingga pembentukan model 
+final. 
+35 
+a) Pengumpulan Dataset (Data Collection) 
+Proses pengambilan data dilakukan secara langsung pada mata kuliah 
+Pengenalan Sistem Digital. Pemilihan kelas ini sebagai lokasi pengambilan sampel 
+didasarkan pada dua pertimbangan strategis. Pertama, aspek legalitas dan 
+kemudahan akses data yang telah mendapatkan izin serta rekomendasi dari 
+dosen pengampu mata kuliah sekaligus dosen pembimbing tugas akhir, Bapak 
+Prio Handoko. Kemudian Pengambilan data di dalam kelas memungkinkan 
+pengujian kondisi riil (real-world setting). Hal ini penting untuk menguji ketahanan 
+sistem terhadap variasi pencahayaan alami dan posisi wajah mahasiswa saat 
+beraktivitas, dibandingkan jika pengambilan data dilakukan di studio foto yang 
+terkondisi. 
+Ing). Hal ini 
+Pengumpulan data dimulai dengan merekam aktivitas mahasiswa di dalam 
+kelas tersebut. Video hasil rekaman kemudian diekstraksi menjad 
+bingkai gambar (frame) yang digunakan sebagai dataset lokal. Selanjutnya, 
+dilakukan proses pra-pemrosesan (pre-processing) berupa pembersihan dan 
+penyaringan data untuk memastikan hanya citra wajah yang valid dan berkualitas 
+baik yang digunakan dalam sistem. Gambar 4.1 memperlihatkan struktur direktori 
+penyimpanan dataset masing-masing individu, sedangkan 
+menampilkan contoh sampel wajah yang telah diakuisisi. 
+Gambar 4.2 
+MBA 
+2022071031_Irvan_Nurfauzan_Saput 
+ra 
+2025071004_Muhammad Rafie_Fak 
+hrullah 
+2025071007 Azril_A 
+2025071010_Arsha_Aldian_Siapuda 
+n_Siregar 
+2025071013_Nahda_Zulfa_Qairiyah 
+2025071016_Adhityawan 
+2025071019 Monica_Nayla_Wiguna 
+2025071022_Kaleb_Anderson_Suwa 
+ges 
+2025071027 Rafli_Aurelio 
+2025071038 Muhammad_Al_Farel_ Ariansyah 
+2025071043 MUHAMMAD AKBAR HENDARTO 
+2025071001_Bayu_Aji_Dimas_Praset 
+yo 
+2025071005 Kyoshiro_Hartono 
+2025071003_Arya_Dzikra_Avicenna 
+2025071006_Raka_Maelandy 
+2025071009 Muhammad_Lutfi Hid 
+2025071008 Muhammad_Ahdanier rofie Ikhsan 
+ayat 
+2025071011_Luthfi_Asefi 
+2025071014_Fattar_Zhafir_Athayya 
+2025071017_Rachmad_Fauzi 
+2025071012_Raihan_Ali_Kharisma_S 
+ukarno 
+2025071015 Fadlan_Rizki_Ramdani 
+2025071018 Muhammad_Amriza_F athah 
+2025071020_Muhammad_Reza Pah 
+2025071021_Rassya_Pratama_Rama 
+levi 
+dhan 
+2025071024 Fatih_Arsa_Bayanaka 
+2025071025_Muhammad_Raihan_H 
+andoko 
+2025071031_Muhammad_Zufar_Ab 
+2025071037_Keisya_Nezilia_Moebar 
+dul Ghaffar 
+rak 
+2025071039_Nayaka_Fiqih_Mahesw 
+ara_Prabumulia 
+2025071040_Jerrel_Marvello_Hasud ungan Hutapea 
+1. 
+JA 
+Gambar 4. 1 Folder dataset 
+Untuk memastikan ketahanan model terhadap variasi lingkungan nyata, 
+dataset yang dikumpulkan mencakup berbagai kondisi pengambilan gambar. 
+36 
+Distribusi kondisi dataset berdasarkan variasi pose, pencahayaan, dan jarak 
+disajikan pada Tabel 4.3 berikut 
+Tabel 4. 3 Kebutuhan Sistem Perangkat Keras 
+Parameter 
+Pose Wajah 
+Pencahayaan 
+Jarak Pengambilan 
+N 
+E 
+Kondisi/Variasi 
+Tampak Depan 
+Miring kanan dan kiri ±15 derajat 
+Menghadap atas dan bawah 
+Normal pencahayaan ruang kelas 
+Jarak dekat (30 - 50 cm) 
+Jarak Sedang (1 - 2 meter) 
+1- Copy 
+2- Copy 
+2 
+3- Copy 
+3 
+4- Copy 
+4 
+5- Copy 
+5 
+6 - Copy 
+6 
+7- Copy 
+7 
+8- Copy 
+8 
+9- Copy 
+9 
+10- Copy 
+10 
+11- Copy 
+11 
+12- Copy 
+12 
+13- Copy 
+13 
+14- Copy 
+14 
+15- Copy 
+15 
+16- Copy 
+21 - Copy 
+26- Copy 
+16 
+16 
+17 - Copy 
+17 
+18- Copy 
+18 
+19 - Copy 
+19 
+20 - Copy 
+20 
+21 
+27 
+22 - Copy 
+26 
+26 
+27 - Copy 
+22 
+222 
+227 
+23 - Copy 
+23 
+23 
+24 - Copy 
+22 
+24 
+25 - Copy 
+25 
+28- Copy 
+28 
+29 - Copy 
+29 
+30- Copy 
+30 
+31-Copy 
+31 
+32 - Copy 
+32 
+33 - Copy 
+33 
+34 - Copy 
+34 
+34 
+35- Copy 
+35 
+35 
+Gambar 4. 2 Dataset wajah 
+Mengingat jumlah data murni yang dikumpulkan relatif terbatas untuk melatih 
+model deep learning yang robust, teknik augmentasi data diterapkan secara 
+intensif. Proses ini bertujuan untuk memperbanyak variasi data latih secara sintetis 
+sehingga model dapat belajar mengenali wajah dalam kondisi lingkungan yang 
+37 
+lebih beragam dan mencegah terjadinya overfitting. Teknik augmentasi dilakukan 
+dengan memanipulasi citra asli menjadi beberapa versi baru melalui algoritma pemrograman. Pertama, diterapkan teknik Horizontal Flip, yaitu membalik citral 
+secara horizontal seperti efek cermin, untuk memastikan model dapat mengenali 
+fitur wajah dari kedua sisi secara seimbang. Kedua, dilakukan Brightness Adjustment atau penyesuaian kecerahan dengan menaikkan dan menurunkan 
+intensitas cahaya pada gambar sebesar ±20%; hal ini sangat vital untuk melatih 
+ketahanan model terhadap perubahan kondisi pencahayaan alami di pintu masuk 
+kampus, seperti saat pagi hari yang terang atau sore hari yang lebih redup. Ketiga, 
+teknik Rotation diterapkan dengan memutar citra wajah secara acak dalam 
+rentang sudut kecil (±15 derajat) untuk mensimulasikan kondisi di mana 
+mahasiswa mungkin sedikit memiringkan kepala saat berjalan melewati kamera. 
+Hasil dari proses augmentasi ini melipatgandakan jumlah dataset awal, 
+memberikan basis data yang lebih kaya bagi model untuk mempelajari fitur-fitur 
+invarian wajah. 
+Setelah proses augmentasi selesai, dataset dibagi menggunakan skema 
+Subject-wise Stratified Split. Metode ini memastikan bahwa pembagian data latih 
+(training) dan data uji (testing) dilakukan secara proporsional di dalam setiap folder 
+identitas mahasiswa, bukan diacak secara global. Hal ini bertujuan agar setiap 
+kelas (identitas mahasiswa) memiliki representasi yang seimbang pada saat 
+pelatihan maupun pengujian, sehingga mencegah bias model terhadap individu 
+tertentu. Berdasarkan hasil evaluasi rasio dataset, penelitian ini menetapkan rasio 
+pembagian sebesar 80:20. Dari total 3.100 citra murni, sebanyak 20% (620 citra) 
+dialokasikan sebagai data uji (testing) yang dijaga kemurniannya. Sedangkan 80% 
+sisanya (2.480 citra) digunakan sebagai data latih. Untuk memperkaya variasi 
+pembelajaran, data latih ini kemudian melalui proses augmentasi dengan faktor 
+pengali 4 kali (1 citra asli + 3 variasi augmentasi), sehingga total akhir data latih 
+yang digunakan untuk proses training meningkat signifikan menjadi 9.920 citra 
+(2.480 x 4). 
+auen 
+38 
+b) Preprocessing Gambar 
+Tahapan preprocessing dimulai dengan standarisasi data mentah melalui 
+deteksi area wajah (Region of Interest), pemotongan (cropping), dan penyelarasan 
+(alignment) untuk memastikan input yang konsisten bagi model FaceNet. 
+Mengingat jumlah dataset murni yang terbatas, penelitian ini menerapkan teknik 
+augmentasi data secara intensif untuk memperkaya variasi data latih dan 
+mencegah terjadinya overfitting. Teknik pertama yang diterapkan adalah 
+Horizontal Flip, yaitu membalik citra secara horizontal menyerupai efek cermin. 
+Manipulasi ini bertujuan agar model dapat mempelajari fitur wajah secara simetris, 
+memastikan pengenalan tetap akurat baik dari sisi kiri maupun kanan wajah. 
+Original Image 
+cara 
+Horizontal Flip 
+7.PE 
+YA.S 
+$$20% 
+Gambar 4. 3 Visualisasi Augmentasi Horizontal Flip 
+Selanjutnya, dilakukan teknik Brightness Adjustment atau penyesuaian 
+kecerahan dengan menaikkan dan menurunkan intensitas cahaya pada citra 
+sebesar 20%. Penerapan variasi ini sangat krusial untuk melatih ketahanan model 
+terhadap kondisi pencahayaan yang dinamis di lingkungan kampus, sehingga 
+sistem tetap andal mengenali wajah baik dalam kondisi terang maupun redup. 
+Original Image 
+Brightness +50% 
+Brightness -50% 
+Gambar 4.4 Visualisasi Augmentasi Brightness Adjustment 
+39 
+Teknik terakhir adalah Rotation, di mana citra wajah diputar secara acak 
+dalam rentang sudut kecil sebesar 15 derajat. Rotasi ini mensimulasikan kondisi 
+natural di lapangan di mana mahasiswa mungkin sedikit memiringkan kepala saat 
+berjalan melewati kamera, sehingga sistem memiliki kemampuan generalisasi 
+yang lebih baik terhadap variasi pose subjek. 
+Original Image 
+Kotation +30 
+P 
+Gambar 4.5 Visualisasi Augmentasi Rotation 
+c) Ekstraksi Fitur (Feature Extraction) 
+YA 
+Inti dari kecerdasan sistem ini terletak pada tahap ekstraksi fitur yang 
+menggunakan arsitektur FaceNet. Berbeda dengan metode konvensional yang 
+membandingkan piksel gambar secara langsung atau menggunakan fitur buatan 
+tangan (hand-crafted features), FaceNet mengubah citra wajah menjadi 
+representasi vektor numerik. 
+Setiap citra wajah dari dataset (baik asli maupun hasil augmentasi) diproses 
+oleh Deep Neural Network (DNN) milik FaceNet. Jaringan ini memetakan fitur-fitur 
+visual wajah yang kompleks seperti jarak antar mata, bentuk rahang, dan kontur 
+hidung menjadi sebuah vektor numerik padat berukuran 128 dimensi (128-D 
+Embedding). Vektor ini memiliki sifat diskriminatif yang sangat tinggi dalam ruang 
+Euclidean, sehingga sangat ideal untuk tugas pengenalan identitas menggunakan 
+pengklasifikasi tambahan seperti SVM.Pelatihan Model Klasifikasi (SVM Training) 
+Tahap terakhir adalah pembentukan model keputusan menggunakan 
+algoritma Support Vector Machine (SVM). Pada tahap ini, sistem tidak lagi bekerja 
+40 
+dengan data gambar, melainkan dengan kumpulan vektor 128 dimensi yang 
+dihasilkan dari tahap ekstraksi fitur. Vektor-vektor tersebut, beserta label identitas 
+pemiliknya, diumpankan ke dalam algoritma SVM untuk proses pelatihan 
+(training). SVM dipilih karena kemampuannya yang sangat baik dalam 
+menemukan hyperplane atau garis pemisah optimal antar-kelas dalam ruang 
+vektor berdimensi tinggi, bahkan dengan jumlah sampel yang tidak terlalu besar. 
+Penelitian ini menggunakan kernel Linear atau RBF pada SVM dengan 
+mengaktifkan fitur probabilitas, sehingga model tidak hanya mengeluarkan prediksi 
+kelas (siapa pemilik wajah tersebut), tetapi juga nilai keyakinan (probability score) 
+dari prediksi tersebut. Model SVM yang telah selesai dilatih kemudian disimpan 
+dalam format serialized file (seperti .pkl), yang siap dimuat ke dalam memori 
+Orange Pi 5 Pro untuk melakukan klasifikasi identitas mahasiswa secara real-time 
+dengan latensi yang sangat rendah. 
+d) Pelatihan Model Klasifikasi (SVM Training) 
+Tahap klasifikasi identitas dilakukan menggunakan algoritma Support Vector 
+Machine (SVM). Penelitian ini secara spesifik memilih Kernel Linear sebagai fungsi 
+pemetaan keputusan. Pemilihan kernel linear didasarkan pada karakteristik 
+embedding wajah hasil keluaran FaceNet yang telah dipetakan ke dalam ruang 
+Euclidean 128-dimensi, di mana fitur-fitur wajah cenderung sudah terpisah secara 
+linear (linearly separable). Penggunaan kernel linear juga menawarkan 
+keunggulan komputasi yang lebih ringan dan cepat dibandingkan kernel RBF 
+(Radial Basis Function), sehingga sangat relevan untuk diimplementasikan pada 
+Basis perangkat edge computing seperti Orange Pi 5 Pro. Selain itu, parameter SVM 
+dikonfigurasi dengan mengaktifkan fitur probability=True. Konfigurasi ini 
+memungkinkan model untuk tidak hanya memprediksi label kelas (nama 
+mahasiswa), tetapi juga menghasilkan nilai probabilitas atau skor keyakinan 
+(confidence score). Skor ini menentukan apakah wajah yang terdeteksi valid 
+sebagai mahasiswa terdaftar atau dikategorikan sebagai orang asing (Unknown 
+kemudian digunakan oleh sistem sebagai ambang batas (threshold) untuk 
+4.3.4 Perancangan Basis Data 
+Sistem ini menggunakan basis data SQLite yang tersimpan secara lokal 
+pada perangkat Orange Pi 5 Pro. Pemilihan SQLite didasarkan pada 
+41 
+karakteristiknya yang ringan (lightweight), tidak memerlukan server terpisah 
+(serverless), dan memiliki performa baca-tulis yang sangat cepat untuk aplikasi 
+embedded. 
+Perancangan basis data terdiri dari tiga tabel utama, yaitu tabel pengguna 
+(users) untuk menyimpan data mahasiswa, tabel riwayat akses (access_logs) 
+untuk mencatat aktivitas deteksi, dan tabel pengaturan (system_settings) untuk 
+menyimpan konfigurasi sistem. 
+a) Tabel Pengguna (Users) ERS 
+Tabel ini berfungsi sebagai data referensi utama untuk proses verifikasi wajah. 
+Tabel ini menyimpan identitas mahasiswa yang telah didaftarkan ke dalam sistem. 
+Tabel 4. 4 Struktur Tabel Log Akses 
+id 
+Nama Kolom 
+Tipe Data 
+Keterangan 
+Primary Key, identitas unik baris data (Auto 
+INTEGER Increment). 
+name 
+TEXT 
+Nama lengkap mahasiswa (Wajib diisi). 
+nim 
+TEXT 
+Nomor Induk Mahasiswa (Unik). 
+YA 
+face_id 
+lion_de 
+TEXT 
+ID unik yang merepresentasikan label kelas pada 
+model SVM. 
+registration_date DATETIME Tanggal dan waktu mahasiswa didaftarkan. 
+status 
+TEXT 
+N 
+Status keaktifan mahasiswa (Default: 'active'). 
+ccess 
+ogs) 
+b) Tabel Riwayat Akses (Access Logs) 
+N 
+A 
+Tabel ini mencatat setiap kejadian deteksi wajah yang terjadi di depan kamera, 
+baik wajah yang dikenali (recognized) maupun orang asing (unknown). Data ini 
+digunakan untuk fitur Live Log dan pelaporan. 
+Tabel 4. 5 Struktur Tabel Access Logs 
+Nama Kolom Tipe Data 
+Keterangan 
+42 
+id 
+user_id 
+INTEGER 
+Primary Key (Auto Increment). 
+INTEGER 
+ID referensi ke tabel users (jika dikenali). 
+name 
+TEXT 
+Nama orang yang terdeteksi (atau 'Unknown'). 
+nim 
+TEXT 
+NIM mahasiswa (jika dikenali). 
+status 
+TEXT 
+confidence 
+REAL 
+timestamp 
+DATETIME 
+Status hasil deteksi ('recognized' atau 
+'unknown'). 
+unk 
+S 
+Nilai akurasi/keyakinan prediksi model (0.0 - 
+1.0). 
+Waktu lengkap kejadian (sistem). 
+detection_date TEXT 
+Tanggal kejadian (Format: YYYY-MM-DD). 
+detection_time TEXT 
+Jam kejadian (Format: HH:MM:SS). 
+c) Tabel Pengaturan Sistem (System Settings) 
+Tabe 
+Y 
+Tabel ini dirancang untuk menyimpan parameter konfigurasi sistem secara 
+dinamis, sehingga pengguna dapat mengubah pengaturan kamera atau model AI melalui antarmuka web tanpa perlu mengubah kode program. 
+Tabel 4. 6 Struktur Tabel System Settings 
+Nama Kolom | Tipe Data 
+Keterangan 
+id 
+INTEGER Primary Key. 
+camera_mode TEXT 
+Mode kamera ('server' untuk lokal/RTSP atau 
+amera ("server 
+'client'). 
+camera_source|TEXT 
+Indeks kamera (misal: "0") atau path file. 
+Penanda apakah menggunakan stream RTSP 
+use_rtsp 
+BOOLEAN (0/1). 
+43 
+Nama Kolom | Tipe Data 
+Keterangan 
+rtsp_url 
+TEXT 
+Alamat URL lengkap stream RTSP kamera IP. 
+model_name TEXT 
+Nama model FaceNet yang digunakan (misal: 
+'facenet_mobilenet'). 
+threshold 
+REAL 
+Ambang batas minimum kemiripan (Default: 0.5). 
+skip_frames INTEGER Jumlah frame yang dilewati untuk optimasi CPU. 
+came yan 
+1 te 
+4.4 
+Perancangan Pengujian 
+Pada tahap ini, dilakukan perancangan skenario pengujian lapangan (field 
+testing) untuk memvalidasi kinerja sistem dalam kondisi operasional yang 
+sebenarnya. Pengujian ini difokuskan pada kemampuan sistem dalam mendeteksi 
+dan mengenali wajah mahasiswa secara real-time pada lingkungan yang tidak 
+terkondisi secara kaku (unconstrained environment). 
+イ 
+Konfigurasi perangkat keras melibatkan penempatan kamera CCTV yang 
+diarahkan langsung ke akses pintu masuk ruang kelas, menyesuaikan dengan tata 
+liarahkan letak kondisi fisik di lapangan. Sudut pandang kamera diatur untuk mencakup area 
+perlintasan orang (mahasiswa) saat memasuki ruangan. Dalam skenario ini, 
+subjek pengujian (mahasiswa) diinstruksikan untuk berjalan masuk ke dalam kelas 
+secara natural sebagaimana aktivitas perkuliahan biasa, tanpa adanya instruksi 
+khusus untuk berhenti atau menatap langsung ke arah kamera. 
+natura 
+Ketika mahasiswa melewati jangkauan pandang kamera, sistem dirancang 
+untuk secara otomatis melakukan serangkaian proses mulai dari akuisisi citra, 
+deteksi wajah, hingga pencocokan fitur wajah dengan database. Apabila kan fitur w kecocokan identitas ditemukan, sistem akan segera mencatat data tersebut ke 
+dalam log aktivitas beserta informasi waktu (timestamp), membuktikan bahwa 
+sistem mampu menangani proses secara otomatis tanpa mengganggu alur masuk 
+mahasiswa. 
+44

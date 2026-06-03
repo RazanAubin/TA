@@ -1,0 +1,223 @@
+﻿BAB V 
+HASIL DAN PEMBAHASAN 
+Bab ini akan memaparkan hasil penelitian yang sudah dilakukan oleh  peneliti sebelumnya melalui dua sub bab, yaitu hasil dan pembahasan. Penjelasan  detail mengenai bab ini akan dijabarkan sebagai berikut. 
+5.1 Hasil   
+Hasil dari pelatihan model sistem deteksi wajah menggunakan dataset yang  sebelumnya telah diklasifikasikan sesuai dengan tahapan yang sudah diuraikan  pada bab 4, yaitu dimulai dengan 25 iterasi (epochs) dengan hasil sebagai berikut: 
+Tabel 5. 1 Hasil Penelitian Model dengan 25 Iterasi (Epochs) 
+Face_front Face_side All Class (Average) 
+Box_loss 0.5582 
+Cls_loss 0.3987 
+Dfl_loss 0.9562 
+Precision 0.918 0.919 0.918 
+Recall 0.931 0.923 0.927 
+mAP50 0.923 0.924 0.923 
+mAP50-95 0.821 0.848 0.834 
+Meskipun hasil dari pelatihan model sistem deteksi wajah dengan iterasi  sebanyak 25 (epochs) yang terlampir pada table di atas sudah memeliki hasil yang  sangat memuaskan, karena nilai precision, recall, mAP50 dan mAP50-95 sudah  mendekati satu. Akan tetapi peneliti menambahkan jumlah iterasi sampai dengan  100 (epochs).
+57 
+Tabel 5. 2 Hasil Pelatihan Model dengan 50 Iterasi (Epochs) 
+Face_front Face_side All Class (Average) 
+Box_loss 0.4393 
+Cls_loss 0.3066 
+Dfl_loss 0.9191 
+Precision 0.928 0.924 0.926   
+Recall 0.937 0.930 0.933 
+mAP50 0.940 0.938 0.940 
+mAP50-95 0.834 0.871 0.853 
+Data pada tabel di atas merupakan hasil pelatihan model dengan iterasi  sebanyak 50 (epochs). Nilai pada Box_loss, Cls_loss, dan Dfl_loss semakin  mengecil. 
+Tabel 5. 3 Hasil Pelatihan Model dengan 75 Iterasi (Epochs) 
+Face_front Face_side All Class (Average) 
+Box_loss 0.3485 
+Cls_loss 0.2303 
+Dfl_loss 0.8893 
+Precision 0.948 0.945 0.946 
+Recall 0.950 0.947 0.949 
+mAP50 0.955 0.952 0.953 
+mAP50-95 0.845 0.884 0.864
+58 
+Data pada Tabel 5.3 merupakan hasil pelatihan model dengan iterasi  sebanyak 75 (epochs). Nilai pada Box_loss, Cls_loss, dan Dfl_loss semakin  mengecil. Sebenarnya hasil pada pelatihan ini sudah memiliki hasil yang baik untuk  model deteksi wajah yang nantinya akan ditanam pada sistem, akan tetapi peneliti  memaksimalkan pelatihan sampai dengan 100 iterasi (epochs). 
+Tabel 5. 4 Hasil Pelatihan Model dengan 100 Iterasi (Epochs)   
+Face_front Face_side All Class (Average) 
+Box_loss 0.230 
+Cls_loss 0.1339 
+Dfl_loss 0.821 
+Precision 0.965 0.945 0.955 
+Recall 0.960 0.950 0.955 
+mAP50 0.960 0.955 0.960 
+mAP50-95 0.830 0.885 0.857 
+Data pada tabel di atas merupakan hasil pelatihan model dengan iterasi  sebanyak 100 (epochs). Nilai pada Box_loss, Cls_loss, dan Dfl_loss semakin  mengecil. Seluruh nilai di atas merupakan hasil pelatihan model sistem deteksi  wajah terakhir yang dilakukan oleh peneliti untuk menyempurnakan seluruh  variable penilaian.
+59 
+Tabel 5.5 Hasil Sistem Deteksi Wajah pada Wajah Tegak Lurus 
+No. Hasil Deteksi (Face_Front) Keterangan 
+  
+  
+  
+
+1. 
+Confidence : 0.89 
+Class Name : face_front 
+  
+  
+
+2. 
+Confidence : 0.89 
+Class Name : face_front 
+  
+  
+
+3 
+Confidence : 0.91 
+Class Name : face_front
+60 
+  
+  
+
+4. 
+Confidence : 0.9 
+Class Name : face_front 
+  
+  
+  
+
+5. 
+Confidence : 0.9 
+Class Name : face_front 
+
+6. 
+Confidence : 0.9 
+Class Name : face_front 
+
+7. 
+Confidence : 0.89 
+Class Name : face_front
+61 
+
+8. 
+Confidence : 0.92 
+Class Name : face_front 
+
+9.Confidence : 0.88 Class Name : face_front 
+
+10. 
+Confidence : 0.9 
+Class Name : face_front 
+Tabel 5.5 mencakup hasil sistem deteksi wajah dengan kondisi wajah tegak  lurus ketika dijalankan secara real-time. Pada baris ke satu sampai dengan ke tiga  terdapat hasil confidence model dalam mendeteksi wajah manusia dengan kondisi  tegak lurus. Gambar pada wajah pertama memiliki nilai confidence sebesar 0.89,  gambar kedua pada baris kedua miliki nilai confidence sebesar 0.9, dan gambar  ketiga pada baris terakhir memiliki nilai confidence sebesar 0.9.
+62 
+Tabel 5.6 Hasil Sistem Deteksi Wajah pada Wajah Menghadap Samping 
+No. Hasil Deteksi (Face_Side) Keterangan 
+
+1. 
+Confidence : 0.91 
+Class Name : face_side 
+
+2. 
+Confidence : 0.91 
+Class Name : face_side 
+
+3 
+Confidence : 0.92 
+Class Name : face_side 
+
+4. 
+Confidence : 0.9 
+Class Name : face_side
+63 
+
+5. 
+Confidence : 0.91 
+Class Name : face_side 
+
+6. 
+Confidence : 0.84 
+Class Name : face_side 
+
+7. 
+Confidence : 0.88 
+Class Name : face_side 
+
+8. 
+Confidence : 0.92 
+Class Name : face_side
+64 
+
+9. 
+Confidence : 0.86 
+Class Name : face_side 
+
+10. 
+Confidence : 0.9 
+Class Name : face_side 
+Tabel 5.6 mencakup hasil sistem deteksi wajah dengan kondisi wajah  menghadap samping ketika dijalankan secara real-time. Pada baris ke satu sampai  dengan ke tiga terdapat hasil confidence model dalam mendeteksi wajah manusia  dengan kondisi tegak lurus. Perbedaan nilai confidence pada setiap deteksi wajah  disebabkan oleh perbedaan jarak dan intensitas cahaya. 
+Tabel 5. 7 Hasil deteksi lebih dari satu wajah 
+No.Hasil Deteksi  
+(Lebih dari satu wajah) Keterangan 
+1. 
+Confidence : 0.85, 0.86, dan 0.89 
+Class Name : face_front
+65 
+2. Confidence : 0.89, 0.86, dan 0.9 
+Class Name : face_side 
+3 
+Confidence : 0.84 dan 0.81 
+Class Name : face_front 
+
+4. 
+Confidence : 0.86 dan 0.88 
+Class Name : face_front dan face_side 
+
+5. 
+Confidence : 0.86 dan 0.92 
+Class Name : face_front dan face_side 
+Tabel 5.7 mencakup hasil deteksi sistem pada kondisi lebih dari satu wajah.  
+Pada tabel tersebut juga tertera nilai confidence dan tipe class pada wajah yang  dideteksi oleh model deteksi wajah menggunakan Algoritma YOLOv8.
+66 
+5.2 Pembahasan 
+Sub bab ini akan berfokus terhadap pembahasan evaluasi sistem deteksi  wajah yang sudah dirancang dan dibuat sebelumnya. Pengujian ini akan dilakukan  pada tiga metode yang sudah ditetapkan sebelumnya. Berikut merupakan hasil  pengujian Confusion Matrix yang berfungsi untuk menguji performance model  deteksi wajah, 
+Tabel 5.8 Pengujian Confusion Matrix 
+No. Pengukuran  
+Performance Perhitungan Hasil(%) 1. Akurasi20 + 31 
+53 = 0.96 96% 
+�������������� ��������!"#$% = 20 
+20 + 1 = 0.95 
+2. Presisi 3. Recall 
+�������������� ��������&'() = 31 
+31 + 1 = 0.96 
+�������������� ���������� = (0.95 + 0.96) 
+2 = 0.955 
+������������ ��������!"#$% = 20 
+20 + 1 = 0.95 
+������������ ��������&'() = 31 
+31 + 1 = 0.96 
+������������ ���������� = (0.95 + 0.96) 2 = 0.955 
+95,5% 95,5% 
+Selain pengujian Confusion Matrix, terdapat pengujian black box untuk  mengetahui fungsionalitas sistem deteksi wajah pada tiga skenario yang sudah  ditentukan sebelumnya pada bab 4. Adapun detail pengujian black box dijabarkan  pada tabel di bawah ini.
+67 
+Tabel 5.9 Pengujian Black Box 
+No. Skenario Pengujian Hasil yang  
+DiharapkanHasil 
+Wajah terdeteksi  
+dengan bounding  
+1. 
+box dan anotasi  
+(face_front) 
+Wajah terdeteksi  
+dengan bounding  
+2. 
+box dan anotasi  
+(face_side) 
+Seluruh wajah  
+terdeteksi dengan  
+bounding box dan  
+3 
+anotasi yang  
+sesuai dengan  
+kondisinya 
+Pengujian black-box pada tabel 5.9 berfungsi untuk mendeteksi fungsional  
+kondisi wajah yaitu, tegak lurus dengan anotasi face_front, wajah menghadap  samping dengan anotasi face_side dan lebih dari satu wajah. Seluruh citra yang diuji  pada sistem tersebut diambil melalui kamera secara real-time dan memiliki hasil  pendeteksian berupa anotasi wajah dan bounding box yang sudah dijelaskan secara  detail pada bagian tinjauan teoritis. Metode pengujian terakhir, yaitu white box 
+dengan tujuan untuk menguji kode program pada tiga kondisi indikasi pelanggaran  peserta asesmen. Hasil pengujian metode tersebut tercakup pada tabel di bawah ini
+68 
+Tabel 5.10 Pengujian White Box 
+No. Skenario Pengujian Kode Program Hasil 1. 
+2. 
+3 
+Pada tabel pengujian white box di atas, seluruh skenario dengan masing masing kode program sudah berhasil menampilkan alert sesuai dengan kondisi  indikasi pelanggaran yang terdeteksi oleh sistem deteksi wajah menggunakan  algoritma YOLOv8. Dengan demikian, pengujian tersebut dapat disimpulkan  berhasil.
+69
