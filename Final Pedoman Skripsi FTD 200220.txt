@@ -1,0 +1,1503 @@
+﻿DAFTAR ISI 
+Halaman 
+BAB I PENDAHULUAN  
+1.1. Definisi Skripsi ............................................................................ 1 1.2. Syarat Pengajuan Skripsi ........................................................... 1 1.3. Pembimbingan Skripsi ............................................................... 2 1.4. Sidang Skripsi ............................................................................. 2 1.5. Kriteria Penilaian Skripsi ............................................................ 4 
+BAB II PEDOMAN PENULISAN  
+2.1. Jenis dan Ukuran Kertas ........................................................... 5 2.2. Aturan Pengetikan .................................................................... 5 2.3. Pencetakan dan Penjilidan ...................................................... 8 2.4. Penggunaan Ejaan Bahasa Indonesia yang Benar .................... 8 2.5. Cara Pengacuan dan Pengutipan .............................................. 9 
+BAB III BAGIAN – BAGIAN SKRIPSI 
+3.1. Bagian Awal ............................................................................. 11 3.2. Bagian Utama ........................................................................... 12 3.3. Bagian Akhir ............................................................................. 15 
+BAB IV PENYERAHAN HASIL AKHIR SKRIPSI 
+4.1. Softcopy .................................................................................... 21 4.2. Hardcopy ................................................................................. 21 
+LAMPIRAN – LAMPIRAN .............................................................................. 22
+F a k u l t a s T e k n o l o g i d a n D e s a i n | i 
+  
+  
+ii | F a k u l t a s T e k n o l o g i d a n D e s a i n
+  
+  
+
+BAB I 
+PENDAHULUAN 
+1.1. Definisi Skripsi atau Tugas Akhir  
+Sebagai persyaratan untuk memperoleh gelar Sarjana pada program studi masing masing, maka mahasiswa program strata 1 (S1), Fakultas Teknologi dan Desain, Universitas Pembangunan Jaya pada akhir masa studinya diwajibkan untuk menulis  karya ilmiah yang disebut sebagai skripsi atau tugas akhir. Skripsi atau Tugas Akhir  
+adalah karya ilmiah berisi hasil penelitian menyeluruh yang disusun secara sistematis  berdasarkan ketentuan metode penelitian ilmiah. Penulisan Skripsi atau Tugas Akhir  ini dimaksudkan sebagai pelatihan bagi mahasiswa untuk menuangkan gagasannya  dalam bentuk sebuah karya ilmiah. 
+Skripsi atau Tugas Akhir merupakan penilaian terakhir mahasiswa sebagai  persyaratan kelulusan dari program sarjana (S1). Tujuan penyusunan Skripsi atau  Tugas Akhir adalah: 
+a. Menilai kemampuan mahasiswa dalam memecahkan suatu masalah secara  ilmiah atas topik atau pokok bahasan yang sesuai dengan program studi yang  ditempuhnya. 
+b. Menilai keterampilan dan kemampuan mahasiswa dalam menerapkan metode  penelitian secara benar. 
+c. Menilai kemampuan mahasiswa dalam melakukan penalaran dalam penyusunan  pembahasan hasil penelitian secara logis. 
+1.2 Syarat Pengajuan Skripsi atau Tugas Akhir  
+Mahasiswa dapat mengajukan Skripsi atau Tugas Akhir jika telah memenuhi beberapa  persyaratan sebagai berikut: 
+a. Telah lulus minimal sejumlah sks dan mata kuliah yang disyaratkan oleh Program  Studi, sebagai berikut: 
+Tabel 1.0 Syarat Pengajuan Skripsi atau Tugas Akhir
+Program Studi 
+	sks lulus 
+	MK Prasyarat
+	Arsitektur 
+	115 
+	Bagi mahasiswa yang mengambil Tugas Akhir: lulus Mata Kuliah Perancangan  Arsitektur V. Bagi mahasiswa yang  mengambil Skripsi: telah lulus atau sedang  menyelesaikan Mata Kuliah Metode  Penelitian dan Perancangan Arsitektur V.  Model ini hanya diberikan pada mahasiswa  yang menempuh percepatan studi 7  semester.
+	Desain Produk 
+	120 
+	Mahasiswa dengan kuriukulum 2015:Telah lulus Mata Kuliah Desain Produk 5 &  kerja profesi  
+Mahasiswa dengan kurikulum 2019: Telah lulus Mata Kuliah Design The Future  & kerja profesi
+	
+
+
+
+F a k u l t a s T e k n o l o g i d a n D e s a i n | 1 
+  
+  
+
+Desain Komunikasi Visual 
+	120 
+	Mahasiswa angkatan 2015-2018:Telah lulus Mata Kuliah Seminar DKV dan  DKV Branding 
+Mahasiswa mulai angkatan 2019: Telah lulus Mata Kuliah Seminar DKV
+	Informatika 
+	130 
+	Telah lulus Mata Kuliah Metode Penelitian
+	Sistem Informasi 
+	120 
+	Telah lulus Mata Kuliah Metode Riset Sistem Informasi
+	Teknik Sipil 
+	120 
+	Telah lulus Mata Kuliah kerja profesi
+	
+
+
+
+b. Mahasiswa telah mencapai IPK minimal 2.00. 
+c. Telah lulus seluruh mata kuliah wajib/major (Khusus mahasiswa yang  merencanakan lulus 7 semester, diperbolehkan untuk mengambil Skripsi  bersamaan dengan mata kuliah wajib/major). 
+d. Tercatat sebagai mahasiswa aktif pada semester yang bersangkutan dan tidak  sedang terkena sanksi akademik atau sanksi lainnya. 
+e. Skripsi atau Tugas Akhir tercatat dalam Borang Rencana Studi semester berjalan. f. Mengajukan outline/proposal Skripsi atau Tugas Akhir pada koordinator Skripsi  atau Tugas Akhir di masing-masing Program Studi (Disesuaikan pada ketentuan  masing-masing program studi). 
+1.3 Pembimbingan Skripsi atau Tugas Akhir  
+Dalam proses penulisan skripsi atau tugas akhir, mahasiswa didampingi oleh dosen  pembimbing skripsi atau tugas akhir. Jumlah dosen pembimbing sejumlah sedikitnya  1 (satu) atau maksimal 2 (dua) orang, dengan ketentuan pembimbing 1 adalah dosen  tetap UPJ yang telah memiliki jenjang akademik dosen (JAD) minimal Asisten Ahli.  Pembimbing 2 adalah minimal dosen dengan JAD Tenaga Pengajar yang ditunjuk oleh Kepala Program Studi untuk melakukan pembimbingan penulisan skripsi atau tugas  akhir. 
+Dalam melakukan pembimbingan skripsi atau tugas akhir, mahasiswa dan  pembimbing wajib mengisi dan menandatangani lembar pembimbingan Skripsi atau  Tugas Akhir yang disediakan oleh masing-masing prodi, dengan jumlah pertemuan  bimbingan paling sedikit 8 (delapan) kali pertemuan. 
+Tugas dari pembimbing Skripsi atau Tugas Akhir secara umum adalah: a. Membantu mahasiswa merumuskan permasalahan dan topik skripsi atau tugas  akhir 
+b. Membuat rencana dan jadwal pembimbingan sehingga Skripsi atau Tugas Akhir  dapat diselesaikan tepat waktu. 
+c. Mengarahkan mahasiswa dalam hal metodologi penelitian. 
+d. Membantu mahasiswa untuk mendapatkan acuan materi keilmuan yang relevan  dengan topik skripsi atau tugas akhir. 
+e. Memimpin dan memberikan persetujuan untuk seminar proposal f. Memberikan persetujuan dan penilaian dalam sidang skripsi atau tugas akhir g. Memberikan arahan dalam penyelesaian revisi Skripsi atau Tugas Akhir  berdasarkan hasil sidang skripsi atau tugas akhir.
+2 | F a k u l t a s T e k n o l o g i d a n D e s a i n 
+  
+  
+
+Dalam proses penyusunan skripsi atau tugas akhir, mahasiswa wajib melakukan  sidang proposal Skripsi atau Tugas Akhir sebelum melakukan pengambilan data  penelitian. Sidang proposal Skripsi atau Tugas Akhir pada umumnya dilakukan setelah  mahasiswa menyelesaikan Bab 1, 2 dan 3 dan telah disetujui pembimbing. 
+1.4 Sidang Skripsi atau tugas akhir  
+Sidang Skripsi atau Tugas Akhir dilakukan dengan presentasi mengenai hasil  penelitian yang telah disetujui oleh pembimbing dan Kepala Program Studi. Sidang ini  bertujuan untuk mempertanggungjawabkan hasil penulisan Skripsi atau Tugas Akhir  yang telah dilakukan oleh mahasiswa. 
+Syarat untuk dapat melakukan sidang Skripsi atau Tugas Akhir dengan melampirkan  beberapa berkas sebagai berikut: 
+a. Formulir pengajuan sidang skripsi atau tugas akhir 
+b. Formulir kelengkapan proses sidang skripsi/tugas akhir (Semua syarat harus  dipenuhi) 
+c. BRS semester berjalan. 
+d. Bukti konsultasi bimbingan minimal 8 (delapan) kali bimbingan. 
+e. Fotocopy Berita Acara Sidang Proposal. 
+f. Menyerahkan Skripsi atau Tugas Akhir sebanyak 4 (empat) eksemplar kepada  koordinator Skripsi atau Tugas Akhir prodi. 
+Tata tertib sidang Skripsi atau Tugas Akhir: 
+a. Mahasiswa hadir paling lambat 15 menit sebelum pelaksanaan sidang skripsi  atau tugas akhir. 
+b. Penguji dan mahasiswa berpakaian rapi dan sopan dengan mengenakan setelan  resmi dan menggunakan sepatu tertutup. Mahasiswa laki-laki menggunakan  setelan jas warna gelap dan berdasi, mahasiswa perempuan menggunakan  setelan rok atau celana panjang dan blazer warna gelap. Menggunakan sepatu  tertutup. 
+c. Mahasiswa menyiapkan segala hal yang diperlukan selama sidang skripsi atau  tugas akhir. 
+Tata tertib pelaksanaan sidang skripsi atau tugas akhir: 
+a. Sidang dihadiri oleh dosen penguji 1 selaku ketua sidang yang juga bertugas  menjadi moderator dan penguji 2 selaku seketaris dan anggota. 
+b. Ketua Sidang juga bertugas menjadi moderator. 
+c. Pelaksanaan sidang Skripsi atau Tugas Akhir dilakukan selama maksimal 120 menit dengan presentasi maksimal 15 menit, tanya jawab maksimal 90 menit dan  maksimal 15 menit bagi penguji untuk memutuskan hasil sidang.  
+d. Pertanyaan diajukan oleh penguji secara bergantian. 
+e. Ketua sidang dapat memperjelas pertanyaan yang kurang dimengerti oleh  mahasiswa. 
+f. Ketua sidang wajib mengisi berkas berita acara sidang skripsi atau tugas akhir.  Persyaratan dewan penguji skripsi atau tugas akhir:
+F a k u l t a s T e k n o l o g i d a n D e s a i n | 3 
+  
+  
+
+a. Terdiri dari minimal 2 (dua) orang penguji dan maksimal 3 (tiga) orang penguji  yang ditentukan oleh Kepala Program Studi dengan mempertimbangkan  masukan koordinator Skripsi atau Tugas Akhir dan atau dosen pembimbing. 
+b. Penguji adalah dosen tetap yang memahami topik Skripsi atau Tugas Akhir yang  ditunjuk oleh Kepala Program Studi. Diperkenankan untuk mengundang penguji  dari luar UPJ apabila dosen tetap tidak ada yang memenuhi syarat atau sangat  diperlukan dosen penguji dengan ilmu atau cabang ilmu yang berkaitan dengan  naskah Skripsi atau Tugas Akhir atas persetujuan Dekan Fakultas Teknologi dan  Desain. 
+c. Penguji 1 memiliki jenjang akademik dosen minimal Asisten Ahli. 
+1.5 Kriteria Penilaian Skripsi atau tugas akhir  
+Proporsi penilaian Skripsi atau Tugas Akhir meliputi 2 (dua) komponen penilaian, yaitu  penilaian pembimbingan Skripsi atau Tugas Akhir dan penilaian sidang skripsi atau  tugas akhir. Bobot penilaian pembimbingan Skripsi atau Tugas Akhir adalah 60% dari  total penilaian skripsi atau tugas akhir, sedangkan bobot penilaian sidang Skripsi atau  Tugas Akhir adalah 40% dari total penilaian skripsi atau tugas akhir. Penilaian sidang  Skripsi atau Tugas Akhir dilakukan oleh masing-masing dosen penguji dan dosen  pembimbing pada formulir penilaian sidang Skripsi atau Tugas Akhir yang telah  disediakan. Komponen penilaian sidang Skripsi atau Tugas Akhir (Total 40% dari  keseluruhan nilai) untuk masing-masing prodi dapat dilihat pada lampiran 17.  Sebagai catatan, Perbedaan hasil dari masing-masing penguji tidak boleh melebihi  20%. Bila terdapat perbedaan lebih dari 20%, maka persentase penguji tersebut harus  didiskusikan dalam sidang pleno penguji. 
+ 
+4 | F a k u l t a s T e k n o l o g i d a n D e s a i n 
+  
+  
+
+BAB II  
+PEDOMAN PENULISAN  
+2.1 Jenis dan Ukuran Kertas  
+Skripsi atau Tugas Akhir diketik dengan menggunakan kertas HVS ukuran A4 (21,0 cm  x 29,7 cm atau 8.27 inci × 11.69 inci) dengan berat 80 gram.  
+2.2 Aturan Pengetikan  
+Skripsi atau Tugas Akhir diketik dengan ketentuan sebagai berikut: 
+a. Jenis Huruf  
+Menggunakan huruf Times New Roman dengan ukuran 12. 
+b. Margin  
+- Bidang pengetikan dibatasi dengan margin sebagai berikut: 
+Margin 
+	Halaman Genap 
+	Halaman Ganjil
+	Atas 
+	3 cm 
+	3 cm
+	Bawah 
+	3 cm 
+	3 cm
+	Kiri 
+	3 cm 
+	4 cm
+	Kanan 
+	4 cm 
+	3 cm
+	
+
+
+
+- Pengetikan menggunakan mirror margin, mengingat Skripsi atau Tugas Akhir  harus dicetak bolak balik. 
+- Pengetikan dilakukan rata kanan dan rata kiri (justified) untuk narasi dengan  tetap memenuhi kaidah penulisan sesuai Pedoman Umum Ejaan Bahasa  Indonesia (PUEBI). 
+- Nomor halaman diletakkan di bagian kiri bawah (untuk halaman genap) dan  bagian kanan bawah (untuk halaman ganjil) 
+c. Spasi  
+Pengetikan Skripsi atau Tugas Akhir menggunakan aturan spasi sebagai berikut: 
+Bagian 
+	Line Spacing
+	Naskah 
+	1,5 spasi
+	Judul, Judul gambar/grafik, judul tabel, lampiran 
+	1 spasi
+	Jarak antara akhir judul bab dengan awal kalimat 
+	2 x 1,5 spasi
+	Jarak antara akhir kalimat dengan sub judul, maupun antara sub judul dengan awal kalimat berikutnya
+	2 x 1,5 spasi
+	Jarak antar alinea 
+	1,5 spasi
+	
+
+
+
+d. Alinea Baru dan Jarak Pengetikan  
+Setiap awal alinea diketik 5 ketukan dari batas kiri bidang pengetikan atau 1  ketukan tab. Jika awal alinea berada di bawah sub judul atau anak sub-judul, maka  awal alinea diketik 5 ketukan atau 1 tab dari batas huruf pertama sub judul atau  anak sub-judul. Sesudah tanda baca titik (.), titik dua (:), koma (,) dan titik koma (;)  hendaknya diberi satu ketukan kosong sebelum memulai kata atau kalimat  selanjutnya.
+F a k u l t a s T e k n o l o g i d a n D e s a i n | 5 
+  
+
+e. Ketentuan tentang Judul Skripsi atau tugas akhir  
+Judul Skripsi atau Tugas Akhir harus terkait dan mengandung makna sesuai  dengan pada yang tercantum pada tujuan, masalah, metode dan kesimpulan. Jika  judul melebihi 12 kata atau paling banyak 3 baris, maka hendaknya judul  disesuaikan kembali. Penyesuaian judul dapat menyebabkan adanya sub judul  yang dituliskan di bawah judul utama. Sub judul merupakan kalimat yang  membatasi luasnya makna judul utama yang ditulis lebih ringkas. 
+f. Penulisan Judul Bab  
+Penulisan judul bab diketik pada setiap batas atas bidang pengetikan,  menggunakan huruf kapital seluruhnya, diketik bold tanpa tanda titik di akhir  judul. Posisi di tengah bidang pengetikan. Nomor bab menggunakan angka  romawi. Setiap bab harus dimulai pada halaman yang baru. 
+Contoh penulisan: 
+BAB I 
+PENDAHULUAN 
+g. Penulisan Sub Bab  
+Judul sub-bab diketik dari batas kiri bidang pengetikan dengan menggunakan  huruf kecil dengan format penulisan judul yaitu menggunakan huruf kapital untuk  setiap awal kata. Penomoran sub-bab dengan nomor bab dengan angka Arab dan  nomor sub-bab dipisahkan dengan tanda titik. Diketik bold. 
+Contoh: 
+1.1. Latar Belakang Masalah 
+h. Penulisan Anak Sub-Bab  
+Judul anak sub-bab diketik dari batas kiri bidang pengetikan dengan menggunakan  huruf kecil, kecuali pada awal judul. Penomoran anak sub-bab dengan nomor bab,  nomor sub-bab dan nomor urut anak sub-bab dipisah dengan tanda titik. Diketik  bold. 
+Contoh: 
+1.2.1. Manfaat Teoritis 
+i. Alinea Baru  
+Awal alinea diketik 5 ketukan dari batas kiri bidang pengetikan. Jika ada sub-bab  atau anak sub-bab, maka alinea diketik lima ketukan dari batas huruf pertama sub bab atau anak sub-bab. 
+Contoh: 
+1.1. Latar Belakang Masalah 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad  minim veniam, quis nostrud  
+j. Penomoran Halaman  
+Bagian awal Skripsi atau Tugas Akhir diberi nomor halaman dengan angka romawi  kecil (i, ii, iii, dst) sedangkan bagian inti dan bagian akhir Skripsi atau Tugas Akhir 
+6 | F a k u l t a s T e k n o l o g i d a n D e s a i n 
+
+diberi nomor halaman dengan angka Arab (1, 2, 3, dst). Nomor halaman  dicantumkan pada kanan bawah (halaman ganjil) dan kiri bawah (halaman genap). Halaman yang terdapat judul bab tidak diberi nomor halaman. 
+k. Catatan Kaki / Footnote  
+Catatan kaki adalah bagian tambahan jika diperlukan. Catatan kaki memberikan  keterangan tambahan yang tidak hanya berasal dari sumber pustaka, misalnya  penjelasan oleh penulis Skripsi atau Tugas Akhir sendiri yang diperoleh dari  wawancara dengan seseorang narasumber yang dapat dipertanggungjawabkan.  Di dalam teks nomor catatan kaki ditempatkan langsung di belakang huruf  terakhir dari pernyataan yang diberi catatan, dengan huruf superscript. Pengetikan  catatan kaki tidak melampaui margin bawah dan jika berganti bab, penomoran  catatan kaki meneruskan nomor sebelumnya. 
+l. Gambar dan Tabel  
+Gambar yang dimaksud adalah mencakup gambar, ilustrasi, grafik/kurva, diagram,  denah, peta, bagan monogram, diagram alir dan foto. Huruf angka dan tanda baca  lain yang dipakai pada gambar harus jelas. Semua gambar harus berupa hasil  gambar langsung menggunakan program komputer atau jika gambar diambil dari  sumber lain, selayaknya dipindai (scan) terlebih dahulu dan dimasukkan sebagai  bagian dari naskah. 
+Gambar yang tidak dapat digunakan sebagai bagian dari naskah Skripsi atau Tugas  Akhir adalah gambar yang: 
+a. Dibuat dari kertas grafik atau kertas kalkir; 
+b. Dibuat pada kertas grafik, kemudian kertas grafik ditempel pada kertas  naskah. 
+c. Foto atau gambar yang dibuat pada kertas lain yang ditempel pada kertas  naskah. 
+Gambar diletakkan simetris terhadap kertas naskah, tidak melebihi batas margin naskah skripsi atau tugas akhir. Jika gambar terlalu besar untuk disesuai dengan  lebar halaman, maka sebaiknya gambar diletakkan pada halaman tersendiri, atau  pada lampiran. Nomor dan judul gambar diletakkan di bawah gambar, dengan dua  angka arab yang menunjukkan nomor bab dan nomor urut gambar. Pengetikkan  judul gambar dengan 1 spasi, dengan ukuran font 1 lebih kecil dari naskah. Jika  gambar didapatkan dari pustaka, maka sumber gambar dituliskan dalam tanda  kurung setelah judul gambar.
+F a k u l t a s T e k n o l o g i d a n D e s a i n | 7 
+Contoh: 
+
+Gambar 1.1. Knowledge Management Cycle (McEntyre, 2013, p. 11) 
+Tabel dibuat pada kertas naskah, merupakan tabel yang dibuat langsung dengan  program komputer, bukan merupakan gambar tabel yang ditempel pada kertas  naskah. Tabel menggunakan besar huruf 9-10 selama mudah dalam  pembacaannya. Peletakkan tabel sama seperti halnya peletakkan gambar. Nomor  dan judul tabel diletakkan di atas tabel, dengan dua angka arab yang menunjukkan  nomor bab dan nomor urut tabel. Pengetikan judul tabel dengan 1 spasi, dengan  ukuran font 1 lebih kecil dari naskah. Jika tabel didapatkan dari pustaka, maka  sumber tabel dituliskan pada bagian bawah tabel dengan menggunakan font italic dengan ukuran sama dengan judul tabel. Tabel hanya berisi garis horisontal untuk  baris pertama dan terakhir, seperti tabel dibawah ini. 
+Contoh: 
+Tabel 3.3. Jumlah penduduk negara ASEAN 
+Negara Jumlah Penduduk (juta) 
+Indonesia 209.6 
+Vietnam 79.5 
+Philipina 74.7 
+Thailand 61.8 
+Myanmar 48.1 
+Sumber: World Population Data Sheet, 1999 
+2.3 Pencetakan dan Penjilidan  
+Skripsi atau Tugas Akhir dicetak bolak balik dengan halaman ganjil berada di bagian  kanan dokumen. Dokumen dijilid hardcover dengan warna dasar cover merah UPJ.  Tulisan dan logo UPJ pada halaman depan cover dan bagian samping dicetak dengan  warna perak/silver. 
+2.4 Penggunaan Ejaan Bahasa Indonesia yang Benar  
+Bahasa Indonesia yang digunakan dalam naskah Skripsi atau Tugas Akhir haruslah Bahasa Indonesia yang baku, sesuai dengan PUEBI. Jika menggunakan istilah asing  yang belum ada istilah tepatnya dalam Bahasa Indonesia, dapat dituliskan dengan  bahasa aslinya dengan tulisan cetak miring (italic).
+8 | F a k u l t a s T e k n o l o g i d a n D e s a i n 
+
+Kaidah tata bahasa harus ditaati dan kalimat harus utuh dan lengkap. Kalimat disusun  sedemikian rupa sehingga tidak perlu menggunakan kata ganti orang. Suku kata dapat  dipisahkan menurut ketentuan tata bahasa yang digunakan.  
+Penggunaan ejaan Bahasa Indonesia yang baku sesuai dengan PUEBI. 
+2.5 Cara Pengacuan dan Pengutipan  
+Sumber informasi sangat diperlukan untuk melengkapi skripsi atau tugas akhir, agar  dapat mengaktualkan pernyataan yang tertulis. Sumber informasi yang dimasukkan  ke dalam Skripsi atau Tugas Akhir dapat berupa pengutipan dari data atau pernyataan  yang tidak dipublikasikan, maupun data atau pernyataan yang dipublikasikan.  Sumber informasi dapat diperoleh dari bacaan pustaka maupun hasil wawancara.  Sumber informasi dapat dikutip secara langsung maupun secara tidak langsung sesuai  dengan kebutuhan. Tata cara pengutipan sumber informasi dijelaskan sebagai  berikut: 
+a. Kutipan dari Sumber Data yang Tidak Dipublikasikan.  
+Sumber data yang tidak dipublikasikan, seperti hasil komunikasi/wawancara  pribadi. Pada bagian akhir yang menyatakan informasi tersebut, dicantumkan  keterangan dalam tanda kurung siku. 
+Contoh: 
+[Irwan, Hasil Wawancara, 1 Oktober 2013] 
+b. Pengutipan Kalimat Sampai dengan 40 kata.  
+Pengutipan maksimal 40 kata dituliskan di dalam tanda kutip (“…”) dan diikuti  dengan nama pengarang, tahun dan nomor halaman. Nama pengarang dapat  ditulis dalam kalimat yang dikutip atau dimasukkan ke dalam tanda kurung. 
+Contoh: 
+“Proses belajar terjadi jika pengetahuan baru berhasil ditranslasikan menjadi suatu  perilaku sehari-hari” (Argyris, 1996: 110) 
+Atau 
+Argyris (1996: 110) menyatakan bahwa proses belajar terjadi jika pengetahuan  baru berhasil diitranslasikan menjadi suatu perilaku sehari-hari. 
+c. Pengutipan Kalimat Lebih dari 40 Kata  
+Kutipan yang berisi 40 kata atau 4 baris atau lebih, ditulis tanpa tanda kutip dan  ditulis secara terpisah dari teks yang mendahuluinya.  
+Contoh: 
+Crestofel (2006, p. 107) menyatakan: 
+Pada dimensi lain, organisasi akan tumbuh dan berkembang jika mampu  belajar. Hanya organisasi pembelajar yang akan mampu mempertahankan  konsistensi pertumbuhan ketiga nilai tambah bisnis di atas, sebagai  persyaratan tumbuh dan berkembangnya organisasi. Lebih jauh, organisasi  akan mampu belajar jika para pekerja mau dan mampu untuk belajar.
+F a k u l t a s T e k n o l o g i d a n D e s a i n | 9 
+
+d. Pengutipan Kalimat Tidak Penuh  
+Dalam melakukan pengutipan, kadang tidak seluruh bagian dari kalimat yang  panjang dikutip seluruhnya, namun hanya dikutip sebagian. Kata-kata yang tidak  digunakan, diganti dengan 3 (tiga) tanda titik. Jika ada kalimat yang dibuang,  diganti dengan 4 (empat) tanda titik. 
+Contoh: 
+Dalam organisasi pembelajar, bibit unggul dianalogkan sebagai pekerja yang  kompeten, …sebagai bibit untuk membangun modal virtual organisasi (Stephen,  2007, p. 141) 
+e. Kutipan Tidak Langsung  
+Kutipan tidak langsung adalah melakukan kutipan dengan bahasa penulis sendiri  dan bukan menuliskan persis yang kalimat yang dikutip. Nama pengarang bahan  kutipan disebut dalam teks atau dituliskan dalam tanda kurung. Untuk sumber  kutipan dari buku, nomor halaman disebutkan, sementara kutipan dari junal tidak  perlu disebutkan. 
+Contoh: 
+Charles (2008, p. 105) mengungkapkan bahwa suatu organisasi akan mampu  melakukan proses inovasi sosial melalui peningkatan kualitas paradigmanya. 
+Atau 
+Suatu organisasi akan mampu melakukan proses inovasi sosial melalui peningkatan  kualitas paradigmanya (Charles, 2008, p. 105) 
+ 
+10 | F a k u l t a s T e k n o l o g i d a n D e s a i n 
+
+BAB III  
+BAGIAN-BAGIAN SKRIPSI ATAU TUGAS AKHIR  
+3.1 Bagian Awal  
+a. Halaman Sampul  
+Sampul merupakan bagian paling muka dari skripsi atau tugas akhir, berwarna  merah sesuai dengan logo UPJ. Huruf-huruf pada sampul dicetak dengan warna  perak/silver. Pada sampul tertera secara berurutan dari atas ke bawah di tengah  kertas: 
+a. Logo UPJ 
+b. Judul Skripsi atau Tugas Akhir secara lengkap dengan huruf kapital seluruhnya. c. Jika terdapat sub judul, maka ditulis dengan huruf kapital di setiap awal kata,  kecuali pada kata sambung. 
+d. Nama mahasiswa 
+e. Nomor Induk Mahasiswa (NIM) mahasiswa. 
+f. Nama Program Studi (huruf kapital seluruhnya) 
+g. Nama Fakultas: FAKULTAS TEKNOLOGI DAN DESAIN 
+h. Nama institusi: UNIVERSITAS PEMBANGUNAN JAYA 
+i. Tempat penerbitan: TANGERANG SELATAN 
+j. Tahun sidang 
+Pada punggung halaman sampul dicetak nama penulis dengan huruf capital dan tahun kelulusan. Halaman sampul hanya terdiri dari 1 (satu) halaman (Lihat  contoh pada lampiran). 
+b. Halaman Judul  
+Halaman ini sama dengan halaman sampul, dicetak pada kertas HVS 80 gram  dengan tinta hitam (Lihat contoh pada lampiran). 
+c. Halaman Pengesahan  
+Halaman pengesahan berisi pengesahan Skripsi atau Tugas Akhir oleh penguji  (Lihat contoh pada lampiran). 
+d. Halaman Pernyataan Orisinalitas/Bukan Hasil Plagiarisme  
+Halaman ini berisi pernyataan mahasiswa bahwa Skripsi atau Tugas Akhir yang  dibuatnya adalah hasil karya asli, bukan hasil plagiat. Mahasiswa menandatangani  halaman pernyataan ini di atas materai (Lihat contoh pada lampiran). 
+e. Halaman Kata Pengantar  
+Halaman kata pengantar pada umumnya berisi ucapan terima kasih mahasiswa  kepada pembimbing dan pihak-pihak lain yang telah membantu dalam  penyelesaian skripsi atau tugas akhir. Judul KATA PENGANTAR diketik simetris di  tengah bidang pengetikan. Di akhir teks dicantumkan tempat, tanggal, bulan dan  tahun penyelesaian Skripsi atau Tugas Akhir yang diikuti dengan kata “Penulis” di  bawahnya (Lihat contoh pada lampiran).
+F a k u l t a s T e k n o l o g i d a n D e s a i n | 11 
+
+f. Halaman Abstrak  
+Halaman ABSTRAK berisi uraian ringkat mengenai tujuan, metodologi penelitian,  hasil penelitian serta kesimpulan utama. Abstrak dituliskan dalam Bahasa Inggris,  tidak lebih dari 200 kata (dengan spasi 1) tanpa menyebutkan sumber acuan. Di  akhir abstrak dicantumkan kata-kata kunci terkait dengan topik skripsi atau tugas  akhir, minimal 3 kata kunci/keywords dan jumlah pustaka serta rentang tahun  penerbitan pustaka (Lihat contoh pada lampiran). 
+g. Halaman Daftar Isi  
+Halaman ini diawali dengan judul DAFTAR ISI pada bagian atas tengah bidang  pengetikan. Halaman daftar isi mencakup: 
+a. Halaman “Kata Pengantar” sampai dengan “Lampiran” 
+b. Bab, nomor bab dan judul bab 
+c. Judul sub-bab 
+d. Nomor halaman yang sesuai dengan bagian inti Skripsi atau Tugas Akhir  dicantumkan di sebelah kanan 
+(Lihat contoh pada lampiran) 
+h. Halaman Daftar Tabel  
+Halaman daftar tabel dicetak pada halaman baru. Judul DAFTAR TABEL ditulis  sama seperti DAFTAR ISI. Halaman ini memuat nomor tabel, nama table dan  nomor halaman tempat tabel ditempatkan dalam bagian utama Skripsi atau Tugas  Akhir (lihat contoh pada lampiran). 
+i. Halaman Daftar Gambar  
+Halaman daftar gambar dicetak pada halaman baru. Judul DAFTAR GAMBAR  ditulis sama seperti DAFTAR ISI. Halaman ini memuat nomor gambar, nama  gambar dan nomor halaman tempat gambar ditempatkan dalam bagian utama  Skripsi atau Tugas Akhir (LIhat contoh pada lampiran). 
+j. Halaman Daftar Lampiran  
+Halaman daftar lampiran dicetak pada halaman baru. Judul DAFTAR LAMPIRAN  ditulis sama seperti DAFTAR ISI. Halaman ini memuat nomor lampiran, judul  lampiran serta nomor halaman tempat lampiran ditempatkan dalam bagian akhir  Skripsi atau Tugas Akhir (Lihat contoh pada lampiran). 
+3.2. Bagian Utama  
+Secara umum, Skripsi atau Tugas Akhir tersusun atas 5 (lima) bagian utama, yaitu  pendahuluan, tinjauan umum, metode penelitian, hasil penelitian dan pembahasan  serta kesimpulan dan saran. Pada beberapa Prodi di Fakultas Teknologi dan Desain  memiliki susunan bab yang berbeda dan memiliki nama bab yang berbeda, namun  pada dasarnya memiliki kesamaan.  
+a. Bab Pendahuluan  
+Bab pendahuluan mencakup beberapa bagian, yaitu: 
+a. Latar Belakang Masalah 
+Bagian ini menguraikan apa yang menjadi masalah penelitian, alasan mengapa  masalah tersebut penting dan perlu untuk ditelaah lebih jauh. Masalah juga 
+12 | F a k u l t a s T e k n o l o g i d a n D e s a i n 
+
+harus didukung oleh publikasi, fakta empiris, atau hasil penelitian sebelumnya,  sehingga jelas bahwa masalah tersebut memang harus ditelaah lebih jauh.  b. Rumusan/Identifikasi Masalah 
+Bagian ini menetapkan rumusan secara konkret masalah yang ada, dalam  bentuk pertanyaan atau penyataan yang kebenarannya dipertanyakan. c. Tujuan Penelitian 
+Bagian ini mengemukakan tujuan yang ingin dicapai dari hasil penelitian.  Tujuan penelitian harus jelas, tegas dan terdiri dari satu atau lebih tujuan. d. Manfaat Penelitian 
+Bagian ini menguraikan mengenai manfaat penelitian dan operasionalisasi  hasil yang dicapai. Manfaat bagi perkembangan ilmu pengetahuan dan  penggunaan praktis yang dapat dimanfaatkan oleh ilmuwan lain untuk  mengembangkan ilmu pengetahuan, teknologi dan seni dan juga dapat  dimanfaatkan oleh masyarakat luas.  
+e. Sistematika Penulisan 
+Bagian ini menguraikan mengenai urutan atau sistematika penulisan laporan  pada bagian isi yang terdiri dari BAB 1 Pendahuluan, BAB II Tinjauan Pustaka,  BAB III Metode Penelitian, BAB IV Hasil dan Pembahasan dan BAB V Kesimpulan  dan Saran. 
+b. Bab Tinjauan Pustaka  
+Bab ini merupakan bab yang memuat uraian sistematik tentang fakta, hasil  penelitian sebelumnya, yang berasal dari pustaka yang memuat teori, proposisi,  konsep atau pendekatan yang diperlukan guna mendukung latar belakang  permasalahan, cara pendekatan yang hendak digunakan, dan hal-hal lain yang  erat kaitannya dengan pokok persoalan yang hendak dibahas dalam penelitian.  Keseluruhan disusun menurut alur logika berpikir ilmiah sehingga dapat  dimunculkan pernyataan ilmiah sebagai hipotesis yang hendak diuji pada Skripsi  atau Tugas Akhir melalui proses Penelitian/perancangan. 
+c. Bab Metode Penelitian  
+Bab ini memuat rincian mengenai sampel, variabel penelitian, bahan, alat,  rancangan penelitian, prosedur kerja dan analisis data yang hendak digunakan  secara singkat dan jelas.  
+- Sampel adalah bagian dari populasi yang memiliki sifat-sifat yang sama dari  obyek yang merupakan sumber data. 
+- Variabel adalah hal yang menjadi obyek penelitian, yang menunjukkan variasi  baik kuantitatif maupun kualitatif 
+- Rancangan penelitian adalah rencana atau struktur dan strategi penelitian  yang disusun sedemikian rupa agar dapat memperoleh jawaban mengenai  permasalah penelitian dan juga untuk meminimalkan penyimpangan penyimpangan hasil dalam penelitian. 
+- Bahan dan alat merupakan rincian seluruh perlengkapan dan bahan yang  digunakan untuk mendapatkan data dan mempengaruhi hasil penelitian. - Prosedur penelitian memuat uraian terinci tentang pelaksanaan penelitian.
+F a k u l t a s T e k n o l o g i d a n D e s a i n | 13 
+
+d. Bab Hasil Dan Pembahasan  
+Bab ini memuat hasil dan pembahasan Penelitian berisi data primer dan atau data  sekunder. Hasil Penelitian yang bersifat kualitatif diungkapkan dalam bentuk  narasi ilmiah sesuai dengan tujuan penelitian, sedangkan yang bersifat kuantitatif  diungkapkan dalam bentuk tabel, grafik dan foto-foto. Data yang diuraikan dalam bab ini adalah data mentah penelitian dan data hasil olahan berupa hasil  perhitungan, tabel, kurva dan bentuk penyajian lainnya yang mudah dimengerti  dan menggambarkan hasil penelitian secara singkat. Alur pengolahan data  mentah menjadi data olahan harus dapat diikuti dengan mudah. Untuk hasil dan  pembahasan perancangan, bab ini memuat gambaran situasi terkini dari topik  permasalahan, hasil observasi kebutuhan, analisa/spesifikasi kebutuhan, dan  perancangan sistem/desain baru yang akan dan telah dibangun untuk mencapai  target akhir yang diinginkan. 
+Pembahasan hasil Penelitian mencakup hal-hal seperti pembahasan/penalaran  hasil penelitian yang dikaitkan dengan tujuan penelitian dan upaya-upaya  penyelesaian masalah yang diteliti, uraian tentang hasil temuan dengan peneliti  lain sebelumnya, serta kaitannya dengan penelitian yang dilakukan, menguraikan  hasil penelitian secara analitik dan sintetik, sehingga dapat ditarik sebuah  kesimpulan dan saran bagaimana penelitian ini atau penelitian selanjutnya dapat  memberikan manfaat bagi masyarakat. Sedangkan untuk pembahasan hasil  perancangan mencakup hal-hal seperti analisis terdahulu, spesifikasi kebutuhan  sistem/desain baru, dan perancangan sistem/desain. 
+e. Bab Kesimpulan dan Saran  
+Bab ini berisi kesimpulan akhir dan saran terhadap hasil Penelitian/perancangan dengan memperhatikan pembahasan yang telah dilakukan. Kesimpulan bukanlah  sebuah ringkasan. Mahasiswa juga harus mampu menyusun saran implementasi  dan implikasi kesimpulan yang dapat dimanfaatkan dan merupakan suatu hal yang  belum terungkap dalam Penelitian/perancangan. 
+Bagian utama Skripsi atau Tugas Akhir adalah sebagai berikut:
+BAB I 
+	BAB II 
+	BAB III 
+	BAB IV 
+	BAB V
+	BAB I
+PENDAHULUAN 1.1. Latar  
+Belakang 
+Masalah 
+1.2. Rumusan/I dentifikasi 
+Masalah 
+1.3. Tujuan  
+Penelitian 
+1.4. Manfaat  
+Penelitian 
+1.5. Sistematika  Penulisan
+	BAB II
+TINJAUAN  PUSTAKA
+	BAB III
+METODE  
+PENELITIAN
+	BAB IV
+HASIL DAN PEMBAHASAN PENELITIAN/PERANCANGAN
+	BAB V
+KESIMPULAN  DAN SARAN
+	
+
+
+
+14 | F a k u l t a s T e k n o l o g i d a n D e s a i n 
+
+Sub-bab untuk Bab 2 hingga Bab 5 masing-masing prodi di Fakultas Teknologi dan  Desain mengacu pada lampiran 16. 
+3.3. Bagian Akhir  
+a. Daftar Pustaka  
+Daftar Pustaka berisikan semua pustaka atau bahan rujukan yang digunakan  mahasiswa untuk menyiapkan, menyelesaikan, membahas dan menyimpulkan  hasil penelitian. Pustaka yang digunakan harus memiliki derajat validasi yang  tinggi dari nilai kode etik ilmiah/ilmuwan, keabsahan sumber pustaka, kandungan  informasi ilmiah dan nilai-nilai bidang kepakaran serta reputasi penulis pustaka,  relevansi dan kemutakhiran informasi. 
+Sumber informasi yang digunakan dalam Skripsi atau Tugas Akhir selayaknya  diperiksa dan dibaca secara langsung (bukan hasil kutipan penulis lain), serta  relevan dengan masalah penelitian. Daftar pustaka yang dapat digunakan sebagai  acuan dalam Skripsi atau Tugas Akhir adalah informasi yang berasal dari: 
+a. Buku, atau bagian dari buku 
+b. Monograf 
+c. Jurnal Ilmiah baik dalam versi cetak atau online 
+d. Makalah dalam majalah ilmiah, proceeding atau pertemuan ilmiah lainnya. e. Laporan atau naskah penerbitan suatu lembaga/badan resmi, seperti BPS. f. Artikel media massa baik cetak maupun online. 
+Penulisan daftar pustaka tidak menggunakan nomor urut atau pointers, namun  disusun berdasarkan abjad sesuai dengan nama pengarang buku/sumber  informasi lainnya. 
+Cara Penulisan Daftar Pustaka: 
+1. Buku 
+Tipe Pustaka 
+	Contoh Penulisan dalam Daftar Pustaka
+	Satu pengarang 
+	Berman, R. I. (2010). Finding it faster: How to find good data. Harper Publishing, London: UK.
+	Dua pengarang 
+	Morin, A. T., & Jennel, D. S. (2010). Good things: The Real Difference Between Men and Women. Mandarin  Publisher, Shanghai: China.
+	Lebih dari tiga pengarang
+	Behnson, L., Peterson, L. K., Monton, H. Y., & Morgan, B. B. (2010). How Good is Far? McMillanny Publishing  Company, London: UK.  
+Kutip nama belakang pengarang pertama diikuti nama  depan pengarang pertama kemudian diikuti hingga  pengarang keenam dengan cara penulisan seperti  diatas. Pengarang ketujuh dan selanjutnya ditulis et al.  Lihat contoh berikut ini. 
+	Tanpa pengarang 
+	The CCHB Macquarter Dictionary of Business. (2010). North 
+	
+
+
+
+F a k u l t a s T e k n o l o g i d a n D e s a i n | 15 
+
+Tipe Pustaka 
+	Contoh Penulisan dalam Daftar Pustaka
+	
+
+	Ryde, CCHB, New South Wales: Australia.
+	Beberapa buku yang dibuat oleh  pengarang yang  sama
+	Willmonn, W. F. (2009). Landscapes of Southern Queensland. Geological Society of Australia, Brisbane, Queensland  Division, Brisbane: Australia.  
+Willmonn, W. F. (2010). Landscapes of the National Parks of  Central Queensland. Geological Society of Austrlia,  Brisbane, Queensland Division, Brisbane: Australia.  
+Urutkan dari tahun publikasi paling baru.
+	Beberapa buku  
+yang dibuat  
+pengarang yang  sama dan  
+dipublikasikan  
+pada tahun yang  sama pula
+	Dawkenny, R. P. (2010a). Watching Mount Improbable. Viking  & Co Publishing Company, London: UK.  
+Dawkenny, R. P. (2010b). River Out of Amazon. Phoenix  Publisher, London: UK. 
+	Buku yang dipublikasikan  
+oleh organisasi  dan/atau  
+lembaga tertentu
+	London Health. (2010). Best Practice for the Health Management, London Health Publishing, Ltd., Brisbane,  Queensland: Australia.
+	Buku yang sudah memiliki  
+beberapa edisi
+	Hart, G. B., Allan L. S., & Croper, R. G. (2010). Character Development: Its Nature and Course. 4th ed. McGraw-Hill,  Boston, Massachussetts: USA.  
+Semaksimal mungkin, gunakan edisi yang terbaru
+	Buku hasil editing 
+	Sherlock L. F., & Wach, T. D. (Eds). (2010). Measuring Environment: Emerging Methods. American Psyhocology  Association, Washington, DC: USA.  
+Stanley, E. (Ed). (2010). Economics. Cambridge Press,  Massachusetts: USA.
+	Book Series 
+	Simon, R. C. (2010). Boo!: Culture, and Experience Reflex. Affective Science, University Press, New York: USA.
+	Buku elektronik 
+	Renee, P. (2010). Global Instituitions. Oxford Publishing. Tersedia di NetLibrary database. 
+	Buku hasil terjemahan
+	Yinen, J. R. (2010). Stretching Therapy (J. Nurmenniemi, Trans.). Churchill Livingstone Publisher, Ltd, New  Hampshire: USA.
+	
+
+
+
+2. Bagian Bab dalam Sebuah Buku 
+Tipe Pustaka 
+	Contoh Penulisan dalam Daftar Pustaka
+	Bagian bab dalam buku hasil editing
+	Bakker, F. M. & Lighfot, O. B. (2010). Psychiatric care. In Andrew C. Gaw (Ed), Culture and Mental Illness (pp. 517-
+	
+
+
+
+16 | F a k u l t a s T e k n o l o g i d a n D e s a i n 
+
+Tipe Pustaka 
+	Contoh Penulisan dalam Daftar Pustaka
+	
+
+	552). American Psychiatric Press, Washington DC: USA.
+	Bagian bab dalam buku elektronik
+	Scont, D. (2010). “Modern Governmentality”. In Jim X. Inda (Ed) Sociologies of Modernity (pp.21-49). Diunduh dari  Wolley Science database.
+	
+
+
+
+3. Makalah dalam Konferensi/Seminar  
+Tipe Pustaka 
+	Contoh Penulisan dalam Daftar Pustaka
+	Makalah dalam konferensi/ 
+seminar yang  dipublikasikan
+	Bohnrerr, Scott, Zielkenn, T. T. & Freibuurg, V. V. (2010). “Integrated obstacle detection framework”. Makalah  dipresentasikan di acara IEEW Intelligent Symposium.  Piscataway, Detroit, Michigan: USA.
+	Makalah dalam  konferensi/semin ar yang tidak  dipublikasikan 
+	Browwdein, F. J. & Fairllewyn, C. K. (2010, June). Endemic in  the Territory: Estimations of Effective Change. Makalah  dipresentasikan di pertemuan sains yang  diselenggarakan oleh the Royal London College of  Physicians, Darwin: Australia.
+	
+
+
+
+4. Artikel Jurnal 
+Tipe Pustaka 
+	Contoh Penulisan dalam Daftar Pustaka
+	Artikel jurnal-satu pengarang
+	Mellerson, B. A. (2010). “Choice Pleasure of Consequences”. Periodical Psychological Bulletin, 59 (2), 49-72.
+	Artikel jurnal-dua pengarang
+	Schhafer, J. L. & Khang, J. Z. (2010). “Average effects from randomized studies: A practical guide and simulated  example”. Psychological Methods, 93, 279-313.
+	Artikel jurnal lebih dari dua  pengarang
+	Skender, J. K., Sigel, J. T., Cran, W. D., Alvro, E. E. & Ethan A. Lacgy. (2010). “Expectancy Adolescents' Intentions to  Use Things”. Psychology of Addictive Behaviors Journal,  28, 469-567.  
+Gallea, L. A., Ubran, K. A. Propp, J. R., Bruml, S. F., Barham, C.  W. & Wilxon, W. L. (2010). “Endocrine Regulation of  Neuroplasticity: Our Pursuit to Unveil the Complex  Interaction”. London Journal of Experimental Psychology,  62, 277-290.
+	Artikel jurnal 
+dalam surat  
+kabar
+	Williamson, S. & Battie, H. J. (2010, in press). “Problem-Based Teaching in the Social Setting – A Systematic Review”.  Teaching Education Today.
+	Artikel elektronik (memiliki nomor  DOI)
+	Fleycher, D. & Wangstaff, C. R. (2010). “Organizational Socialogy in Elite Culture: Its Emergence, Application and  Future”. Psychology of Culture and Exercise, 17 (4), 427- 474. doi: 10.1016/j.psychsport.2010. 03.009.
+	
+
+
+
+F a k u l t a s T e k n o l o g i d a n D e s a i n | 17 
+f. Skripsi atau tugas akhir/Thesis/Disertasi  
+Tipe Pustaka 
+	Contoh Penulisan dalam Daftar Pustaka
+	Skripsi atau tugas  akhir/tesis yang  diperoleh dari  
+website 
+perorangan atau  lembaga tertentu
+	Waxford, C. J. (2010). “What Constitutes Success in Pacific  Community Areas?” (Disertasi Program Doktor,  University of London, 2010). Diunduh dari  http://espace.library.uq.edu.au/view/UQ:158777, pada  tanggal 1 Januari 2012.
+	Skripsi atau tugas akhir/tesis yang  diperoleh dari  database online
+	Seehan, L. R. (2010). “Destination Management: A Stakeholder Perspective”. Diunduh dari Proquest Digital  Dissertations. (AAT NR25719), pada tanggal 2 Januari  2012.
+	
+
+
+
+g. Artikel Surat Kabar/Majalah  
+Tipe Pustaka 
+	Contoh Penulisan dalam Daftar Pustaka
+	Artikel surat 
+kabar dengan  
+pengarang
+	Crook, D. S. (2010, January 28). “All In The Mind”. The  Age Daily, p. 28.
+	Artikel surat 
+kabar tanpa  
+pengarang
+	“Meeting The Needs of Consumers”. (2010, May 15).  The Courier Mail Daily, p. 12.
+	Artikel majalah 
+	Mranno, H. E. (2010, March-April). “Making  Perfectionist”. Psychology Today, 41, 80-86.
+	Artikel  
+suratkabar dan  majalah 
+elektronik
+	Shandy, A. Z. (2010, January 12). “Cheaper To Fly Than  Hire A Bike In London”. The Courier Mail. Diunduh  dari  
+http://www.newyds.com.au/courytrmail/story/  0,23739,24949645-952,00.html, pada tanggal 3  Januari 2012.
+	
+
+
+
+h. Webpage 
+Tipe Pustaka 
+	Contoh Penulisan dalam Daftar Pustaka
+	Web page
+dengan  
+pengarang
+	Anherton, J. P. (2010). Behaviour Modification Methods. Diunduh pada tanggal 5 Februari 2011 dari  http://www.learniyryngandteaching.info/learning/  behaviour_mod.htm
+	Web page tanpa pengarang
+	Behaviour modification methods. (2010). Diunduh pada tanggal 15 Februari 2011 dari  http://www.edudjhhdjcational 
+psychologist.org.uk/behaviour.html.
+	Web page tanpa tanggal
+	Society of Clinical Psychology. (n.d.) About Clinical Psychology. Diunduh pada tanggal 28 Januari 2011 dari  http://www.apa.org/divisions/div12/ aboutcp.html.
+	
+
+
+
+18 | F a k u l t a s T e k n o l o g i d a n D e s a i n 
+
+Tipe Pustaka 
+	Contoh Penulisan dalam Daftar Pustaka
+	
+
+	
+
+	Web page hasil 
+publikasi  
+lembaga
+	London Health. (2010). Healthy Start In Life. Diunduh pada tanggal 10 Maret 2011 dari  http://www.healthjdh.qld.gov.au/ 
+ph/documents/saphs/hsil_full_doc.pdf.
+	Web Article
+dengan nomor  
+DOI
+	Deghardt, L. G., Bohner, K. M. & Fanthony, J. C. (2011). “Assessment of Dependence in the General Population:  'Gated' versus 'Ungated' Approaches”. Drug and  Alcohol Dependence, 93 (3), 22-27. doi:  10.10j.drugalcdep.2010.09.024.
+	Web Article
+dengan nomor  
+DOI, atau  
+tersedia bebas di  internet/web
+	Zenardy, J. A. & Fiercy, A. J. (2010). “Effect of Information Provision”. London Psychologist, 41 (3), 205-212.  Diunduh dari  
+http://www.psyctydfhology.org.au/Journal.aspx?ID=1 202.
+	Gambar dalam 
+web
+	Scarlet Fever Rash Picture [Image] (n.d.). Diunduh pada tanggal 19 Desember 2011 dari  http://www.lib.uiowa.edu/ 
+hardin/md/dermatlas/scarletfever.html.
+	
+
+
+
+i. Kamus atau Ensiklopedia  
+Tipe Pustaka 
+	Contoh Penulisan dalam Daftar Pustaka
+	Kamus atau ensiklopedia
+	Bolman, B. C. (2010). Dictionary of Behavioral (7th ed.). Academic Science Press, San Diego: USA.  
+Jika ada beberapa volume, tulis berikut (2nd ed., Vols. 1- 5).
+	
+
+
+
+j. Laporan Publikasi Pemerintah/Instansi Resmi lainnya  
+Tipe Pustaka 
+	Contoh Penulisan dalam Daftar Pustaka
+	Laporan publikasi lembaga  
+pemerintahan
+	Queensland Health. (2010). Health Review Report. Brisbane: Pemerintah provinsi Queensland, Australia.
+	
+
+
+
+k. Video atau DVD 
+Tipe Pustaka 
+	Contoh Penulisan dalam Daftar Pustaka
+	Video atau DVD 
+	Spielbergeen, Shane (Director), dan Ricky R. Rodant. (Penulis). (2010). Saving Good Rany [Motion picture].  Paramount Slide Pictures: USA.
+	
+
+
+
+F a k u l t a s T e k n o l o g i d a n D e s a i n | 19 
+
+*Penulisan rujukan dan daftar pustaka mengacu pada edisi terbaru format  APAStyle yang dapat dilihat pada www.apastyle.org 
+b. Lampiran  
+Lampiran berisi hal-hal yang diperlukan dan masih terkait dengan isi naskah skripsi  atau tugas akhir. Lampiran dapat memuat antara lain surat-surat spesifikasi bahan  penelitian, keterangan tambahan, tentang protokol metode, contoh perhitungan  data mentah penelitian serta data keseluruhan penelitian yang jika dimasukkan  ke dalam bagian utama Skripsi atau Tugas Akhir akan mengganggu alur  pemahaman isi skripsi atau tugas akhir. 
+Lampiran dapat berupa tabel, gambar dan sebagainya yang dianggap tidak  merupakan bagian utama Skripsi atau Tugas Akhir namun masih  terkait/diperlukan sebagai referensi naskah. Setiap lampiran diberi nomor  dengan angka 1, 2, 3… dan seterusnya dan masing-masing lampiran diberi judul  sesuai dengan isi lampiran. Lampiran pada susunan Skripsi atau Tugas Akhir  didahulu dengan kertas pembatas yang memuat tulisan “LAMPIRAN” di tengah  halaman, tanpa nomor halaman.  
+ 
+20 | F a k u l t a s T e k n o l o g i d a n D e s a i n 
+
+BAB IV  
+PENYERAHAN HASIL AKHIR SKRIPSI ATAU TUGAS AKHIR  
+Skripsi atau Tugas Akhir yang telah melalui proses perbaikan setelah sidang wajib  dikumpulkan dalam bentuk softcopy dengan ketentuan sebagai berikut: 
+4.1. Softcopy  
+a. Dokumen disimpan dalam format pdf. dengan menggunakan watermark UPJ yang  dapat diperoleh dari perpustakaan UPJ. 
+b. File Skripsi atau Tugas Akhir disimpan terpisah untuk bagian awal, bagian utama  (setiap bab berbeda dokumen), dan bagian akhir serta lampiran. 
+c. Dokumen disimpan dalam bentuk compact disc (CD) atau digital video disc (DVD). d. Menyerahkan 1 (satu) keping CD/DVD sesuai tenggat waktu yang ditetapkan kepada perpustakaan. 
+4.2. Hardcopy  
+a. Dokumen dijilid sesuai dengan ketentuan pencetakan dan penjilidan sbb: - Dicetak di kertas A4 80 gram, bolak balik dengan halaman ganjil berada di bagian  kanan. 
+- Dijilid hardcover dengan warna cover merah UPJ (Kode warna: RGB 218-37-29). - Tulisan dan logo UPJ pada halaman depan cover dan bagian samping dicetak  dengan warna perak/silver 
+b. Menyerahkan 2 (dua) eksemplar hardcopy yang didistribusikan kepada: - Perpustakaan (1 eksemplar) 
+- Program Studi (1 eksemplar)
+F a k u l t a s T e k n o l o g i d a n D e s a i n | 21 
+Lampiran 1. Halaman Sampul 
+
+JUDUL SKRIPSI ATAU TUGAS AKHIR DITULIS  SELURUHNYA DENGAN HURUF KAPITAL ARIAL 14 
+Sedangkan untuk Sub-Judul Dituliskan Seluruhnya dengan Huruf Kapital di  Awal Kata, Kecuali Kata Sambung Huruf Arial 11 
+SKRIPSI ATAU TUGAS AKHIR, ARIAL 12 
+Nama Mahasiswa 
+NIM 
+PROGRAM STUDI (NAMA PROGRAM STUDI) 
+FAKULTAS TEKNOLOGI DAN DESAIN 
+UNIVERSITAS PEMBANGUNAN JAYA 
+TANGERANG SELATAN 
+TAHUN SIDANG
+22 | F a k u l t a s T e k n o l o g i d a n D e s a i n 
+Lampiran 2. Halaman Judul Skripsi atau tugas akhir 
+JUDUL SKRIPSI ATAU TUGAS AKHIR DITULIS  SELURUHNYA DENGAN HURUF KAPITAL ARIAL 14 
+Sedangkan untuk Sub-Judul Dituliskan Seluruhnya dengan Huruf Kapital di  Awal Kata, Kecuali Kata Sambung Huruf Arial 12 
+SKRIPSI ATAU TUGAS AKHIR, ARIAL 12 
+Diajukan untuk memenuhi salah satu syarat memperoleh Gelar  Sarjana dalam Bidang (diisi nama program studi) pada Fakultas  Teknologi dan Desain, Universitas Pembangunan Jaya, Arial 12,  spasi 1 
+Nama Mahasiswa 
+NIM 
+PROGRAM STUDI (NAMA PROGRAM STUDI) 
+FAKULTAS TEKNOLOGI DAN DESAIN 
+UNIVERSITAS PEMBANGUNAN JAYA 
+TANGERANG SELATAN 
+TAHUN SIDANG
+F a k u l t a s T e k n o l o g i d a n D e s a i n | 23 
+Lampiran 3. Lembar Persetujuan Dosen Pembimbing Skripsi atau tugas akhir 
+PERSETUJUAN DOSEN PEMBIMBING SKRIPSI ATAU TUGAS AKHIR 
+JUDUL SKRIPSI ATAU TUGAS AKHIR DITULIS SELURUHNYA DENGAN  HURUF KAPITAL ARIAL 11 
+Sedangkan untuk Sub-Judul Dituliskan Seluruhnya dengan Huruf Kapital di Awal Kata,  Kecuali Kata Sambung Huruf Arial 11 
+Nama : 
+NIM : 
+Program Studi : 
+Telah diperiksa dan disetujui untuk diajukan dan dipertahankan dalam Sidang Skripsi  atau Tugas Akhir guna memperoleh gelar Sarjana (nama gelar sarjana) Strata Satu  pada Program Studi (nama program studi), Fakultas Teknologi dan Desain,  Universitas Pembangunan Jaya. 
+Tangerang Selatan, .......................... 
+Menyetujui: 
+Pembimbing 1 Pembimbing 2 
+(Nama Lengkap Pembimbing) NIP 
+(Nama Lengkap Pembimbing) NIP 
+Kepala Program Studi 
+(Nama Lengkap Kaprodi) NIP
+24 | F a k u l t a s T e k n o l o g i d a n D e s a i n 
+Lampiran 4. Halaman Pengesahan 
+LEMBAR PENGESAHAN SKRIPSI ATAU TUGAS AKHIR 
+JUDUL SKRIPSI ATAU TUGAS AKHIR DITULIS SELURUHNYA DENGAN  HURUF KAPITAL ARIAL 11 
+Sedangkan untuk Sub-Judul Dituliskan Seluruhnya dengan Huruf Kapital di Awal Kata,  Kecuali Kata Sambung Huruf Arial 11 
+SKRIPSI ATAU TUGAS AKHIR 
+Oleh : 
+Nama Mahasiswa 
+NIM 
+Telah dinyatakan lulus dalam ujian Sarjana 
+Pada Hari/Tanggal: ............................. 
+Tanda Tangan Tanggal 
+Pembimbing 1: 
+Nama Lengkap 
+NIP. ................ 
+Pembimbing 2: 
+Nama Lengkap 
+NIP. ................ 
+Dosen Penguji: 
+Nama Lengkap 
+NIP. ................ 
+Nama Lengkap 
+NIP. ................ 
+Mengetahui: 
+Kepala Program Studi........................ Dekan Fakultas Teknologi dan Desain  
+Nama & Gelar Lengkap Nama & Gelar Lengkap NIP. ................ NIP. ............................... Tanggal : ....................... Tanggal : .......................
+F a k u l t a s T e k n o l o g i d a n D e s a i n | 25 
+Lampiran 5. Pernyataan Originalitas, Kesediaan Publikasi dan Pelimpahan Hak Cipta 
+SURAT PERNYATAAN 
+MENGENAI ORIGINALITAS SKRIPSI ATAU TUGAS AKHIR, KESEDIAAN PUBLIKASI DAN PELIMPAHAN HAK CIPTA 
+Saya mahasiswa Universitas Pembangunan Jaya, yang bertanda tangan di bawah ini: Nama Mahasiswa : ………………………………………………… 
+NIM : ……………………………………………….. 
+Program Studi : ………………………………………………… 
+Menyatakan dengan sesungguhnya bahwa hasil Skripsi atau Tugas Akhir saya yang berjudul: …………………………………………………………………………………………………………………………………………… …………………………………………………………………………………………………………………………………………… 
+1. Adalah benar-benar merupakan hasil karya saya sendiri. Apabila di kemudian hari  diketahui bahwa Skripsi atau Tugas Akhir ini merupakan hasil plagiarisme, maka saya  bersedia menerima sanksi berupa pembatalan kelulusan dan atau pencabutan gelar  Sarjana yang saya peroleh. 
+2. Adalah benar karya saya dengan arahan dari Tim pembimbing dan belum pernah  diajukan dalam bentuk apapun kepada Perguruan Tinggi mana pun. Sumber informasi  yang berasal atau dikutip dari karya yang diterbitkan maupun tidak diterbitkan dari  penulis lain telah disebutkan dalam teks dan dicantumkan dalam Daftar Pustaka di  bagian akhir Skripsi atau Tugas Akhir ini. Dengan ini saya melimpahkan Hak Cipta dari  Skripsi atau Tugas Akhir saya kepada Universitas Pembangunan Jaya dan memberikan  hak pada Universitas Pembangunan Jaya untuk mempublikasikan Skripsi atau Tugas  Akhir saya baik secara daring (online) ataupun cetak. 
+Demikian surat pernyataan ini saya buat untuk dipergunakan sebagaimana mestinya. Tangerang Selatan, ……………….. 20…... 
+Peneliti,  
+Meterai Rp. 6000,- 
+Nama : …………………………………………… 
+NIM : …………………………………………..
+26 | F a k u l t a s T e k n o l o g i d a n D e s a i n 
+Lampiran 6. Halaman Kata Pengantar 
+KATA PENGANTAR 
+Puji dan Syukur kami panjatkan ke hadirat Tuhan Yang Maha Esa, karena berkat  limpahan Rahmat dan Karunia-NYA sehingga penulis dapat menyusun Skripsi atau  Tugas Akhir ini dengan baik dan tepat pada waktunya. Skripsi atau Tugas Akhir  dengan judul: “TULIS JUDUL SKRIPSI ATAU TUGAS AKHIR DENGAN  LENGKAP” ini ditujukan untuk memenuhi persyaratan akademik guna memperoleh  gelar Sarjana (nama gelar sarjana) Strata Satu pada Program Studi (nama program  studi), Fakultas Teknologi dan Desain, Universitas Pembangunan Jaya, Tangerang  Selatan. 
+Skripsi atau Tugas Akhir ini dibuat dengan berbagai observasi dan beberapa bantuan  dari berbagai pihak untuk membantu menyelesaikan tantangan dan hambatan  selama mengerjakan Skripsi atau Tugas Akhir ini. Oleh karena itu, penulis mengucapkan terima kasih yang sebesar-besarnya kepada semua pihak yang telah  
+membantu dalam penyusunan Skripsi atau Tugas Akhir ini, yaitu kepada : 1. Bapak/Ibu ..................... Selaku Presiden Universitas Pembangunan Jaya 2. Bapak/Ibu ...................... Selaku Rektor Universitas Pembangunan Jaya 3. Bapak/Ibu ...................... Selaku Dekan Fakultas Teknologi dan Desain 4. Bapak/Ibu ...................... Selaku Kepala Program Studi .............................. 5. ............................... 
+6. ............................... 
+Penulis menyadari bahwa Skripsi atau Tugas Akhir ini masih kurang sempurna. Oleh  karena itu kritik dan saran dari pembaca sangat bermanfaat dan kami harapkan untuk  penyempurnaan Skripsi atau Tugas Akhir ini. 
+Penulis berharap agar Skripsi atau Tugas Akhir ini dapat memberikan manfaat bagi  semua pihak yang membacanya. 
+Tangerang Selatan, ........................... 
+Penulis
+F a k u l t a s T e k n o l o g i d a n D e s a i n | 27 
+Lampiran 7. Halaman Abstrak (Bahasa Inggris) 
+ABSTRACT 
+Performance of Urban Infrastructure: Road User Satisfaction Index (RUSI) in  Satellite City  
+Nailah Nahdiyah.1), Resdiansyah2), Freddy John Philip.S2) 
+1) Student of Civil Engineering Department, Universitas Pembangunan Jaya 
+2) Lecturer of Civil Engineering Department, Universitas Pembangunan Jaya  
+The rapid growth of Satellite City in South Tangerang will directly impact road  infrastructure and environmental conditions. The purpose of this study is to  investigate the performance of existing road infrastructure. The study was to gain the  perception of road users regarding various elements of satellite city self-reliance in  maintaining the quality of road infrastructure for the Central Business District (CBD)  area. Using one of Satellite City in South Tangerang as a case, the specific research  objectives are to: ascertain road users level of satisfaction with the road infrastructure  such as road features, road drainage system and environment; find out problems  faced by road users when using the road infrastructure; determine the most dominant  factors affecting road users satisfaction; and develop a road user satisfaction index  (RUSI) to measure the road performances. A questionnaire survey was conducted  on road users in three selected roads in Satellite City. Through a random sampling,  a total of 384 responses were collected. Data processing using SPSS software  version 20.00 through Cronbach Alpha (α) statistical method and Importance  Performance Matrix Analysis (IPMA) has been applied to know the level of  satisfaction and importance user. Overall, the user satisfaction index for three road  segments in Satellite City is still at a good level with the overall score reaching 2,851  and has not yet reached a very satisfying level (score above 4.0). 
+Keywords: Satellite City, Road User Satisfaction Index, Importance Performance  Matrix, Urban Infrastructure. 
+Libraries : 45 
+Publication Years : 2009 – 2019 
+ 
+28 | F a k u l t a s T e k n o l o g i d a n D e s a i n 
+Lampiran 8. Halaman Abstrak (Bahasa Indonesia) 
+ABSTRAK 
+Pengaruh Penerapan Sistem Informasi Akuntansi Terhadap Pencegahan  Fraudulent Financial Reporting (Survei Pada Perusahaan di Jakarta dan  Tangerang Selatan) 
+Nailah Nahdiyah.1), Resdiansyah2), Freddy John Philip.S2) 
+1) Mahasiswa Program Studi Teknik Sipil, Universitas Pembangunan Jaya 
+2) Dosen Program Studi teknik Sipil, Universitas Pembangunan Jaya 
+Pesatnya pertumbuhan Kota satelit di Tangerang Selatan secara langsung akan berdampak pada infrastruktur jalan dan kondisi lingkungan. Tujuan dari kajian ini  adalah untuk menyelidiki kinerja infrastruktur jalan yang ada. Kajian ini untuk  mendapatkan persepsi pengguna jalan tentang berbagai elemen kemandirian kota  satelit dalam menjaga kualitas infrastruktur jalan untuk kawasan Central Business  District (CBD). Dengan menggunakan salah satu Kota Satelit di Tangerang Selatan  sebagai kasus, tujuan spesifik penelitian ini adalah untuk: memastikan tingkat  kepuasan pengguna jalan dengan kriteria infrastruktur seperti fitur jalan, sistem  drainase jalan, dan lingkungan; mencari tahu masalah yang dihadapi oleh pengguna  jalan saat menggunakan infrastruktur jalan; menentukan faktor yang paling dominan  yang mempengaruhi kepuasan pengguna jalan; dan mengembangkan indeks  kepuasan pengguna jalan (RUSI) sebagi cara untuk mengukur kinerja jalan. Survei  kuesioner dilakukan pada pengguna jalan di tiga ruas yang dipilih di Kota satelit.  Melalui pengambilan sampel secara acak, total 384 responden dikumpulkan.  Pemrosesan data menggunakan perangkat lunak SPSS versi 20.00 dengan metode  statistik Cronbach Alpha (α) dan Importance Performance Matrix Analysis (IPMA)  telah diterapkan untuk mengetahui tingkat kepuasan dan kepentingan pengguna.  Secara keseluruhan, indeks kepuasan pengguna untuk tiga ruas jalan di Kota satelit masih pada tingkat yang baik dengan skor keseluruhan mencapai 2.851 dan belum  mencapai tingkat yang sangat memuaskan (skor di atas 4.0). 
+Kata kunci: Kota Satelit, Road User Satisfaction Index, Importance Performance  Matrix, Infrastruktur Perkotaan. 
+Pustaka : 45 
+Tahun Publikasi : 2009 - 2019
+F a k u l t a s T e k n o l o g i d a n D e s a i n | 29 
+
+Lampiran 9. Format Halaman Daftar Isi 
+DAFTAR ISI 
+Halaman 
+LEMBAR PERSETUJUAN DOSEN PEMBIMBING SKRIPSI ATAU TUGAS  
+i 
+AKHIR............................ 
+ii 
+LEMBAR PENGESAHAN ................................................................................. 
+dst 
+SURAT PERNYATAAN MENGENAI ORIGINALITAS ....................................... ABSTRACT 
+RINGKASAN 
+KATA PENGANTAR 
+DAFTAR ISI 
+DAFTAR GAMBAR 
+DAFTAR TABEL 
+DAFTAR LAMPIRAN 
+BAB I PENDAHULUAN 
+1.1. Latar Belakang Masalah..................................... mulai halaman 1 dst 1.2. Rumusan/Identifikasi Masalah 
+1.3. Tujuan Penelitian 
+1.4. Manfaat Penelitian 
+1.5. Sistematika Penelitian 
+BAB II TINJAUAN PUSTAKA 
+2.1. Kajian Teori 
+2.2. Penelitian Terdahulu dan Perbedaan 
+2.3. Kerangka Pemikiran 
+2.4. Pengembangan Hipotesis Penelitian 
+BAB III METODE PENELITIAN 
+3.1. Paradigma Penelitian 
+3.2. Metode Penelitian 
+3.3. Metode Pengumpulan Data 
+3.4. Metode Analisis Data 
+3.5. Metode Pengujian Data 
+BAB IV HASIL DAN PEMBAHASAN 
+4.1. Gambaran Umum Objek Penelitian 
+4.2. Gambaran Umum Subjek Penelitian 
+4.3. Pembahasan 
+BAB V KESIMPULAN DAN SARAN 
+5.1. Kesimpulan 
+5.2. Saran 
+DAFTAR PUSTAKA 
+LAMPIRAN 
+Catatan: Daftar isi ini merupakan panduan format penulisan dan panduan isi sub bab masing- masing prodi dapat dilihat pada lampiran 16.
+30 | F a k u l t a s T e k n o l o g i d a n D e s a i n 
+Lampiran 10. Halaman Daftar Gambar 
+DAFTAR GAMBAR 
+Gambar 2.1 Durbin-Watsond-statistic ..................................................................38 
+Gambar 2.2 Penduduk Tangerang Usia 18-40 Tahun, Status Sosial Ekonomi,  dan Tingkat Pendidikan ...............................................................40 
+Gambar 3.1 One-Tail Test 95% Confidence Interval pada  
+Inflasi .................................................................................. 47 Gambar 3.2 Two-Tail Test 95% Confidence Interval pada Suku Bunga.......... 48 Gambar 3.3 One-Tail Test 95% Confidence Interval pada Nilai Tukar............. .49
+F a k u l t a s T e k n o l o g i d a n D e s a i n | 31 
+Lampiran 11. Halaman Daftar Tabel 
+DAFTAR TABEL 
+Tabel 2.1. Tabel Operasional Variabel Independen ......................................20 Tabel 2.2. Tabel Operasional Variabel Dependen ............................................30 
+Tabel 3.1. Tabel Distribusi Tanggapan Responden atas Dimensi Prosedur dan Instruksi ............................................................................................33 
+Tabel 4.1. Tabel Hasil Uji Validitas Variabel Independen.................................50 Tabel 4.2. Tabel Hasil Uji Validitas Variabel Dependen .................................56
+32 | F a k u l t a s T e k n o l o g i d a n D e s a i n 
+Lampiran 12. Halaman Daftar Lampiran 
+DAFTAR LAMPIRAN 
+Lampiran 1 Kuesioner Penelitian ...........................................................20 Lampiran 2 Hasil Pengumpulan Kuesioner .....................................................30 Lampiran 3 Hasil Analisa Deskriptif ...................................................................42
+F a k u l t a s T e k n o l o g i d a n D e s a i n | 33 
+Lampiran 13. Halaman Daftar Pustaka 
+DAFTAR PUSTAKA 
+Lynd, Robert and Lynd, Helen. (1929). Middletown: A study in American culture.New  York: Harcourt, Brace and World. 
+Funk, R., & Kolln, M. (1998) . Introduction. In E. W. Ludlow (Ed.), Understanding English grammar (pp. 1-2). Needham, MA: Allyn and Bacon. 
+Bober, M.M. (1948). Karl Marx’s interpretation of history (2nd ed.). Cambridge: Harvard University Press. 
+O’Neil, J. M., & Egan, J. (1992). Men’s and women’s gender role journeys: A  metaphor for healing, transition, and transformation. In B. R. Wainrib (Ed.),  Gender issues across the life cycle (pp. 107-123). New York, NY: Springer. 
+Weber, Bruce. (1985, October 20). The myth maker: The creative mind of novelist  E.L. Doctorow. New York Times Magazine, 5, 40-42. 
+Schnase, J. L., & Cunnius, E. L. (Eds.) . (1995). Proceedings from CSCL ’95: The First International Conference on Computer Support for Collaborative  Learning. Mahwah, NJ: Erlbaum. 
+Bernstein, M. (2002). 10 tips on writing the living Web. A List Apart: For People Who Make Websites, 149. Diambil dari http://www.alistapart.com/articles/writeliving. 
+Biswas, S. (2008). Dopamine D3 receptor: A neuroprotective treatment target in Parkinson’s disease. Diambil dari ProQuest Digital Dissertations. (AAT 3295214).
+34 | F a k u l t a s T e k n o l o g i d a n D e s a i n 
+Lampiran 14. Cetakan Cover Bagian Samping
+SKRIPSI  
+TUGAS 
+AKHIR 
+ATAU  
+	(Font 10)
+JUDUL 
+	N A M A 
+N I M
+	
+(Tahun)
+	
+
+
+
+F a k u l t a s T e k n o l o g i d a n D e s a i n | 35 
+Lampiran 15. Cetakan Cover CD 
+( TAMPAK DEPAN ) 
+
+JUDUL LENGKAP SKRIPSI ATAU TUGAS AKHIR 
+(sub judul) 
+SKRIPSI ATAU TUGAS AKHIR 
+Diajukan untuk memenuhi salah satu syarat memperoleh Gelar Sarjana  
+dalam Bidang (NAMA PRODI) 
+Nama Mahasiswa 
+NIM 
+PRODI 
+FAKULTAS TEKNOLOGI DAN DESAIN 
+UNIVERSITAS PEMBANGUNAN JAYA 
+TANGERANG SELATAN 
+TAHUN
+36 | F a k u l t a s T e k n o l o g i d a n D e s a i n 
+
+Lampiran 16. Ketentuan Isi Sub-Bab Masing-Masing Prodi 
+
+Prodi Arsitektur
+SISTEMATIKA PENULISAN
+	BAB I PENDAHULUAN 
+1.1 Latar Belakang Masalah 
+1.2 Rumusan/Identifikasi Masalah 
+1.3 Tujuan Penelitian 
+1.4 Manfaat Penelitian 
+1.5 Sistematika Penulisan
+	BAB II TINJAUAN PUSTAKA 
+2.1. Kajian Teori  
+2.2. Penelitian Terdahulu 
+2.3. Kerangka Pemikiran  
+2.4. Sintesis
+	BAB III METODE PENELITIAN 
+3.1. Identitas Penelitian  
+3.2. Metode Penelitian  
+3.3. Metode Pengumpulan Data  
+3.4. Metode Analisis Data 
+	BAB IV HASIL DAN ANALISIS PENELITIAN 
+4.1. Hasil  
+4.2. Pembahasan 
+	BAB V PENUTUP 
+5.1. Kesimpulan 
+5.2. Saran
+	
+
+
+
+F a k u l t a s T e k n o l o g i d a n D e s a i n | 37 
+
+Prodi Desain Produk
+SISTEMATIKA PENULISAN
+	BAB I PENDAHULUAN 
+1.1 Latar Belakang Masalah 
+1.2 Rumusan/Identifikasi Masalah 
+1.3 Tujuan Penelitian 
+1.4 Manfaat Penelitian 
+1.5 Sistematika Penulisan
+	BAB II TINJAUAN PUSTAKA 
+2.1. Landasan Teori 
+2.2. Survei Lapangan dan Wawancara
+	BAB III METODE PENELITIAN 
+3.1 Metode Pengumpulan Data 
+3.2 Economic Order Quantity 
+3.3 Manajemen Produksi 
+3.4 Product Lifecycle
+	BAB IV HASIL DAN ANALISIS PENELITIAN 
+4.1 Deskripsi Produk 
+4.2 Proses Desain 
+4.3 Studi Material 
+4.4 Sketsa Dasar 
+4.5 3D Modelling 
+4.6 Proses Produksi Prototype/Mockup 
+4.7 Skema Pemakaian Produk
+	BAB V PENUTUP 
+5.1 Kesimpulan 
+5.2 Saran
+	
+
+
+
+38 | F a k u l t a s T e k n o l o g i d a n D e s a i n 
+
+Prodi Desain Komunikasi Visual
+SISTEMATIKA PENULISAN
+	BAB I PENDAHULUAN 
+1.1 Latar Belakang Masalah 
+1.2 Rumusan/Identifikasi Masalah 
+1.3 Tujuan Penelitian 
+1.4 Manfaat Penelitian 
+1.5 Sistematika Penulisan
+	BAB II TINJAUAN UMUM 
+2.1. Tinjauan Teori
+	BAB III METODOLOGI DESAIN 
+3.1. Sistematika Perancangan 
+3.2. Metode Pencarian Data  
+3.3 Analisis Data 
+3.4 Kesimpulan Hasil Analisis 
+3.5 Pemecahan Masalah
+	BAB IV STRATEGI KREATIF 
+4.1. Strategi Komunikasi 
+4.2 Analisis Segmentasi, Targeting,dan Positioning 
+4.3 Analisis SWOT 
+4.4 Strategi Media 
+4.5 Konsep Kreatif  
+4.6 Konsep Visual 
+4.7 Konsep verbal 
+4.8 Penerapan Desain (Final Artwork)
+	BAB V PENUTUP 
+5.1 Kesimpulan 
+5.2 Saran
+	
+
+
+
+F a k u l t a s T e k n o l o g i d a n D e s a i n | 39 
+
+Prodi Informatika
+SISTEMATIKA PENULISAN
+	BAB I PENDAHULUAN 
+1.1 Latar Belakang Masalah 
+1.2 Rumusan/Identifikasi Masalah 
+1.3 Tujuan Penelitian 
+1.4 Manfaat Penelitian 
+1.5 Sistematika Penulisan
+	BAB II TINJAUAN REFERENSI 
+2.1 Referensi Teoritis 
+2.2 Referensi Penelitian Terdahulu
+	BAB III METODE PENELITIAN 
+3.1. Paradigma Penelitian 
+3.2. Metode Penelitian 
+3.3. Metode Pengumpulan Data 
+3.4. Metode Analisis Data 
+3.5. Metode Pengujian Data
+	BAB IV ANALISIS DAN PERANCANGAN 
+4.1 Analisis Terdahulu 
+4.2 Spesifikasi Kebutuhan Sistem Baru 
+4.3 Perancangan Sistem 
+	BAB V HASIL DAN PEMBAHASAN 
+5.1 Pembahasan hasil dan uraian dari perancangan  
+5.2 Pembahasan hasil dan uraian dari uji coba
+	BAB VI PENUTUP 
+6.1 Kesimpulan 
+6.2 Saran
+	
+
+
+
+40 | F a k u l t a s T e k n o l o g i d a n D e s a i n 
+
+
+Prodi Sistem Informasi
+SISTEMATIKA PENULISAN
+	BAB I PENDAHULUAN 
+1.1 Latar Belakang Masalah 
+1.2 Rumusan/Identifikasi Masalah 
+1.3 Tujuan Penelitian 
+1.4 Manfaat Penelitian 
+1.5 Sistematika Penulisan
+	BAB II TINJAUAN PUSTAKA 
+2.1. Teori Dasar 
+2.2. Tinjauan Studi
+	BAB III METODE PENELITIAN 
+3.1. Objek Penelitian  
+3.2. Analisis Sistem Yang Berjalan  
+3.3. Analisis Kebutuhan
+	BAB IV HASIL DAN ANALISIS PENELITIAN 
+4.1. Analisa Perancangan Sistem 
+4.2. Perancangan Diagram Sistem Usulan 
+4.3. Perancangan Antar Muka Pengguna 
+4.4. Perancangan Implementasi
+	BAB V PENUTUP 
+5.1 Kesimpulan 
+5.2 Saran
+	
+
+
+
+F a k u l t a s T e k n o l o g i d a n D e s a i n | 41 
+
+Prodi Teknik Sipil
+SISTEMATIKA PENULISAN
+	BAB I PENDAHULUAN 
+1.1 Latar Belakang Masalah 
+1.2 Rumusan/Identifikasi Masalah 
+1.3 Hipotesis (jika ada) 
+1.4 Tujuan Penelitian 
+1.5 Manfaat Penelitian 
+1.6 Sistematika Penulisan
+	BAB II TINJAUAN PUSTAKA 
+2.1 Dasar Teori 
+2.2 Penelitian Terdahulu
+	BAB III METODE PENELITIAN 
+3.1 Obyek Penelitian 
+3.2 Variabel Penelitian 
+3.3 Pengumpulan data 
+3.4 Pengolahan data 
+3.5 Diagram Alir Penelitian
+	BAB IV HASIL DAN ANALISIS PENELITIAN 
+4.1 Penyajian Data 
+4.2 Analisis Data 
+4.3 Pembahasan
+	BAB V PENUTUP 
+5.1 Kesimpulan 
+5.2 Saran
+	
+
+
+
+42 | F a k u l t a s T e k n o l o g i d a n D e s a i n 
+
+Lampiran 17. Komponen Penilaian Sidang dan Penilaian Pembimbingan Skripsi atau  Tugas Akhir 
+Prodi Arsitektur 
+Komponen Penilaian Sidang Skripsi 
+Indikator Penilaian 
+	Persentase  
+Penilaian
+	Proporsi Nilai Dewan Penguji
+	1. Identifikasi permasalahan 
+	15 
+	Nilai keseluruhan penguji 
+berkontribusi 40% atas nilai  akhir dengan komposisi bobot  nilai penguji sebagai berikut: 1. Ketua Sidang 
+Penguji 1 : 50% 
+Penguji 2 : 50%
+	2. Identifikasi teori/landasan  
+berpikir untuk menganalisis  
+masalah
+	20
+ 
+	3. Melakukan literature review tentang studi kasus yang dipilih
+	 10
+	4. Ketajaman analisis masalah berdasarkan teori dan studi  
+literatur
+	20
+	5. Ketepatan dalam menarik 
+kesimpulan
+	10
+	6. Presentasi 
+	12.5
+	7. Laporan 
+	12.5
+	
+
+	100
+	
+
+	
+
+
+
+Komponen Penilaian Pembimbing Skripsi
+Indikator Penilaian 
+	Persentase 
+Penilaian
+	Proporsi Nilai Dewan Penguji
+	1. Identifikasi permasalahan 
+	15 
+	Nilai keseluruhan pembimbing berkontribusi 60 % atas nilai  akhir 
+Komposisi 2 Pembimbing : Nilai Pembimbing 1 : 60% 
+Nilai Pembimbing 2 : 40%
+	2. Identifikasi teori/landasan 
+berpikir untuk menganalisis  
+masalah
+	20
+	3. Melakukan literature review tentang studi kasus yang dipilih
+	10
+	4. Ketajaman analisis masalah berdasarkan teori dan studi  
+literatur
+	20
+	5. Ketepatan dalam menarik 
+kesimpulan
+	10
+	6. Tata bahasa, urutan penulisan, substansi
+	12.5
+	7. Motivasi, disiplin, dan 
+tanggungjawab
+	12.5
+	
+
+	100
+	
+
+	
+
+
+
+F a k u l t a s T e k n o l o g i d a n D e s a i n | 43 
+
+Prodi Desain Produk 
+Komponen Penilaian Sidang Skripsi 
+Indikator Penilaian 
+	Persentase 
+Penilaian
+	Proporsi Nilai Dewan Penguji
+	1. Ketepatan dan kesesuaian 
+pembahasan/ alasan perlunya  
+dilakukan penelitian/perancangan
+	10 
+	Nilai keseluruhan penguji 
+berkontribusi 40% atas nilai  akhir dengan komposisi bobot  nilai penguji sebagai berikut: Komposisi 2 Penguji : 
+1. Ketua Sidang sekaligus  Penguji 1 : 60% 
+2. Penguji 2 : 40% 
+Komposisi 3 Penguji : 
+1. Ketua Sidang sekaligus  penguji 1: 40% 
+2. Penguji 2: 30% 
+3. Penguji 3: 30%
+	2. Kelengkapan teori pendukung 
+	10
+	3. Ketepatan dan kejelasan metode Penelitian/perancangan yang  
+digunakan
+	10
+	4. Kedalaman hasil analisis 
+penelitian/perancangan
+	20
+	5. Kebermanfaatan hasil 
+Penelitian/perancangan
+	10
+	6. Kemampuan mempresentasikan 
+	20
+	7. Penulisan 
+	10
+	8. Kualitas proses 
+	10
+	
+
+	100
+	
+
+	
+
+
+
+Komponen Penilaian Pembimbing Skripsi
+Indikator Penilaian 
+	Persentase 
+Penilaian
+	Proporsi Nilai Dewan Penguji
+	1. Identifikasi permasalahan 
+	15 
+	Nilai keseluruhan pembimbing berkontribusi 60 % atas nilai  akhir 
+Komposisi 2 Pembimbing : Nilai Pembimbing 1 : 60% 
+Nilai Pembimbing 2 : 40%
+	2. Identifikasi teori/landasan 
+berpikir kreatif untuk  
+menganalisis masalah
+	20
+	3. Melakukan literature review  tentang studi kasus yang dipilih
+	10
+	4. Ketajaman analisis masalah berdasarkan teori dan studi  
+literatur
+	20
+	5. Menghasilkan design brief 
+berdasarkan kesimpulan
+	10
+	6. Tata bahasa, urutan penulisan, substansi
+	12.5
+	7. Motivasi, disiplin, dan 
+tanggungjawab
+	12.5
+	
+
+	100
+	
+
+	
+
+
+
+44 | F a k u l t a s T e k n o l o g i d a n D e s a i n 
+
+Prodi Desain Komunikasi Visual 
+Komponen Penilaian Sidang Skripsi 
+Indikator Penilaian 
+	Persentase 
+Penilaian
+	Proporsi Nilai Dewan Penguji
+	1. Ketepatan dan kesesuaian 
+pembahasan/ alasan perlunya  
+dilakukan penelitian/perancangan
+	10 
+	Nilai keseluruhan penguji 
+berkontribusi 40% atas nilai  akhir dengan komposisi bobot  nilai penguji sebagai berikut  Komposisi 2 Penguji : 
+1. Ketua Sidang sekaligus  Penguji 1 : 60% 
+2. Penguji 2 : 40% 
+Komposisi 3 Penguji : 
+1. Ketua Sidang sekaligus  penguji 1: 40% 
+2. Penguji 2: 30% 
+3. Penguji 3: 30%
+	2. Kelengkapan teori pendukung 
+	10
+	3. Ketepatan dan kejelasan metode  Penelitian/perancangan yang  
+digunakan
+	10
+	4. Kedalaman hasil analisis 
+penelitian/perancangan
+	20
+	5. Kebermanfaatan hasil  
+Penelitian/perancangan
+	10
+	6. Kemampuan mempresentasikan 
+	20
+	7. Penulisan 
+	10
+	8. Kualitas proses 
+	10
+	
+
+
+
+Komponen Penilaian Pembimbing Skripsi
+Indikator Penilaian 
+	Persentase 
+Penilaian
+	Proporsi Nilai Dewan Penguji
+	1. Komitmen dan tanggungjawab dalam proses bimbingan 
+	20 
+	Nilai keseluruhan pembimbing berkontribusi 60 % atas nilai  akhir 
+Komposisi 2 Pembimbing : Nilai Pembimbing 1 : 60% 
+Nilai Pembimbing 2 : 40%
+	2. Pengumpulan data dan penelitian 
+	30
+	3. Proses kreatif & eksplorasi karya 
+	30
+	4. Penulisan laporan (sistematika,  bahasa)
+	20
+	
+
+	100
+	
+
+	
+
+
+
+F a k u l t a s T e k n o l o g i d a n D e s a i n | 45 
+
+Prodi Informatika 
+Komponen Penilaian Sidang Skripsi 
+Indikator Penilaian 
+	Persentase 
+Penilaian 
+	Proporsi Nilai Dewan Penguji
+	1. Identifikasi masalah 
+	10 
+	Nilai penguji berkontribusi 40% atas nilai akhir dengan  
+komposisi bobot nilai penguji  sebagai berikut: 
+1. Ketua Sidang  
+Penguji 1 : 50% 
+Penguji 2 : 50%
+	2. Tingkat keterbaruan 
+	10
+	3. Studi Pustaka 
+	10
+	4. Sistematika Metode penelitian 
+	 20
+	5. Kemampuan dalam menganalisa dan perancangan
+	 10
+	6. Hasil akhir 
+	20
+	7. Laporan 
+	10
+	8. Presentasi 
+	10
+	
+
+	100
+	
+
+	
+
+
+
+Komponen Penilaian Pembimbing Skripsi
+Indikator Penilaian 
+	Persentase 
+Penilaian
+	Proporsi Nilai Dewan Penguji
+	1. Identifikasi permasalahan 
+	10 
+	Nilai pembimbing berkontribusi 60 % atas nilai akhir 
+Komposisi 2 Pembimbing : Nilai Pembimbing 1 : 60% 
+Nilai Pembimbing 2 : 40%
+	2. Ide/Gagasan 
+	10
+	3. Melakukan literature review tentang studi kasus yang dipilih
+	10
+	4. Studi Pustaka 
+	10
+	5. Sistematika Metode penelitian 
+	15
+	6. Hasil Akhir 
+	15
+	7. Laporan 
+	10
+	8. Motivasi, Disiplin dan 
+Tanggungjawab
+	20
+	
+
+	
+
+	100
+	
+
+	
+
+
+
+46 | F a k u l t a s T e k n o l o g i d a n D e s a i n 
+
+Prodi Sistem Informasi 
+Komponen Penilaian Sidang Skripsi 
+Indikator Penilaian 
+	Persentase 
+Penilaian Sidang
+	Proporsi Nilai Dewan Penguji
+	1. Ketepatan dan kesesuaian 
+pembahasan/ alasan perlunya  
+dilakukan penelitian/perancangan
+	10 
+	Nilai keseluruhan penguji 
+berkontribusi 40% atas nilai  akhir dengan komposisi bobot  nilai penguji sebagai berikut  Komposisi 2 Penguji : 
+1. Ketua Sidang sekaligus  Penguji 1 : 50% 
+2. Penguji 2 : 50% 
+Komposisi 3 Penguji : 
+1. Ketua Sidang sekaligus  penguji 1: 34% 
+2. Penguji 2: 33% 
+3. Penguji 3: 33%
+	2. Kelengkapan teori pendukung, dan penerapan pengetahuan Sistem  Informasi
+	10
+	3. Ketepatan dan kejelasan serta kemampuan analisis dan  
+perancangan yang digunakan
+	10
+	4. Kedalaman hasil analisis 
+penelitian/perancangan
+	15
+	5. Implementasi hasil analisis dan kebermanfaatan hasil  
+Penelitian/perancangan
+	10
+	6. Kemampuan mempresentasikan 
+	15
+	7. Penulisan 
+	10
+	8. Kualitas produk/hasil akhir 
+	20
+	
+
+	100
+	
+
+	
+
+
+
+Komponen Penilaian Pembimbing Skripsi
+Indikator Penilaian 
+	Persentase 
+Penilaian
+	Proporsi Nilai Dewan Penguji
+	1. Identifikasi permasalahan 
+	15 
+	Nilai pembimbing berkontribusi 60 % atas nilai akhir 
+Komposisi 2 Pembimbing : Nilai Pembimbing 1 : 60% 
+Nilai Pembimbing 2 : 40%
+	2. Melakukan literature review dan Identifikasi teori/landasan
+	20
+	3. Tata bahasa, urutan penulisan, substansi
+	10
+	4. Ketajaman analisis masalah berdasarkan teori dan studi  literatur
+	20
+	5. Ketepatan dalam menarik kesimpulan
+	10
+	6. Kualitas produk/hasil akhir 
+	12.5
+	7. Motivasi, Disiplin dan Tanggungjawab
+	12.5
+	
+
+	
+
+	100
+	
+
+	
+
+
+
+F a k u l t a s T e k n o l o g i d a n D e s a i n | 47 
+
+Prodi Teknik Sipil 
+Komponen Penilaian Sidang Skripsi 
+Indikator Penilaian 
+	Persentase 
+Penilaian
+	Proporsi Nilai Dewan Penguji
+	1. Materi pokok: Manfaat dan kebaruan materi yang didapatkan
+	30 
+	Nilai keseluruhan penguji 
+berkontribusi 40% atas nilai  akhir dengan komposisi bobot  nilai penguji sebagai berikut  Komposisi 2 Penguji : 
+1. Ketua Sidang sekaligus   Penguji 1 : 60% 
+2. Penguji 2 : 40%
+	2. Bahan Pustaka / Literatur: Kekinian acuan / bahan literatur, jumlah  
+judul jurnal yang digunakan,  
+kecocokan literatur dengan judul  skripsi, menggunakan bahasa asing
+	25
+	3. Teknik Presentasi: Bahasa tubuh saat presentasi, penyampaian  
+presentasi dalam bahasa yang baik  dan benar, kemampuan  
+menanggapi / menjawab  
+pertanyaan
+	10
+	4. Analisis Masalah: Ketepatan metodologi penelitian, kedalaman  dan keakuratan analisis, kecocokan  tujuan dan kesimpulan 
+	35
+	
+
+	100
+	
+
+	
+
+
+
+Komponen Penilaian Pembimbing Skripsi
+Indikator Penilaian 
+	Persentase 
+Penilaian
+	Proporsi Nilai Dewan Penguji
+	1. Identifikasi permasalahan 
+	15 
+	Nilai pembimbing berkontribusi  60 % atas nilai akhir 
+Komposisi 2 Pembimbing : Nilai Pembimbing 1 : 60% 
+Nilai Pembimbing 2 : 40%
+	2. Identifikasi teori/landasan berpikir untuk menganalisis masalah
+	20
+	3. Melakukan literature review tentang studi kasus yang dipilih
+	10
+	4. Ketajaman analisis masalah 
+berdasarkan teori dan studi  
+literatur
+	20
+	5. Ketepatan dalam menarik 
+kesimpulan
+	10
+	6. Tata bahasa, urutan penulisan, substansi
+	12.5
+	7. Motivasi, disiplin, dan 
+tanggungjawab
+	12.5
+	
+
+	100
+	
+
+	
+
+
+
+48 | F a k u l t a s T e k n o l o g i d a n D e s a i n 
+
+Halaman Pengesahan Pedoman Penulisan Skripsi atau tugas akhir Fakultas Teknologi dan Desain 
+Tangerang Selatan, 18 Desember 2019
+Disahkan Oleh,
+	Safitri Jaya S.Kom, M.T.I 
+	
+Desi Dwi Kristanto, S.Ds., M.Ds.
+	Kepala Program Studi Informatika 
+	Kepala Program Studi Desain Komunikasi Visual
+	Chaerul Anwar, S.Kom., M.T.I 
+	
+Ratna Safitri,S.T., M.Ars
+	Kepala Program Studi Sistem Informasi 
+	Kepala Program Studi Arsitektur
+	
+Fitorio Bowo Leksono, S.Ds., MA 
+	Fredy Jhon Philip S., S.T., M.T.
+	Kepala Program Studi Desain Produk 
+	Kepala Program Studi Teknik Sipil
+	
+Ir. Resdiansyah, S.T., M.T., Ph.D, IPM
+	Dekan Fakultas Teknologi dan Desain
+	
+
+
+
+F a k u l t a s T e k n o l o g i d a n D e s a i n | 49

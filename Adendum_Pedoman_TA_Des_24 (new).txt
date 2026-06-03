@@ -1,0 +1,85 @@
+﻿Adendum Pedoman TugasAkhir 
+  
+
+Desember 2024 
+Program Studi Informatika 
+Fakultas Teknologi dan Desain 
+Universitas Pembangunan Jaya
+1 
+DAFTAR ISI 
+1. LATAR BELAKANG......................................................................................3 1.1 Latar Belakang ............................................................................................................3 1.2 Sasaran ........................................................................................................................3 
+2. SYARAT UMUM PELAKSANAAN TUGAS AKHIR..................................3 3. SKEMA TUGAS AKHIR ................................................................................3 3.1 Skripsi..........................................................................................................................4 3.2 Projek ..........................................................................................................................4 3.3 Artikel Ilmiah ..............................................................................................................4 4. TATA LAKSANA TUGAS AKHIR...................................................................4 4.1 Pengajuan Proposal .....................................................................................................4 4.2 Pelaksanaan Tugas Akhir............................................................................................5 4.3 Pelaksanaan Sidang Akhir dan Diseminasi.................................................................5 4.4 Penilaian pada Sidang Tugas Akhir ............................................................................6 4.5 Penilaian pada Sidang Khusus ....................................................................................6 4.6 Penilaian pada Diseminasi Artikel Ilmiah...................................................................6 4.7 Penyelesaian untuk Penilaian yang Tidak Sesuai dengan Ketentuan .........................7 5. FORMAT PENGETIKAN ................................................................................7 6. SISTEMATIKA PENULISAN .........................................................................7 6.1 Sistematika Penulisan Skripsi .....................................................................................7 6.2 Sistematika Penulisan Laporan Tugas Akhir (Projek)................................................7 6.3 Sistematika Penulisan Artikel Ilmiah..........................................................................7
+1. LATAR BELAKANG 
+1.1 Latar Belakang 
+Penyusunan Adendum Pedoman Tugas Akhir ini dilatarbelakangi oleh hal-hal berikut ini. 
+(1) Prodi Informatika perlu mempertahankan dan meningkatkan pencapaian dalam hal  kelulusan sarjana tepat waktu. 
+(2) Prodi Informatika perlu meningkatkan dukungan kepada para calon sarjana dalam  melaksanakan Tugas Akhir agar menghasilkan karya dengan kualitas yang semakin  baik dan lulus tepat waktu. 
+(3) Program studi Informatika merupakan bagian dari rumpun Ilmu Komputer yang secara  global dimengerti sebagai pencetak sarjana yang memiliki memiliki skills untuk  membangun aplikasi / sistem, sekaligus memahami teori-teori Ilmu Komputer dan  mampu menerapkannya pada komputasi. 
+1.2 Sasaran 
+Dengan latar belakang di atas, prodi Informatika Universitas Pembangunan Jaya merasa  perlu untuk memberikan pilihan kepada calon sarjana dalam melaksanakan Tugas Akhir dengan skema Skripsi, Projek, atau Artikel Ilmiah.  
+2. SYARAT UMUM PELAKSANAAN TUGAS AKHIR 
+Syarat umum pelaksanaan Tugas Akhir adalah sebagaimana tertulis pada Pedoman  Penulisan Skripsi-Tugas Akhir Fakultas Teknologi dan Desain Universitas Pembangunana  Jaya. 
+3. SKEMA TUGAS AKHIR 
+Tugas Akhir dapat dilaksanakan oleh mahasiswa dengan mengikuti salah satu dari skema skema berikut ini.
+3 
+3.1 Skripsi 
+Skripsi di lingkungan prodi Informatika merupakan karya akhir mahasiswa yang berfokus  pada kerja analitis saintifik pada ranah Ilmu Komputer / Informatika. Luaran wajib skema  ini adalah  
+(1) Laporan (Skripsi), dan 
+(2) draft Artikel Ilmiah 
+3.2 Projek 
+Projek di lingkungan prodi Informatika merupakan karya akhir mahasiswa yang melibatkan  penerapan pengetahuan dan kemahiran di bidang Ilmu Komputer / Informatika pada  pengembangan suatu atau bagian dari suatu aplikasi atau sistem. Luaran skema ini adalah 
+(1) Laporan Tugas Akhir, dan 
+(2) draft Artikel Ilmiah 
+3.3 Artikel Ilmiah 
+Karya Artikel Ilmiah di lingkungan prodi Informatika merupakan karya akhir yang berfokus  pada keberhasilan publikasi ilmiah mahasiswa atas hasil kerja analisis saintifik atau  pengembangan suatu atau bagian dari suatu aplikasi atau sistem. Luaran skema ini adalah Artikel Ilmiah yang diterbitkan oleh suatu jurnal ilmiah terindeks SINTA3, SINTA2,  SINTA1 atau The Web of Science atau Scopus. 
+4. TATA LAKSANA TUGAS AKHIR 
+Mahasiswa melaksanakan Tugas Akhir dengan mengikuti tata laksana berikut ini. 4.1 Pengajuan Proposal 
+Mahasiswa mengusulkan proposal dengan ketentuan sebagai berikut ini. 
+(1) Mahasiswa, secepatnya pada semester ke-6, mengajukan permohonan sidang proposal  kepada Koordinator Tugas Akhir prodi, dengan menyertakan dokumen persyaratan  yang ditentukan. 
+(2) Sidang proposal dilaksanakan secara sinkron dengan penyelenggaraan kuliah Metode  Penelitian; dengan demikian dilaksanakan sekali dalam setahun.
+(3) Mahasiswa yang telah menerbitkan Artikel Ilmiahnya pada suatu jurnal yang sesuai  dengan ketentuan mengajukan proposal dengan judul sama dengan judul artikel. (4) Mahasiswa mendaftarkan diri proposalnya di MyUPJ dengan ketentuan sebagai berikut  ini. 
+(a) Proposal dari mahasiswa telah dinyatakan lolos pada sidang proposal. (b) Mahasiswa menyertakan dokumen-dokumen persyaratan yang telah ditentukan. 
+4.2 Pelaksanaan Tugas Akhir 
+Tugas Akhir dilaksanakan dengan ketentuan sebagai berikut ini. 
+(1) Mahasiswa melaksanakan Tugas Akhir dengan bimbingan dosen yang telah ditunjuk. (2) Bimbingan di atas dilaksanakan setidaknya 8 kali; jika Pembimbing terdiri dari dua  dosen, jumlah ini dibagi rata untuk para Pembimbing. 
+(3) Dosen Pembimbing melaporkan kemajuan pelaksanaan Tugas Akhir mahasiswa kepada  Koordinator. 
+(4) Untuk skema Artikel Ilmiah, mahasiswa dapat mengklaim suatu Artikel Ilmiah yang  merupakan karyanya dengan supervisi dosen Pembimbing, yang diterbitkan atau  diterima (accepted) oleh jurnal sesuai dengan ketentuan, secepatnya pada semester ke 6. 
+4.3 Pelaksanaan Sidang Akhir dan Diseminasi 
+Untuk skema Skripsi dan Projek, mahasiswa melaksanakan Sidang Akhir dengan ketentuan  sebagai berikut ini. 
+(1) Mahasiswa yang telah menyelesaikan Tugas Akhir, memperoleh persetujuan dari (para) Pembimbing serta telah menyerahkan dokumen persyaratan berhak maju ke Sidang  Akhir. 
+(2) Untuk mahasiswa yang belum menyelesaikan Tugas Akhir namun mengalami situasi  darurat, Pembimbing diminta untuk mengajukan permohonan Sidang Khusus kepada  Koordinator Tugas Akhir, secara tertulis atau lisan. Situasi darurat yang dimaksud  adalah sebagai berikut ini. 
+a. Mahasiswa telah duduk di semester ke-14; atau 
+b. Mahasiswa telah menjalani Tugas Akhir selama 3 semester; atau
+5 
+c. Mahasiswa mengalami kesulitan keuangan dan terancam tidak dapat melanjutkan  studi. 
+Untuk skema Artikel Ilmiah, mahasiswa melaksanakan diseminasi dengan ketentuan  sebagai berikut ini. 
+(1) Artikel Ilmiah telah terbit atau setidaknya telah disetujui untuk diterbitkan (accepted)  oleh suatu jurnal yang terindeks oleh SINTA3, SINTA2, SINTA1, WOS atau Scopus. (2) Mahasiswa mengajukan permohonan Sidang Akhir / diseminasi kepada Koordinator  Tugas Akhir dengan menyertakan dokumen-dokumen persyaratan yang telah  ditentukan. 
+4.4 Penilaian pada Sidang Tugas Akhir 
+Untuk Sidang Tugas Akhir, penilaian Tugas Akhir mahasiswa dilaksanakan dengan  ketentuan sebagai berikut ini. 
+(1) Tugas Akhir dinilai oleh (para) Pembimbing dan para Penguji. 
+(2) Bobot nilai (para) Pembimbing adalah 60%; jika Pembimbing terdiri dari 2 orang maka  bobot 60% ini dibagi menjadi 36% untuk Pembimbing Utama dan 24% untuk  Pembimbing Pendamping. 
+(3) Para Penguji memberikan nilai Tugas Akhir dengan ketentuan bahwa nilai yang  diberikan tidak kurang dari 70 dan selisih antara nilai terendah dan nilai tertinggi tidak  melebihi 20%. 
+(4) (Para) Pembimbing memberikan nilai Tugas Akhir dengan ketentuan bahwa nilai yang  diberikan tidak kurang dari 70 dan selisih antara rerata nilai para Penguji dan nilai  Pembimbing tidak lebih dari 20%. 
+4.5 Penilaian pada Sidang Khusus 
+Untuk Sidang Khusus, para Penguji dan para Pembimbing memberikan nilai pada rentang  55.00 s.d. 64.99 (bersesuaian dengan nilai huruf C atau C+). 
+4.6 Penilaian pada Diseminasi Artikel Ilmiah 
+Untuk Diseminasi Artikel Ilmiah, para Penguji dan para Pembimbing memberikan nilai  dengan ketentuan bahwa untuk artikel ilmiah pada jurnal terindeks SINTA3, SINTA2, 
+SINTA1, WOS atau Scopus, nilai angka terletak pada rentang 90.00 s.d. 100.00 (bersesuaian  dengan nilai huruf A). 
+4.7 Penyelesaian untuk Penilaian yang Tidak Sesuai dengan Ketentuan 
+Jika nilai yang diberikan oleh seorang Penguji atau seorang Pembimbing tidak memenuhi  ketentuan pada butir (4.4) atau (4.5) atau (4.6) maka  
+(1) Nilai akan dikoreksi melalui Rapat Pleno Penguji dan Pembimbing Tugas Akhir. (2) Dalam hal Rapat Pleno tidak menghasilkan kata sepakat atau Rapat Pleno tidak  terlaksana karena keterbatasan waktu dan kendala lain, Koordinator Tugas Akhir  melakukan koreksi nilai mengikuti ketentuan butir (4.4), (4.5) dan (4.6) dengan  persetujuan Kepala Program Studi. 
+5. FORMAT PENGETIKAN 
+Format pengetikan Artikel Ilmiah adalah sebagaimana ditentukan oleh jurnal Penerbit  sedangkan format pengetikan Skripsi dan laporan Tugas Akhir adalah sebagaimana tertulis  pada Pedoman Penulisan Skripsi-Tugas Akhir Fakultas Teknologi dan Desain Universitas  Pembangunana Jaya.  
+6. SISTEMATIKA PENULISAN 
+Sistematika atau kerangka penulisan Skripsi, Laporan Tugas Akhir, dan Artikel Ilmiah  adalah sebagai berikut ini. 
+6.1 Sistematika Penulisan Skripsi 
+Sistematika penulisan Skripsi adalah sebagaimana ditunjukkan oleh Gambar 1. 6.2 Sistematika Penulisan Laporan Tugas Akhir (Projek) 
+Sistematika penulisan laporan Tugas Akhir adalah sebagaimana ditunjukkan oleh Gambar  2. 
+6.3 Sistematika Penulisan Artikel Ilmiah 
+Sistematika penulisan Artikel Ilmiah mengikuti ketentuan jurnal penerbit.
+7 
+  
+Gambar 1 Sistematika Penulisan Skripsi
+  
+Gambar 2 Sistematika Penulisan Laporan Tugas Akhir (Projek)
+9
