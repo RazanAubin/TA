@@ -1,0 +1,592 @@
+﻿PENGEMBANGAN OFFICE ADD-IN UNTUK DETEKSI
+PLAGIARISME MENGGUNAKAN METODE TF-IDF
+
+
+
+
+TUGAS AKHIR
+
+
+
+
+Razan Aubin Farras Nurhajanto Muljadi
+2022071043
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PROGRAM STUDI INFORMATIKA
+FAKULTAS TEKNOLOGI DAN DESAIN
+UNIVERSITAS PEMBANGUNAN JAYA
+TANGERANG SELATAN
+2026
+________________
+PENGEMBANGAN OFFICE ADD-IN UNTUK DETEKSI
+PLAGIARISME MENGGUNAKAN METODE TF-IDF
+
+
+
+
+
+
+
+
+
+
+TUGAS AKHIR
+
+
+Diajukan untuk memenuhi salah satu syarat memperoleh Gelar Sarjana dalam Bidang Informatika pada Fakultas Teknologi dan Desain, Universitas Pembangunan Jaya
+
+
+
+
+
+
+
+
+
+
+
+
+Razan Aubin Farras Nurhajanto Muljadi
+2022071043
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PROGRAM STUDI INFORMATIKA
+FAKULTAS TEKNOLOGI DAN DESAIN
+UNIVERSITAS PEMBANGUNAN JAYA
+TANGERANG SELATAN
+2026
+PERSETUJUAN DOSEN PEMBIMBING TUGAS AKHIR
+
+
+PENGEMBANGAN OFFICE ADD-IN UNTUK DETEKSI PLAGIARISME MENGGUNAKAN METODE TF-IDF
+
+
+Nama                : Razan Aubin Farras Nurhajanto Muljadi
+NIM                : 2022071043
+Program Studi        : Informatika
+
+
+Telah diperiksa dan disetujui untuk diajukan dan dipertahankan dalam Sidang Tugas Akhir guna memperoleh gelar Sarjana Komputer (S.Kom.) Strata Satu pada Program Studi Informatika, Fakultas Teknologi dan Desain, Universitas Pembangunan Jaya.
+
+
+Tangerang Selatan, ……… 2026
+Menyetujui:
+
+
+
+
+Pembimbing
+
+
+
+
+
+
+(Safitri Jaya, S.Kom., M.T.I.)
+NIP: 08.0715.008
+
+
+Kepala Program Studi
+
+
+
+
+
+
+(Dr. Ida Nurhaida, S.T., M.T.)
+NIP: 08.1022.0245
+LEMBAR PENGESAHAN TUGAS AKHIR
+
+
+PENGEMBANGAN OFFICE ADD-IN UNTUK DETEKSI PLAGIARISME MENGGUNAKAN METODE TF-IDF
+
+
+TUGAS AKHIR
+Oleh:
+Razan Aubin Farras Nurhajanto Muljadi
+2022071043
+
+
+Telah dinyatakan lulus dalam ujian Sarjana
+Pada Hari/Tanggal: .....................................
+
+
+        Tanda Tangan        Tanggal
+
+
+Pembimbing 1:
+Safitri Jaya, S.Kom., M.T.I 
+NIP: 08.0715.008
+Pembimbing 2:
+Nama Lengkap
+NIP. ................
+Dosen Penguji:
+Nama Lengkap
+NIP. ................
+
+
+Kepala Program Studi Informatika                 Dekan Fakultas Teknologi dan Desain
+
+
+
+
+
+
+Dr. Ida Nurhaida, S.T., M.T.                    Ratna Safitri, S.T., M.Ars.
+NIP: 08.1022.025        NIP: 
+Tanggal:         Tanggal: 
+         SURAT PERNYATAAN
+MENGENAI ORIGINALITAS TUGAS AKHIR, KESEDIAAN PUBLIKASI
+     DAN PELIMPAHAN HAK CIPTA
+
+
+Saya mahasiswa Universitas Pembangunan Jaya, yang bertanda tangan di bawah ini:
+Nama Mahasiswa        : Razan Aubin Farras Nurhajanto Muljadi
+NIM                        : 2022071043
+Program Studi                : Informatika
+Menyatakan dengan sesungguhnya bahwa hasil Tugas Akhir saya yang berjudul:
+PENGEMBANGAN OFFICE ADD-IN UNTUK DETEKSI PLAGIARISME MENGGUNAKAN METODE TF-IDF
+
+
+1. Adalah benar-benar merupakan hasil karya saya sendiri. Apabila di kemudian hari diketahui bahwa Tugas Akhir ini merupakan hasil plagiarisme, maka saya bersedia menerima sanksi berupa pembatalan kelulusan dan atau pencabutan gelar Sarjana yang saya peroleh.
+2. Adalah benar karya saya dengan arahan dari Tim pembimbing dan belum pernah diajukan dalam bentuk apapun kepada Perguruan Tinggi mana pun. Sumber informasi yang berasal atau dikutip dari karya yang diterbitkan maupun tidak diterbitkan dari penulis lain telah disebutkan dalam teks dan dicantumkan dalam Daftar Pustaka di bagian akhir Tugas Akhir ini. Dengan ini saya melimpahkan Hak Cipta dari Tugas Akhir saya kepada Universitas Pembangunan Jaya dan memberikan hak pada Universitas Pembangunan Jaya untuk mempublikasikan Tugas Akhir saya baik secara daring (online) ataupun cetak.
+
+
+Demikian surat pernyataan ini saya buat untuk dipergunakan sebagaimana mestinya.
+Tangerang Selatan, …… 2026
+
+
+Yang Menyatakan                                                        Mengetahui Pembimbing Utama
+Materai Rp. 10.000,-
+
+
+
+
+
+
+Nama: Razan Aubin Farras N.M                                          Nama: Safitri Jaya, S.Kom., M.T.I.
+NIM: 2022071043                                                  NIP: 08.0715.008
+ABSTRACT
+
+
+Development of Office Add-in for Plagiarism Detection Using TF-IDF Method
+
+
+Razan Aubin Farras Nurhajanto Muljadi¹, Safitri Jaya, S.Kom., M.T.I.²
+¹⧉ Student of Informatics Department, Universitas Pembangunan Jaya
+²⧉ Lecturer of Informatics Department, Universitas Pembangunan Jaya
+
+
+Plagiarism is an academic integrity violation that frequently occurs in higher education. Most existing plagiarism detection systems operate separately from the writing process and require document uploads to external servers, which may compromise user privacy. This research aims to develop a locally-based Microsoft Word extension (Office Add-in) capable of detecting plagiarism in real-time during the writing process, without internet connectivity. The system employs Term Frequency-Inverse Document Frequency (TF-IDF) for term weighting and Cosine Similarity for measuring document similarity. Development was conducted using a prototyping approach, encompassing interface design, algorithm implementation, and system testing through black box and white box testing. Testing results indicate that the system achieves content similarity detection with an accuracy rate above 89% and efficient response time.
+
+
+Keywords: Plagiarism, TF-IDF, Cosine Similarity, Office Add-in, Local Plagiarism Detection.
+
+
+Libraries                : 9
+Publication Years        : 2022 – 2025
+ABSTRAK
+
+
+Pengembangan Office Add-in untuk Deteksi Plagiarisme Menggunakan Metode TF-IDF
+
+
+Razan Aubin Farras Nurhajanto Muljadi¹, Safitri Jaya, S.Kom., M.T.I.²
+¹⧉ Mahasiswa Program Studi Informatika, Universitas Pembangunan Jaya
+²⧉ Dosen Program Studi Informatika, Universitas Pembangunan Jaya
+
+
+Plagiarisme merupakan pelanggaran etika akademik yang sering terjadi, terutama dalam lingkungan pendidikan tinggi. Sebagian besar sistem deteksi plagiarisme yang tersedia saat ini masih bersifat terpisah dari proses penulisan dan memerlukan unggahan ke server eksternal, yang dapat memengaruhi privasi dan kenyamanan pengguna. Penelitian ini bertujuan mengembangkan ekstensi Microsoft Word berbasis lokal (Office Add-in) yang mampu mendeteksi plagiarisme secara langsung saat proses penulisan berlangsung, tanpa koneksi internet. Sistem menggunakan metode Term Frequency-Inverse Document Frequency (TF-IDF) untuk membobotkan kata dan Cosine Similarity untuk mengukur kemiripan antar dokumen. Pengembangan dilakukan dengan pendekatan prototyping, meliputi perancangan antarmuka, implementasi algoritma, serta pengujian sistem menggunakan pendekatan black box dan white box. Hasil pengujian menunjukkan bahwa sistem mampu mendeteksi kemiripan konten dengan tingkat akurasi di atas 89% dan waktu respons yang efisien. Dengan kemampuan deteksi secara langsung yang terintegrasi ke dalam Word dan tetap menjaga privasi data, sistem ini menjadi solusi praktis dan inovatif dalam mendukung orisinalitas tulisan akademik.
+
+
+Kata kunci: Plagiarisme, TF-IDF, Cosine Similarity, Office Add-in, Deteksi Plagiarisme Lokal.
+
+
+Pustaka                : 9
+Tahun Publikasi        : 2022 – 2025
+________________
+
+
+KATA PENGANTAR
+
+
+Puji dan syukur penulis panjatkan ke hadirat Tuhan Yang Maha Esa, karena berkat limpahan rahmat dan karunia-Nya sehingga penulis dapat menyusun Tugas Akhir ini dengan baik dan tepat pada waktunya. Tugas Akhir dengan judul “PENGEMBANGAN OFFICE ADD-IN UNTUK DETEKSI PLAGIARISME MENGGUNAKAN METODE TF-IDF” ini ditujukan untuk memenuhi persyaratan akademik guna memperoleh gelar Sarjana Komputer (S.Kom.) Strata Satu pada Program Studi Informatika, Fakultas Teknologi dan Desain, Universitas Pembangunan Jaya, Tangerang Selatan.
+Tugas Akhir ini dibuat dengan berbagai observasi dan bantuan dari berbagai pihak untuk membantu menyelesaikan tantangan dan hambatan selama pengerjaannya. Oleh karena itu, penulis mengucapkan terima kasih yang sebesar-besarnya kepada semua pihak yang telah membantu, yaitu kepada:
+
+
+1. Bapak Ir. Frans Satyaki Sunito selaku Presiden Universitas Pembangunan Jaya.
+2. Ibu Prof. Elisabeth Rukmini, Ph.D selaku Rektor Universitas Pembangunan Jaya.
+3. Ibu Ratna Safitri, S.T., M.Ars. selaku Dekan Fakultas Teknologi dan Desain.
+4. Dr. Ida Nurhaida, S.T., M.T. selaku Kepala Program Studi Informatika.
+5. Ibu Safitri Jaya, S.Kom., M.T.I. selaku Dosen Pembimbing yang telah memberikan bimbingan, arahan, dan masukan selama proses penyelesaian Tugas Akhir ini.
+6. Seluruh dosen dan staf Program Studi Informatika atas ilmu dan dukungan yang diberikan.
+Penulis menyadari bahwa Tugas Akhir ini masih jauh dari sempurna. Oleh karena itu, kritik dan saran dari pembaca sangat diharapkan untuk penyempurnaan Tugas Akhir ini. Penulis berharap agar Tugas Akhir ini dapat memberikan manfaat bagi semua pihak yang membacanya.
+
+
+Tangerang Selatan, ……… 2026
+
+
+
+
+
+
+       Razan Aubin Farras Nurhajanto Muljadi
+________________
+
+
+DAFTAR ISI
+ABSTRACT        7
+ABSTRAK        8
+BAB 1  PENDAHULUAN        10
+1.1        Latar Belakang        10
+1.2        Identifikasi Masalah        11
+1.4        Manfaat Penelitian        12
+1.5        Kebaruan Penelitian        13
+1.6        Kerangka Penulisan        13
+BAB 2  TINJAUAN PUSTAKA        15
+2.1        Pencapaian Terdahulu        15
+2.2        Tinjauan Teoritis        18
+BAB 3  TAHAPAN PELAKSANAAN        22
+3.1        Langkah-langkah Pelaksanaan        22
+3.2        Metode Pengujian        23
+3.3        Contoh Data        26
+BAB IV PERANCANGAN        28
+4.1   Analisis Sistem Terdahulu        28
+4.2   Spesifikasi Kebutuhan Sistem Baru        28
+4.3   Perancangan Sistem        28
+BAB V HASIL DAN PEMBAHASAN        29
+5.1   Hasil        29
+5.2   Pembahasan        29
+BAB VI PENUTUP        30
+6.1   Kesimpulan        30
+6.2   Saran        30
+DAFTAR PUSTAKA        30
+
+
+________________
+
+
+DAFTAR GAMBAR
+asd
+________________
+DAFTAR TABEL
+asd
+________________
+DAFTAR LAMPIRAN
+asd
+________________
+BAB 1 
+PENDAHULUAN
+1.1        Latar Belakang
+Plagiarisme merupakan salah satu bentuk pelanggaran etika akademik yang umum terjadi di lingkungan pendidikan tinggi. Kemajuan teknologi informasi dan kemudahan akses terhadap literatur ilmiah telah memberikan banyak manfaat, namun juga mempermudah tindakan plagiarisme baik secara sengaja maupun tidak disengaja. Mahasiswa atau penulis sering kali mengutip atau merujuk sumber tanpa mencantumkan referensi yang sesuai, sehingga menghasilkan kemiripan konten dengan dokumen lain yang dapat dikategorikan sebagai plagiarisme. Berdasarkan kajian yang dilakukan oleh Ariska Putra (2023), tindakan copy-paste tugas tanpa mencantumkan sumber masih menjadi kebiasaan umum mahasiswa di Indonesia, bahkan hingga di tingkat penulisan skripsi dan tugas akhir.
+Untuk mengatasi persoalan ini, berbagai perangkat lunak deteksi plagiarisme telah dikembangkan. Platform populer seperti Turnitin, Copyscape, dan Grammarly menyediakan layanan deteksi kemiripan berbasis pencocokan dokumen dengan database global. Meskipun efektif, layanan tersebut memiliki beberapa keterbatasan seperti ketergantungan terhadap koneksi internet, kebutuhan untuk mengunggah dokumen, dan biaya berlangganan yang tidak murah. Selain itu, kebanyakan aplikasi tidak terintegrasi langsung ke dalam perangkat lunak pengolah kata, sehingga pengguna perlu melakukan proses pengecekan secara terpisah dari proses penulisan.
+Penelitian-penelitian sebelumnya banyak menggunakan pendekatan pembobotan teks seperti TF-IDF untuk mengidentifikasi kata-kata penting dalam dokumen dan mengukur derajat kemiripannya dengan dokumen lain. Zubair dan Khan (2025) melakukan studi komparatif terhadap berbagai teknik deteksi plagiarisme berbasis teks, termasuk TF-IDF, dan menunjukkan bahwa metode ini tetap menjadi salah satu pendekatan paling efisien dalam konteks sistem ringan dan cepat dengan akurasi mencapai 91%. Sementara itu, Sari (2023) menunjukkan bahwa kombinasi TF-IDF dan Cosine Similarity efektif dalam mendeteksi plagiarisme pada dokumen skripsi akademik.
+Di Indonesia, tingkat plagiarisme dalam lingkungan akademik menunjukkan angka yang mengkhawatirkan. Berdasarkan kajian Ariska Putra (2023) dalam The Indonesian Journal of Social Studies, tindakan plagiarisme tidak hanya terjadi pada penulisan tugas akhir, tetapi juga pada pengerjaan tugas sehari-hari yang seringkali luput dari pengawasan. Kondisi ini menegaskan urgensi pengembangan sistem pendeteksian plagiarisme yang efisien, ringan, dan terintegrasi langsung ke dalam aktivitas penulisan akademik sehari-hari seperti di Microsoft Word.
+Dengan demikian, penelitian ini bertujuan untuk mengembangkan ekstensi (add-in) untuk Microsoft Word yang dapat mendeteksi kemiripan isi dokumen secara langsung saat pengguna menulis. Sistem dirancang bekerja secara lokal (tanpa unggahan ke server) dan menyajikan hasil kemiripan secara langsung dengan tetap menjaga privasi data pengguna. Dengan integrasi langsung ke dalam Microsoft Word, sistem ini diharapkan mampu meningkatkan kenyamanan dan efisiensi proses penulisan akademik, serta memberikan kontribusi terhadap penguatan budaya orisinalitas dan kejujuran ilmiah.
+1.2        Identifikasi Masalah
+1.2.1        Rumusan Masalah
+Berdasarkan latar belakang yang telah diuraikan, rumusan masalah dalam penelitian ini adalah sebagai berikut:
+1. Bagaimana proses deteksi plagiarisme dapat diterapkan secara langsung melalui ekstensi (Office Add-in) dalam Microsoft Word tanpa perlu mengunggah dokumen ke platform eksternal?
+2. Bagaimana metode pembobotan teks berbasis TF-IDF dapat digunakan untuk mengidentifikasi tingkat kemiripan konten antara dokumen aktif dengan dokumen referensi secara efisien?
+1.2.2        Batasan Masalah
+Batasan masalah dalam penelitian ini adalah sebagai berikut:
+1. Pengembangan Office Add-in diterapkan untuk Microsoft Word versi desktop (Office 2016 ke atas) dan tidak mencakup versi mobile atau web.
+2. Pendeteksian plagiarisme dilakukan terhadap dokumen dalam format teks (.PDF), dengan asumsi dokumen sudah dalam bentuk final atau semi-final.
+3. Deteksi konten dilakukan terhadap kumpulan dokumen referensi lokal yang telah disediakan di dalam sistem, tanpa koneksi ke database eksternal atau server cloud.
+4. Sistem menggunakan metode pembobotan TF-IDF dan pengukuran Cosine Similarity untuk mendeteksi potensi plagiarisme. Sistem tidak menangani pendeteksian berbasis semantik mendalam seperti pengenalan sinonim atau analisis konteks kalimat.
+1.3        Tujuan Penelitian
+Tujuan utama penelitian ini adalah untuk merancang dan membangun sistem deteksi plagiarisme yang terintegrasi langsung ke dalam Microsoft Word, dengan rincian sebagai berikut:
+1. Pengembangan Office Add-in untuk deteksi plagiarisme
+2. Penerapan metode TF-IDF dalam proses deteksi plagiarisme.
+1.4        Manfaat Penelitian
+1.4.1        Manfaat bagi Pengguna
+Bagi pengguna, khususnya mahasiswa, dosen, penulis, dan editor akademik, penelitian ini memberikan manfaat berupa ketersediaan alat bantu deteksi plagiarisme yang praktis dan mudah diakses langsung dari aplikasi Microsoft Word. Dengan adanya ekstensi ini, pengguna dapat memeriksa tingkat kemiripan isi dokumen terhadap referensi yang dimiliki secara langsung, tanpa perlu keluar dari aplikasi Word atau mengunggah dokumen ke platform pihak ketiga. Sistem ini juga dirancang untuk menjaga privasi pengguna karena proses deteksi dilakukan secara lokal di komputer, sehingga tidak ada data yang dikirimkan ke server eksternal.
+1.4.2        Manfaat bagi Peneliti
+Penelitian ini memberikan kontribusi dalam bentuk implementasi metode TF-IDF untuk sistem deteksi plagiarisme berbasis lokal yang diintegrasikan dengan aplikasi Microsoft Word. Selain itu, penelitian ini membuka peluang eksplorasi lebih lanjut terhadap pengembangan sistem deteksi kemiripan dokumen dengan pendekatan yang lebih efisien dan terintegrasi. Hasil penelitian ini dapat dijadikan acuan untuk pengembangan sistem sejenis pada platform yang sama maupun lingkungan pengolah teks lainnya di masa mendatang.
+1.5        Kebaruan Penelitian
+Penelitian ini menghadirkan deteksi plagiarisme yang terintegrasi langsung ke dalam Microsoft Word melalui Office Add-in, sehingga proses pemeriksaan kemiripan tidak dipisahkan dari proses penulisan dokumen. Berbeda dengan solusi yang ada seperti Turnitin, iThenticate, dan Plagscan yang umumnya berbasis cloud dan memerlukan unggahan dokumen ke server eksternal, sistem ini bekerja sepenuhnya secara lokal tanpa ketergantungan pada koneksi internet.
+Kebaruan dari penelitian ini terletak pada pengembangan ekstensi berbasis lokal yang memungkinkan pengguna mendeteksi potensi plagiarisme secara otomatis terhadap dokumen referensi pribadi yang tersimpan di komputer. Dengan pendekatan ini, proses deteksi dapat dilakukan secara mandiri, privat, dan efisien tanpa risiko kebocoran data ke pihak ketiga.
+1.6        Kerangka Penulisan
+Penelitian ini disusun berdasarkan pedoman penulisan Universitas Pembangunan Jaya yang terdiri dari 6 bab, sebagai berikut:
+1. Bab I Pendahuluan: Membahas latar belakang masalah, identifikasi masalah, rumusan masalah, tujuan penelitian, manfaat penelitian, kebaruan penelitian, dan kerangka penulisan sebagai dasar pentingnya topik ini.
+2. Bab II Tinjauan Pustaka: Menyajikan hasil penelusuran literatur sebelumnya serta landasan teori yang mencakup konsep plagiarisme, metode TF-IDF, Cosine Similarity, dan dasar teknis pengembangan Office Add-in.
+3. Bab III Tahapan Pelaksanaan: Menjelaskan metode penelitian, langkah-langkah pelaksanaan, metode pengembangan perangkat lunak, dan metode pengujian sistem.
+4. Bab IV Perancangan: Menjelaskan tahapan perancangan sistem ekstensi, mulai dari arsitektur sistem, diagram alur proses, antarmuka pengguna, hingga proses integrasi algoritma ke dalam ekstensi Microsoft Word.
+5. Bab V Hasil dan Pembahasan: Menyajikan hasil implementasi dan pengujian sistem serta pembahasan mengenai efektivitas sistem terhadap tujuan yang telah ditetapkan.
+6. Bab VI Penutup: Berisi kesimpulan dari hasil penelitian dan saran untuk pengembangan sistem lebih lanjut.
+________________
+
+
+BAB 2 
+TINJAUAN PUSTAKA
+2.1        Pencapaian Terdahulu
+Peneliti menggunakan referensi dari penelitian sebelumnya sebagai bahan landasan dan pengembangan ide. Referensi tersebut mencakup topik-topik yang berkaitan dengan deteksi plagiarisme menggunakan metode TF-IDF dan Cosine Similarity.
+
+
+Tabel 2.1 Penelitian Terdahulu
+________________
+
+
+
+
+Author (Nama, Tahun, Publisher)
+	Judul
+	Hasil Pengembangan / Implementasi
+	Limitation (dibanding riset ini)
+	Zubair, A., & Khan, M. (2025). Journal of Intelligent Systems, Q2.
+	Comparative evaluation of text similarity algorithms for plagiarism detection
+	Kombinasi TF-IDF dan Cosine Similarity mencapai akurasi 91%, mengungguli Jaccard (81%) dan LCS (79%). TF-IDF efektif menyoroti kata kunci relevan.
+	Sistem berbasis teks statis, belum terintegrasi langsung ke dalam aplikasi pengolah kata, tidak mendukung deteksi real-time.
+	Sari, R. (2023). JOSAPEN, Vol. 1, No. 2.
+	Cosine Similarity-based Plagiarism Detection on Electronic Documents
+	Sistem mendeteksi plagiarisme pada dokumen skripsi menggunakan TF-IDF dan Cosine Similarity. Pengujian Black Box mengkonfirmasi sistem berjalan sesuai kriteria fungsional.
+	Berbasis web, memerlukan unggahan dokumen ke platform online, belum terintegrasi langsung ke dalam Microsoft Word.
+	Halim, J., & Lasut, D. (2024). bit-Tech, Vol. 7, No. 2.
+	Document Plagiarism Detection Application Using Web-Based TF-IDF and Cosine Similarity Methods
+	Akurasi 89% dengan waktu respons di bawah 2 detik per dokumen. Sistem berbasis web menggunakan TF-IDF dan Cosine Similarity tanpa machine learning kompleks.
+	Masih berbasis web dan memerlukan unggahan dokumen. Tidak terintegrasi langsung ke dalam Microsoft Word.
+	Das, M., et al. (2023). arXiv:2308.04037.
+	A Comparative Study on TF-IDF Feature Weighting Method and its Analysis using Unstructured Dataset
+	TF-IDF dengan N-Gram mencapai akurasi maksimum 93.81% pada Random Forest classifier. Menunjukkan keunggulan TF-IDF sebagai metode representasi fitur teks.
+	Fokus pada klasifikasi teks umum, bukan khusus deteksi plagiarisme. Tidak membahas integrasi dengan aplikasi pengolah kata.
+	Ariska Putra, B.A. (2023). The Indonesian Journal of Social Studies, Vol. 6, No. 2.
+	Membentuk Karakter Mahasiswa Anti Plagiarisme
+	Menunjukkan bahwa tindakan copy-paste tugas tanpa sumber merupakan kebiasaan umum mahasiswa Indonesia hingga tingkat skripsi. Menegaskan urgensi sistem deteksi yang praktis.
+	Bersifat kajian sosial, tidak mengembangkan sistem teknis. Tidak membahas implementasi algoritmik.
+	Resta, O.A., et al. (2023). SinkrOn, Vol. 5, No. 2.
+	Plagiarism Detection in Students’ Theses Using The Cosine Similarity Method
+	Akurasi 91% pada deteksi plagiarisme dokumen skripsi menggunakan Cosine Similarity. Efektif mengidentifikasi kemiripan meskipun teks mengalami parafrase.
+	Tidak menggunakan TF-IDF secara eksplisit. Belum terintegrasi ke dalam Microsoft Word.
+	Azzahrah, N., et al. (2023). Jurnal Piksel, SINTA 4.
+	Naive Bayes Algorithm and TF-IDF for Detecting Plagiarism in Journal Articles
+	Akurasi 93% menggunakan kombinasi TF-IDF dan Naive Bayes. Efektif membedakan konten orisinal dari konten yang terindikasi plagiat.
+	Menggunakan Naive Bayes sebagai classifier, bukan Cosine Similarity. Berbasis web, belum terintegrasi ke Microsoft Word.
+	Murtadha, M., et al. (2022). Expert Systems with Applications, Elsevier, Q1.
+	Improving plagiarism detection in text document using hybrid structural and semantic similarity
+	Pendekatan hybrid TF-IDF dan Cosine Similarity menghasilkan F-measure 89%, mengungguli string matching dan fingerprinting. Lebih tangguh terhadap variasi struktur kalimat.
+	Diimplementasikan untuk dokumen bahasa Arab, belum diuji untuk bahasa Indonesia. Tidak terintegrasi dengan aplikasi pengolah kata.
+	
+
+
+
+2.2        Tinjauan Teoritis
+Tinjauan teoritis memuat konsep-konsep dasar yang mendasari penelitian ini secara teknis maupun metodologis.
+2.2.1        Plagiarisme dalam Lingkungan Akademik
+Plagiarisme merupakan tindakan mengambil karya, ide, atau kata-kata orang lain tanpa memberikan atribusi yang layak dan menyajikannya seolah-olah sebagai karya sendiri. Dalam lingkungan akademik, tindakan ini dikategorikan sebagai pelanggaran integritas ilmiah yang serius. Berdasarkan kajian Ariska Putra (2023), tindakan plagiarisme di kalangan mahasiswa Indonesia tidak hanya terjadi pada penulisan skripsi, tetapi juga pada pengerjaan tugas harian yang sering luput dari pengawasan institusi. Kondisi ini diperparah oleh minimnya pemahaman mahasiswa terhadap etika penulisan ilmiah dan kurangnya sistem deteksi yang praktis dan mudah digunakan.
+Plagiarisme dapat diklasifikasikan ke dalam beberapa bentuk, antara lain: (1) verbatim plagiarism, yaitu penyalinan teks secara langsung tanpa tanda kutip; (2) paraphrase plagiarism, yaitu pengubahan struktur kalimat namun makna tetap sama tanpa atribusi; dan (3) mosaic plagiarism, yaitu penggabungan kalimat dari berbagai sumber tanpa pencantuman sumber yang tepat. Ketiga bentuk tersebut menjadi dasar pertimbangan dalam perancangan sistem deteksi yang dikembangkan dalam penelitian ini.
+2.2.2        Deteksi Plagiarisme Berbasis Kemiripan Teks
+Deteksi plagiarisme berbasis kemiripan teks bekerja dengan cara membandingkan representasi vektor dari dokumen yang diuji dengan dokumen-dokumen referensi dalam suatu basis data. Sari (2023) menjelaskan bahwa pendekatan ini melibatkan tiga tahapan utama: preprocessing teks, representasi vektor, dan pengukuran kemiripan. Pada tahap preprocessing, teks mengalami tokenisasi, penghapusan stopword, dan normalisasi sebelum direpresentasikan sebagai vektor numerik menggunakan metode pembobotan seperti TF-IDF. Kemudian, kemiripan antar vektor diukur menggunakan metrik seperti Cosine Similarity.
+Halim dan Lasut (2024) membuktikan bahwa kombinasi TF-IDF dan Cosine Similarity mampu menghasilkan akurasi deteksi sebesar 89% dengan waktu pemrosesan di bawah 2 detik per dokumen. Hasil ini menunjukkan bahwa pendekatan berbasis kemiripan teks sangat efisien untuk diimplementasikan pada sistem yang membutuhkan respons cepat, seperti Office Add-in yang bekerja secara langsung saat pengguna menulis.
+2.2.3        Metode Term Frequency-Inverse Document Frequency (TF-IDF)
+Term Frequency-Inverse Document Frequency (TF-IDF) merupakan metode pembobotan kata yang digunakan dalam representasi teks dan pencarian informasi. Metode ini menilai seberapa penting suatu kata dalam sebuah dokumen relatif terhadap seluruh koleksi dokumen (corpus). Das et al. (2023) menjelaskan bahwa TF mengukur frekuensi kemunculan suatu kata dalam satu dokumen, sementara IDF mengukur keunikan kata tersebut dalam keseluruhan korpus.
+Rumus perhitungan TF-IDF adalah sebagai berikut:
+TF-IDF (t, d, D) = TF (t, d) × IDF (t, D)
+Keterangan:
+* TF (t, d): frekuensi kemunculan term t dalam dokumen d
+* IDF (t, D): log (N / df(t)), dengan N = jumlah total dokumen, df(t) = jumlah dokumen yang mengandung term t
+Berdasarkan penelitian Das et al. (2023), penggunaan TF-IDF dengan fitur N-Gram menghasilkan akurasi maksimum 93.81% pada klasifikasi teks. Zubair dan Khan (2025) juga mencatat bahwa akurasi TF-IDF dalam sistem deteksi plagiarisme mencapai 91%, mengungguli metode Jaccard (81%) dan LCS (79%). Keunggulan TF-IDF terletak pada kemampuannya bekerja tanpa pelatihan model yang kompleks sehingga sangat cocok untuk sistem ringan dan responsif seperti ekstensi Microsoft Word.
+2.2.4        Cosine Similarity sebagai Ukuran Kemiripan Dokumen
+Cosine Similarity adalah metode untuk mengukur kesamaan antara dua vektor teks dengan menghitung nilai cosinus dari sudut yang terbentuk di antara keduanya. Jika dua dokumen sangat mirip, nilai cosinus mendekati 1; jika sangat berbeda, nilai mendekati 0. Metode ini dipilih karena mampu mengukur kemiripan konten tanpa terpengaruh oleh perbedaan panjang dokumen. Rumus Cosine Similarity adalah:
+Cosine Similarity (A, B) = (A · B) / (||A|| × ||B||)
+Keterangan:
+* A · B: hasil perkalian dot product dari vektor A dan B
+* ||A|| dan ||B||: norma dari masing-masing vektor
+Sari (2023) melaporkan bahwa Cosine Similarity efektif mengidentifikasi kemiripan teks pada dokumen skripsi bahkan ketika teks mengalami parafrase. Halim dan Lasut (2024) juga membuktikan bahwa sistem berbasis Cosine Similarity mencapai akurasi 89% dengan waktu pemrosesan di bawah 2 detik per dokumen, menjadikannya sangat sesuai untuk implementasi pada sistem deteksi plagiarisme yang membutuhkan respons cepat.
+2.2.5        Sistem Deteksi Plagiarisme Berbasis Aplikasi
+Sistem deteksi plagiarisme berbasis aplikasi merupakan perangkat lunak yang dirancang untuk mengidentifikasi kemiripan konten antara dokumen yang diuji dengan kumpulan dokumen referensi secara otomatis. Murtadha et al. (2022) mengembangkan sistem deteksi plagiarisme dengan pendekatan hybrid berbasis TF-IDF dan Cosine Similarity yang menghasilkan F-measure sebesar 89%, mengungguli metode string matching konvensional. Sistem ini terbukti lebih tangguh terhadap variasi struktur kalimat dan parafrase.
+Azzahrah et al. (2023) menunjukkan bahwa kombinasi TF-IDF dengan algoritma Naïve Bayes menghasilkan akurasi 93% dalam mendeteksi plagiarisme artikel jurnal. Penelitian-penelitian tersebut menegaskan bahwa sistem deteksi berbasis aplikasi yang menggunakan metode pembobotan teks dan pengukuran kemiripan secara konsisten menghasilkan performa yang baik tanpa memerlukan model machine learning yang kompleks.
+2.2.6        Office Add-in sebagai Platform Pengembangan
+Office Add-in merupakan teknologi yang memungkinkan pengembangan fitur tambahan dalam aplikasi Microsoft Office seperti Word, Excel, dan Outlook. Microsoft (2024) menyebutkan bahwa add-in dapat dikembangkan menggunakan HTML, CSS, dan JavaScript, dan berjalan di berbagai platform melalui antarmuka berbasis web. Teknologi ini memungkinkan integrasi langsung antara sistem deteksi plagiarisme dengan aktivitas penulisan pengguna tanpa perlu berpindah aplikasi.
+Dalam konteks penelitian ini, Office Add-in dikembangkan sebagai task pane yang tampil di sisi kanan dokumen Word. Sistem ini menggunakan library Office.js untuk membaca konten dokumen aktif secara langsung, kemudian mengirimkannya ke backend lokal berbasis Python untuk diproses menggunakan algoritma TF-IDF dan Cosine Similarity. Dengan pendekatan ini, proses deteksi plagiarisme menjadi lebih efisien, aman, dan sepenuhnya terintegrasi dengan aktivitas menulis sehari-hari.
+________________
+
+
+BAB 3 
+TAHAPAN PELAKSANAAN
+3.1        Langkah-langkah Pelaksanaan
+  
+  
+
+Gambar 3.1.1 Alur Tahapan Pelaksanaan
+
+
+1. Identifikasi Masalah: Menentukan permasalahan utama yang ingin diselesaikan, yaitu bagaimana mendeteksi plagiarisme secara langsung di Microsoft Word tanpa mengunggah dokumen ke server eksternal.
+2. Studi Literatur: Melakukan telaah pustaka untuk memahami penelitian terdahulu, algoritma yang digunakan (TF-IDF dan Cosine Similarity), serta pengembangan sistem serupa.
+3. Penentuan Metode: Memilih metode pengembangan sistem menggunakan metode prototype dan algoritma pembobotan TF-IDF serta pengukuran Cosine Similarity.
+4. Pengumpulan Data: Mengumpulkan dataset berupa dokumen-dokumen referensi yang akan digunakan sebagai acuan deteksi plagiarisme.
+5. Pengembangan Model: Membangun model deteksi kemiripan teks berdasarkan algoritma TF-IDF dan Cosine Similarity.
+6. Evaluasi Model: Melakukan pengujian awal terhadap model untuk memastikan validitas logika dan akurasi deteksi. Apabila hasil belum sesuai, dilakukan revisi dan pengembangan ulang.
+3.1.1        Pengembangan Perangkat Lunak
+Penelitian ini menggunakan metode prototype dalam pengembangan perangkat lunak. Prototype yang dikembangkan merupakan versi awal dari ekstensi Microsoft Word yang dirancang untuk mendeteksi tingkat kemiripan dokumen secara lokal menggunakan metode TF-IDF dan Cosine Similarity. Prototype ini berfungsi sebagai media eksplorasi awal terhadap kebutuhan pengguna dan validasi konsep sistem sebelum implementasi akhir dilakukan.
+Fitur utama yang diusung dalam prototype meliputi:
+1. Kemampuan membaca isi dokumen aktif di Microsoft Word melalui Office.js API.
+2. Pemrosesan teks (tokenisasi, penghapusan stopword, dan normalisasi) dari dokumen masukan dan referensi lokal.
+3. Penerapan metode TF-IDF untuk pembobotan term dan Cosine Similarity untuk menghitung kemiripan antar dokumen.
+4. Penyajian hasil deteksi plagiarisme dalam bentuk persentase kemiripan pada antarmuka task pane.
+Prototype dikembangkan menggunakan platform Office Add-in dengan basis teknologi HTML, JavaScript, dan Office.js yang memungkinkan integrasi dengan Microsoft Word melalui task pane. Backend dibangun menggunakan Python dan FastAPI yang berjalan secara lokal. Umpan balik dari pengujian prototype dijadikan acuan untuk penyempurnaan sistem sebelum versi final dirilis.
+3.2        Metode Pengujian
+Metode pengujian digunakan untuk menguji fungsionalitas dan keakuratan sistem ekstensi Microsoft Word yang dikembangkan dalam mendeteksi tingkat plagiarisme pada dokumen teks. Pengujian ini bertujuan memastikan bahwa sistem dapat berjalan sesuai kebutuhan dan menghasilkan keluaran yang relevan serta dapat diandalkan. Adapun metode pengujian yang digunakan meliputi pengujian black box, white box, dan pengujian akurasi sistem.
+3.2.1   Pengujian Black Box
+Pengujian Black Box dilakukan dengan menguji seluruh fungsi utama Office Add-in deteksi plagiarisme tanpa memperhatikan struktur internal sistem. Pengujian difokuskan pada validasi input dokumen, proses deteksi, serta output berupa nilai similarity. Hasil pengujian menunjukkan bahwa seluruh fungsi sistem berjalan sesuai dengan kebutuhan fungsional dan mampu menghasilkan nilai kemiripan dokumen secara konsisten.
+
+
+Tabel 3.1 Skenario Pengujian Black Box
+Skenario Pengujian
+	Input
+	Langkah Pengujian
+	Output yang Diharapkan
+	Pembacaan dokumen Word aktif
+	Dokumen .docx berisi teks paragraf
+	1. Buka dokumen .docx di Word 2. Aktifkan add-in melalui task pane 3. Klik tombol Mulai Deteksi
+	Sistem berhasil membaca dan menampilkan teks dari dokumen aktif tanpa error
+	Pemrosesan teks dan ekstraksi fitur TF-IDF
+	Teks dokumen aktif yang telah dibaca
+	1. Input teks dokumen ke sistem 2. Sistem melakukan tokenisasi dan penghapusan stopword 3. Sistem menghitung bobot TF-IDF
+	Sistem menghasilkan vektor TF-IDF yang merepresentasikan kata-kata penting dalam dokumen
+	Perhitungan kemiripan Cosine Similarity
+	Vektor TF-IDF dokumen aktif dan dokumen referensi
+	1. Sistem mengambil vektor TF-IDF dokumen aktif 2. Sistem membandingkan dengan seluruh vektor referensi 3. Sistem menghitung nilai Cosine Similarity
+	Sistem menghasilkan nilai similarity dalam rentang 0–100% untuk setiap dokumen referensi
+	Tampilan hasil deteksi pada antarmuka
+	Nilai similarity hasil perhitungan
+	1. Sistem menerima hasil perhitungan similarity 2. Sistem mengurutkan hasil dari tertinggi ke terendah 3. Hasil ditampilkan pada task pane
+	Antarmuka menampilkan daftar dokumen referensi beserta persentase kemiripan dan status (Sangat Mirip / Cukup Mirip / Aman)
+	Deteksi dokumen kosong
+	Dokumen Word tanpa teks
+	1. Buka dokumen kosong 2. Aktifkan add-in 3. Klik Mulai Deteksi
+	Sistem menampilkan pesan peringatan bahwa dokumen aktif kosong tanpa menyebabkan crash
+	Koneksi ke backend lokal
+	Request HTTP dari add-in ke localhost:8000
+	1. Pastikan backend Python berjalan 2. Aktifkan add-in 3. Periksa status server pada task pane
+	Status server menampilkan indikator hijau dan jumlah dokumen referensi yang tersedia
+	
+
+3.2.2   Pengujian White Box
+Pengujian White Box dilakukan dengan menguji logika internal, alur algoritma, dan struktur kode dari sistem yang dikembangkan. Pengujian difokuskan pada alur pemrosesan deteksi plagiarisme, mulai dari preprocessing teks hingga perhitungan nilai similarity menggunakan TF-IDF dan Cosine Similarity. Setiap fungsi kritis ditelusuri alurnya untuk memastikan logika program berjalan dengan benar pada berbagai kondisi masukan.
+
+
+Tabel 3.2 Skenario Pengujian White Box
+Nama Pengujian
+	Prosedur Pengujian
+	Kondisi yang Diuji
+	Hasil yang Diharapkan
+	Pengujian Alur Preprocessing Teks
+	Melacak alur kode dari input teks mentah hingga menghasilkan token bersih
+	Teks mengandung tanda baca, angka, dan stopword
+	Token yang dihasilkan bebas dari stopword, tanda baca dihapus, dan seluruh karakter dalam huruf kecil
+	Pengujian Perhitungan Term Frequency (TF)
+	Menelusuri fungsi computeTF() dengan input token yang diketahui
+	Dokumen dengan kata berulang dan kata tunggal
+	Nilai TF setiap token sesuai dengan rumus frekuensi relatif yang telah ditetapkan
+	Pengujian Perhitungan Inverse Document Frequency (IDF)
+	Menelusuri fungsi computeIDF() dengan korpus dokumen diketahui
+	Kata yang muncul di satu dokumen vs kata yang muncul di semua dokumen
+	Kata unik memiliki nilai IDF tinggi, kata umum memiliki nilai IDF rendah sesuai rumus log(N/df(t))
+	Pengujian Vektor TF-IDF
+	Menelusuri fungsi computeTFIDF() dari input token hingga vektor output
+	Kombinasi berbagai bobot TF dan IDF
+	Vektor TF-IDF yang dihasilkan merupakan perkalian tepat antara nilai TF dan IDF masing-masing token
+	Pengujian Perhitungan Cosine Similarity
+	Menelusuri fungsi cosine() dengan vektor input yang diketahui nilainya
+	Dua vektor identik, dua vektor berbeda, dan vektor kosong
+	Dua vektor identik menghasilkan nilai 1.0; dua vektor berbeda menghasilkan nilai 0–1; vektor kosong menghasilkan 0 tanpa error
+	Pengujian Penanganan Error
+	Menelusuri blok try-catch pada fungsi getActiveDocumentText() dan fetch API
+	Dokumen tidak dapat dibaca, backend tidak aktif, format file tidak sesuai
+	Sistem menangani setiap kondisi error dengan menampilkan pesan yang sesuai tanpa menyebabkan crash
+	
+
+3.2.3   Pengujian Akurasi Sistem
+Pengujian akurasi dilakukan untuk mengukur kemampuan sistem dalam mendeteksi kemiripan dokumen secara tepat. Pengujian dilakukan terhadap tiga jenis dokumen uji:
+* Dokumen original sebagai referensi.
+* Dokumen hasil parafrase (pengubahan struktur kalimat namun makna tetap).
+* Dokumen salin-tempel sebagian.
+
+
+Setiap pasangan dokumen dihitung persentase kemiripannya menggunakan sistem, kemudian dibandingkan dengan perhitungan manual sebagai acuan. Hasil evaluasi dipetakan ke dalam interpretasi kemiripan sebagai berikut:
+* 80% ke atas        : Sangat Mirip — indikasi kuat plagiarisme.
+* 50% – 80%        : Cukup Mirip — perlu diperiksa lebih lanjut.
+* Di bawah 50%        : Tidak Mirip — aman dari indikasi plagiarisme.
+3.3        Contoh Data
+Pada penelitian ini, digunakan kumpulan dokumen referensi lokal dalam format .PDF yang berfungsi sebagai basis pembanding dalam proses deteksi plagiarisme. Dokumen-dokumen tersebut disimpan di direktori lokal sistem dan dibaca oleh backend Python saat proses inisialisasi. Berikut adalah contoh data dokumen referensi yang digunakan dalam pengujian:
+
+
+Tabel 3.3 Contoh Data Dokumen Referensi
+ID Dokumen
+	Nama File
+	Cuplikan Isi Dokumen
+	REF-001
+	skripsi_plagiarisme_tfidf_2023.PDF
+	Deteksi plagiarisme menggunakan metode TF-IDF dan Cosine Similarity pada dokumen akademik. Sistem diuji dengan akurasi mencapai 89% pada dataset skripsi mahasiswa...
+	REF-002
+	paper_nlp_text_similarity_2022.PDF
+	Natural Language Processing (NLP) techniques are applied to compute text similarity using vector space models. TF-IDF is used as the primary feature extraction method...
+	REF-003
+	tugas_mahasiswa_A_2024.PDF
+	Plagiarisme merupakan tindakan tidak jujur dalam penulisan akademik. Mahasiswa perlu memahami konsekuensi hukum dan etika dari plagiarisme dalam lingkungan pendidikan tinggi...
+	REF-004
+	laporan_riset_deteksi_konten_2023.PDF
+	Sistem deteksi konten teks menggunakan pendekatan berbasis kemiripan vektor. Dokumen direpresentasikan dalam ruang vektor menggunakan bobot TF-IDF kemudian dibandingkan menggunakan formula cosine...
+	REF-005
+	artikel_integritas_akademik_2024.PDF
+	Integritas akademik merupakan fondasi dari pendidikan berkualitas. Tanpa kejujuran intelektual, karya ilmiah kehilangan nilai dan kredibilitasnya di hadapan komunitas akademik...
+	
+
+Setiap dokumen referensi diproses melalui tahapan preprocessing (tokenisasi, penghapusan stopword, normalisasi huruf kecil), lalu direpresentasikan sebagai vektor TF-IDF dan disimpan dalam memori sistem. Ketika dokumen aktif dikirimkan dari Office Add-in, sistem akan membandingkan vektor dokumen aktif dengan seluruh vektor referensi menggunakan formula Cosine Similarity untuk menghasilkan nilai kemiripan (Halim & Lasut, 2024).
+________________
+BAB IV
+PERANCANGAN
+4.1   Analisis Sistem Terdahulu
+asd
+4.2   Spesifikasi Kebutuhan Sistem Baru
+asd
+4.3   Perancangan Sistem
+asd
+BAB V
+HASIL DAN PEMBAHASAN
+5.1   Hasil
+asd
+5.2   Pembahasan
+asd
+BAB VI
+PENUTUP
+6.1   Kesimpulan
+asd
+6.2   Saran
+asd
+________________
+DAFTAR PUSTAKA
+Ariska Putra, B.A. (2023). Membentuk Karakter Mahasiswa Anti Plagiarisme. The Indonesian Journal of Social Studies, 6(2), 244-252. https://doi.org/10.26740/ijss.v6n2.p244-252
+Azzahrah, N., Lindawati, & Sholihin, M. (2023). Naive Bayes Algorithm and TF-IDF for Detecting Plagiarism in Journal Articles. Jurnal Piksel (UNISMA Bekasi), SINTA 4.
+Das, M., et al. (2023). A Comparative Study on TF-IDF Feature Weighting Method and its Analysis using Unstructured Dataset. arXiv preprint, arXiv:2308.04037. https://arxiv.org/abs/2308.04037
+Halim, J., & Lasut, D. (2024). Document Plagiarism Detection Application Using Web-Based TF-IDF and Cosine Similarity Methods. bit-Tech, 7(2), 202-213. https://doi.org/10.32877/bt.v7i2.1697
+Microsoft. (2024). Office Add-ins documentation. Microsoft Learn. https://learn.microsoft.com/en-us/office/dev/add-ins/
+Murtadha, M., Al-Shamery, M.K., et al. (2022). Improving plagiarism detection in text document using hybrid structural and semantic similarity. Expert Systems with Applications (Elsevier), Q1.
+Resta, O.A., Aditya, A., & Purwiantono, F.E. (2023). Plagiarism Detection in Students' Theses Using The Cosine Similarity Method. SinkrOn: Jurnal dan Penelitian Teknik Informatika, 5(2), 109-117.
+Sari, R. (2023). Cosine Similarity-based Plagiarism Detection on Electronic Documents. Journal of Computer Science Application and Engineering (JOSAPEN), 1(2), 44-48. https://journal.lenterailmu.com/index.php/josapen/article/view/14
+Zubair, A., & Khan, M. (2025). Comparative evaluation of text similarity algorithms for plagiarism detection. Journal of Intelligent Systems, 33(2), 107-120. https://doi.org/10.1515/jisys-2023-0021
